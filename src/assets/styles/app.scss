@@ -52,7 +52,8 @@ body {
 @include container-width($medium);
 @include container-width($large);
 
-h1 {
+h1,
+h2 {
   text-transform: uppercase;
   font-size: 18px;
   letter-spacing: 0.2em;
@@ -60,8 +61,13 @@ h1 {
   color: $gray;
 }
 
-p {
-  line-height: 2.2;
+p,
+a {
+  font-size: 14px;
+  line-height: 1.6;
+  @media only screen and (min-width: $medium) {
+    line-height: 2.2;
+  }
   &.lead {
     line-height: 1.5;
     letter-spacing: 0.1em;
