@@ -1,10 +1,10 @@
 <template>
   <form @submit.prevent="validate">
-    <div class="field">
+    <div class="field field--half">
       <label for="name">Full Name *</label>
       <input type="text" v-model="name">
     </div>
-    <div class="field">
+    <div class="field field--half">
       <label for="email">Email Address *</label>
       <input type="email" v-model="email">
     </div>
@@ -77,6 +77,18 @@ button {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 14px;
+}
+@media only screen and (min-width: $medium) {
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 650px;
+    margin: 0 auto 50px;
+    .field--half {
+      width: calc(50% - 10px);
+    }
+  }
 }
 </style>
 

@@ -20,12 +20,13 @@
         </a>
       </div>
       <div class="assets">
-        <img
+        <div
           v-for="(asset, index) in brand.assets"
           :key="index"
-          :src="`/images/${asset}`"
-          alt=""
+          class="image-container"
         >
+          <img :src="`/images/${asset}`" alt="">
+        </div>
       </div>
     </div>
   </div>
@@ -58,6 +59,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../assets/styles/app.scss";
 .brand {
   .hero {
     img {
@@ -76,6 +78,33 @@ export default {
     }
     p:not(.lead) {
       font-size: 13px;
+    }
+  }
+  .assets {
+    .image-container {
+      margin: 10px auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        display: block;
+        max-width: 100%;
+      }
+    }
+    @media only screen and (min-width: $medium) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .image-container {
+        width: calc(50% - 20px);
+        height: 300px;
+        margin: 10px;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
     }
   }
 }

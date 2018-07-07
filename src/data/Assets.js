@@ -27,7 +27,7 @@ const ASSETS = [
     project: 'gaddis-gaming',
     isFeatured: false,
     isHero: false,
-    image: 'gaddis-gaming__asset003.jpg',
+    image: 'gaddis-gaming__asset003.png',
   },
   {
     project: 'gaddis-gaming',
@@ -111,13 +111,13 @@ const ASSETS = [
     project: 'argonomo',
     isFeatured: false,
     isHero: false,
-    image: 'argonomo__asset001.jpg',
+    image: 'argonomo__asset002.jpg',
   },
   {
     project: 'argonomo',
     isFeatured: false,
     isHero: false,
-    image: 'argonomo__asset002.jpg',
+    image: 'argonomo__asset005.jpg',
   },
   {
     project: 'argonomo',
@@ -135,13 +135,13 @@ const ASSETS = [
     project: 'argonomo',
     isFeatured: false,
     isHero: false,
-    image: 'argonomo__asset005.jpg',
+    image: 'argonomo__asset006.jpg',
   },
   {
     project: 'argonomo',
     isFeatured: false,
     isHero: false,
-    image: 'argonomo__asset006.jpg',
+    image: 'argonomo__asset001.jpg',
   },
   {
     project: 'hack-wsu',
