@@ -41,6 +41,8 @@ export default {
       this.illustrations,
       illustration => illustration.slug === this.title,
     );
+    document.title = `Illustrations | ${this.illustration.name}`;
+    document.querySelector('meta[name="description"]').content = this.illustration.description;
   },
 };
 </script>

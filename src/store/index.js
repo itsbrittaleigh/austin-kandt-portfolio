@@ -4,6 +4,8 @@ import Vue from 'vue';
 import Vuex from 'vuex';
 import _ from 'lodash';
 
+import NavigationModule from './modules/Navigation';
+
 import Projects from '../data/Projects';
 import Assets from '../data/Assets';
 
@@ -79,4 +81,7 @@ export default new Vuex.Store({
   getters,
   mutations,
   actions,
+  modules: {
+    NavigationModule,
+  },
 });

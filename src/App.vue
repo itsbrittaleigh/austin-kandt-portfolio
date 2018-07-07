@@ -52,7 +52,9 @@
       </div>
     </header>
     <main>
-      <router-view/>
+      <transition name="fade">
+        <router-view/>
+      </transition>
     </main>
     <footer>
       <div class="container">
@@ -95,17 +97,22 @@
 </template>
 
 <script>
+import { mapGetters, mapActions } from 'vuex';
+
 export default {
   name: 'App',
   data() {
-    return {
-      menuIsOpen: false,
-    };
+    return {};
+  },
+  computed: {
+    ...mapGetters([
+      'menuIsOpen',
+    ]),
   },
   methods: {
-    toggleMenu() {
-      this.menuIsOpen = !this.menuIsOpen;
-    },
+    ...mapActions([
+      'toggleMenu',
+    ]),
     brandsIsActive() {
       return window.location.pathname === '/';
     },
@@ -115,6 +122,14 @@ export default {
 
 <style lang="scss">
 @import './assets/styles/app.scss';
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
 header {
   display: flex;
   align-items: center;
