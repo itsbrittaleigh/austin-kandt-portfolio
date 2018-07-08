@@ -1,5 +1,9 @@
 <template>
-  <form @submit.prevent="validate">
+  <form method="post" netlify>
+    <input type="hidden" name="form-name" value="contact">
+    <p class="hidden">
+      <label>Don’t fill this out: <input name="bot-field"></label>
+    </p>
     <div class="field field--half">
       <label for="name">Full Name *</label>
       <input type="text" v-model="name">
@@ -46,6 +50,10 @@ export default {
 .field {
   width: 100%;
   position: relative;
+}
+.hidden {
+  display: none;
+  visibility: hidden;
 }
 input,
 textarea {
