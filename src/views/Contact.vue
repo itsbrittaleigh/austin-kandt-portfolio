@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="about">
-      <img src="https://placebear.com/800/800" alt="">
+      <img src="/images/austin.png" alt="">
       <div class="content">
         <h2>About</h2>
         <p>

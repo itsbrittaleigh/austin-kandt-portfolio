@@ -9,14 +9,15 @@
       </p>
       <div class="assets">
         <div
-          v-for="logo in logos"
-          :key="logo.slug"
+          v-for="(asset, index) in logos.assets"
+          :key="index"
           class="image-container"
+          :style="`width: ${asset.width * 200 / asset.height}px;
+            flex-grow: ${asset.width * 200 / asset.height}`"
         >
+          <i :style="`padding-bottom: ${asset.height / asset.width * 100}%`"></i>
           <img
-            v-for="(asset, index) in logo.assets"
-            :key="index"
-            :src="`/images/${asset}`"
+            :src="`/images/${asset.image}`"
             alt=""
           >
         </div>
@@ -52,30 +53,24 @@ p {
   line-height: 1.6em;
 }
 .assets {
-  .image-container {
-    margin: 10px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    img {
-      display: block;
-      max-width: 100%;
-    }
+  display: flex;
+  flex-wrap: wrap;
+  &:after {
+    content: '';
+    flex-grow: 999999999;
   }
-  @media only screen and (min-width: $medium) {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    .image-container {
-      width: calc(50% - 20px);
-      height: 300px;
-      margin: 10px;
-      img {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-      }
-    }
+  .image-container {
+    margin: 10px;
+    position: relative;
+  }
+  i {
+    display: block;
+  }
+  img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    vertical-align: bottom;
   }
 }
 </style>

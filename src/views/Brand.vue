@@ -24,8 +24,11 @@
           v-for="(asset, index) in brand.assets"
           :key="index"
           class="image-container"
+          :style="`width: ${asset.width * 250 / asset.height}px;
+            flex-grow: ${asset.width * 250 / asset.height}`"
         >
-          <img :src="`/images/${asset}`" alt="">
+          <i :style="`padding-bottom: ${asset.height / asset.width * 100}%`"></i>
+          <img :src="`/images/${asset.image}`" alt="">
         </div>
       </div>
     </div>
@@ -81,30 +84,24 @@ export default {
     }
   }
   .assets {
-    .image-container {
-      margin: 10px auto;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      img {
-        display: block;
-        max-width: 100%;
-      }
+    display: flex;
+    flex-wrap: wrap;
+    &:after {
+      content: '';
+      flex-grow: 999999999;
     }
-    @media only screen and (min-width: $medium) {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      .image-container {
-        width: calc(50% - 20px);
-        height: 300px;
-        margin: 10px;
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
-      }
+    .image-container {
+      margin: 10px;
+      position: relative;
+    }
+    i {
+      display: block;
+    }
+    img {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      vertical-align: bottom;
     }
   }
 }

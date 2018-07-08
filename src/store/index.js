@@ -29,7 +29,7 @@ const getters = {
           if (asset.project === brand.slug) {
             if (asset.isHero) brand.heroAsset = asset.image;
             else if (asset.isFeatured) brand.featuredAsset = asset.image;
-            else brand.assets.push(asset.image);
+            else brand.assets.push(asset);
           }
         });
       }
@@ -54,18 +54,11 @@ const getters = {
     return illustrations;
   },
   logos: (state) => {
-    const logos = [];
-    _.forEach(state.projects, (project) => {
-      if (project.type === 'logo') {
-        logos.push(project);
-        const logo = logos[logos.length - 1];
-        logo.assets = [];
-        _.forEach(state.assets, (asset) => {
-          if (asset.project === logo.slug) {
-            if (asset.isFeatured) logo.featuredAsset = asset.image;
-            else logo.assets.push(asset.image);
-          }
-        });
+    const logos = _.find(state.projects, { slug: 'logos' });
+    logos.assets = [];
+    _.forEach(state.assets, (asset) => {
+      if (asset.project === 'logos') {
+        logos.assets.push(asset);
       }
     });
     return logos;

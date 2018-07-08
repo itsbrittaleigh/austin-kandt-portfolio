@@ -55,68 +55,8 @@ const PROJECTS = [
     description: 'I have a loose story in my head about two kids sailing away on a boat they built around a tree. Here, you can see my different attempts at experimenting with combining traditional watercolor and ink, with digital coloring techniques.',
   },
   {
-    name: 'Argocon',
-    slug: 'argocon-2017',
-    type: TYPES[2],
-  },
-  {
-    name: 'Atnip Law',
-    slug: 'atnip-law',
-    type: TYPES[2],
-  },
-  {
-    name: 'SafeWhistle',
-    slug: 'safewhistle',
-    type: TYPES[2],
-  },
-  {
-    name: 'Sweet Squares',
-    slug: 'some-sweet-squares',
-    type: TYPES[2],
-  },
-  {
-    name: 'Salzeider, Inc.',
-    slug: 'salzeider',
-    type: TYPES[2],
-  },
-  {
-    name: 'Gaddis Gaming',
-    slug: 'gaddis-gaming-logo',
-    type: TYPES[2],
-  },
-  {
-    name: 'Gaddis Gaming',
-    slug: 'gaddis-gaming-logo-2',
-    type: TYPES[2],
-  },
-  {
-    name: 'Circle and Lines',
-    slug: 'circle-and-lines',
-    type: TYPES[2],
-  },
-  {
-    name: 'K D',
-    slug: 'k-d',
-    type: TYPES[2],
-  },
-  {
-    name: 'TechStak',
-    slug: 'techstak',
-    type: TYPES[2],
-  },
-  {
-    name: 'New Detroit',
-    slug: 'new-detroit',
-    type: TYPES[2],
-  },
-  {
-    name: 'Ensureum',
-    slug: 'ensureum',
-    type: TYPES[2],
-  },
-  {
-    name: 'Gaddis Gaming',
-    slug: 'gaddis-gaming-logo-3',
+    name: 'Logos',
+    slug: 'logos',
     type: TYPES[2],
   },
 ];
