@@ -84,6 +84,14 @@ export default {
     liftMessage() {
       return this.message;
     },
+    form() {
+      return {
+        name: this.name,
+        email: this.email,
+        phone: this.phone,
+        message: this.message,
+      };
+    },
   },
   methods: {
     encode(data) {
