@@ -1,46 +1,60 @@
 <template>
   <form method="post" @submit.prevent="handleSubmit">
     <input type="hidden" name="form-name" value="contact">
-    <p class="hidden">
-      <label>Don’t fill this out: <input name="bot-field"></label>
+    <p
+      v-for="(error, index) in errors"
+      :key="index"
+    >
+      {{ error }}
     </p>
-    <div class="field field--half">
-      <label
-        for="name"
-        :class="{ lift: liftName }"
-      >
-        Full Name *
-      </label>
-      <input type="text" v-model="contact.name">
-    </div>
-    <div class="field field--half">
-      <label
-        for="email"
-        :class="{ lift: liftEmail }"
-      >
-        Email Address *
-      </label>
-      <input type="email" v-model="contact.email">
-    </div>
-    <div class="field">
-      <label
-        for="phone"
-        :class="{ lift: liftPhone }"
-      >
-        Phone Number
-      </label>
-      <input type="tel" v-model="contact.phone">
-    </div>
-    <div class="field">
-      <label
-        for="message"
-        :class="{ lift: liftMessage }"
-      >
-        Write Your Request
-      </label>
-      <textarea v-model="contact.message"></textarea>
-    </div>
-    <button type="submit">Send Now</button>
+    <p
+      v-if="wasSuccessful"
+      class="center"
+    >
+      I have received your message and will be responding soon.
+    </p>
+    <template v-else class="fields">
+      <p class="hidden">
+        <label>Don’t fill this out: <input name="bot-field"></label>
+      </p>
+      <div class="field field--half">
+        <label
+          for="name"
+          :class="{ lift: liftName }"
+        >
+          Full Name *
+        </label>
+        <input type="text" v-model="name">
+      </div>
+      <div class="field field--half">
+        <label
+          for="email"
+          :class="{ lift: liftEmail }"
+        >
+          Email Address *
+        </label>
+        <input type="email" v-model="email">
+      </div>
+      <div class="field">
+        <label
+          for="phone"
+          :class="{ lift: liftPhone }"
+        >
+          Phone Number
+        </label>
+        <input type="tel" v-model="phone">
+      </div>
+      <div class="field">
+        <label
+          for="message"
+          :class="{ lift: liftMessage }"
+        >
+          Write Your Request
+        </label>
+        <textarea v-model="message"></textarea>
+      </div>
+      <button type="submit">Send Now</button>
+    </template>
   </form>
 </template>
 
@@ -49,27 +63,26 @@ export default {
   name: 'ContactForm',
   data() {
     return {
-      contact: {
-        name: '',
-        email: '',
-        phone: '',
-        message: '',
-      },
+      name: '',
+      email: '',
+      phone: '',
+      message: '',
       errors: [],
+      wasSuccessful: false,
     };
   },
   computed: {
     liftName() {
-      return this.contact.name;
+      return this.name;
     },
     liftEmail() {
-      return this.contact.email;
+      return this.email;
     },
     liftPhone() {
-      return this.contact.phone;
+      return this.phone;
     },
     liftMessage() {
-      return this.contact.message;
+      return this.message;
     },
   },
   methods: {
@@ -84,7 +97,7 @@ export default {
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: this.encode({ 'form-name': 'contact', ...this.form }),
       })
-        .then(() => this.errors.push('success'))
+        .then(this.wasSuccessful = true)
         .catch(error => this.errors.push(error));
     },
   },
@@ -97,9 +110,15 @@ export default {
   width: 100%;
   position: relative;
 }
-.hidden {
-  display: none;
-  visibility: hidden;
+p {
+  &.hidden {
+    display: none;
+    visibility: hidden;
+  }
+  &.center {
+    text-align: center;
+    width: 100%;
+  }
 }
 input,
 textarea {
