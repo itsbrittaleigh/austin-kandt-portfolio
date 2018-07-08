@@ -1,5 +1,5 @@
 <template>
-  <form method="post" netlify-honeypot="bot-field" netlify>
+  <form method="post" @submit.prevent="handleSubmit">
     <input type="hidden" name="form-name" value="contact">
     <p class="hidden">
       <label>Don’t fill this out: <input name="bot-field"></label>
@@ -55,6 +55,7 @@ export default {
         phone: '',
         message: '',
       },
+      errors: [],
     };
   },
   computed: {
@@ -72,8 +73,19 @@ export default {
     },
   },
   methods: {
-    validate() {
-      return false;
+    encode(data) {
+      return Object.keys(data)
+        .map(key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
+        .join('&');
+    },
+    handleSubmit() {
+      fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: this.encode({ 'form-name': 'contact', ...this.form }),
+      })
+        .then(() => this.errors.push('success'))
+        .catch(error => this.errors.push(error));
     },
   },
 };
