@@ -1,24 +1,44 @@
 <template>
-  <form method="post" netlify>
+  <form method="post" netlify-honeypot="bot-field" netlify>
     <input type="hidden" name="form-name" value="contact">
     <p class="hidden">
       <label>Don’t fill this out: <input name="bot-field"></label>
     </p>
     <div class="field field--half">
-      <label for="name">Full Name *</label>
-      <input type="text" v-model="name">
+      <label
+        for="name"
+        :class="{ lift: liftName }"
+      >
+        Full Name *
+      </label>
+      <input type="text" v-model="contact.name">
     </div>
     <div class="field field--half">
-      <label for="email">Email Address *</label>
-      <input type="email" v-model="email">
+      <label
+        for="email"
+        :class="{ lift: liftEmail }"
+      >
+        Email Address *
+      </label>
+      <input type="email" v-model="contact.email">
     </div>
     <div class="field">
-      <label for="phone">Phone Number</label>
-      <input type="tel" v-model="phone">
+      <label
+        for="phone"
+        :class="{ lift: liftPhone }"
+      >
+        Phone Number
+      </label>
+      <input type="tel" v-model="contact.phone">
     </div>
     <div class="field">
-      <label for="message">Write Your Request</label>
-      <textarea v-model="message"></textarea>
+      <label
+        for="message"
+        :class="{ lift: liftMessage }"
+      >
+        Write Your Request
+      </label>
+      <textarea v-model="contact.message"></textarea>
     </div>
     <button type="submit">Send Now</button>
   </form>
@@ -36,6 +56,20 @@ export default {
         message: '',
       },
     };
+  },
+  computed: {
+    liftName() {
+      return this.contact.name;
+    },
+    liftEmail() {
+      return this.contact.email;
+    },
+    liftPhone() {
+      return this.contact.phone;
+    },
+    liftMessage() {
+      return this.contact.message;
+    },
   },
   methods: {
     validate() {
@@ -65,6 +99,7 @@ textarea {
 }
 input {
   height: 46px;
+  font-size: 16px;
 }
 textarea {
   height: 138px;
@@ -76,6 +111,12 @@ label {
   font-size: 14px;
   color: lightgray;
   pointer-events: none;
+  transition: 0.4s;
+  &.lift {
+    top: -5px;
+    font-size: 12px;
+    color: $gray;
+  }
 }
 button {
   background: none;
