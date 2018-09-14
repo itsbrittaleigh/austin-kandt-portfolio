@@ -19,17 +19,11 @@ export default new Router({
       path: '/',
       name: 'home',
       component: Brands,
-      meta: {
-        title: 'Austin Kandt | Graphic Designer',
-      },
     },
     {
       path: '/brand-identity',
       name: 'brands',
       component: Brands,
-      meta: {
-        title: 'Austin Kandt | Brand Identity',
-      },
     },
     {
       path: '/brand-identity/:title',
@@ -41,9 +35,6 @@ export default new Router({
       path: '/illustrations',
       name: 'illustrations',
       component: Illustrations,
-      meta: {
-        title: 'Austin Kandt | Illustrations',
-      },
     },
     {
       path: '/illustrations/:title',
@@ -55,17 +46,11 @@ export default new Router({
       path: '/logos',
       name: 'logos',
       component: Logos,
-      meta: {
-        title: 'Austin Kandt | Logos',
-      },
     },
     {
       path: '/contact',
       name: 'contact',
       component: Contact,
-      meta: {
-        title: 'Austin Kandt | Contact',
-      },
     },
   ],
 });

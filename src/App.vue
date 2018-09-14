@@ -16,7 +16,7 @@
         </button>
         <nav>
           <ul>
-            <li>
+            <li @click="closeMenu()">
               <router-link
                 :to="{ name: 'brands' }"
                 :class="{
@@ -26,21 +26,21 @@
                 Brand Identity
               </router-link>
             </li>
-            <li>
+            <li @click="closeMenu()">
               <router-link
                 :to="{ name: 'illustrations' }"
               >
                 Illustrations
               </router-link>
             </li>
-            <li>
+            <li @click="closeMenu()">
               <router-link
                 :to="{ name: 'logos' }"
               >
                 Logo Design
               </router-link>
             </li>
-            <li>
+            <li @click="closeMenu()">
               <router-link
                 :to="{ name: 'contact' }"
               >
@@ -97,22 +97,20 @@
 </template>
 
 <script>
-import { mapGetters, mapActions } from 'vuex';
-
 export default {
   name: 'App',
   data() {
-    return {};
-  },
-  computed: {
-    ...mapGetters([
-      'menuIsOpen',
-    ]),
+    return {
+      menuIsOpen: false,
+    };
   },
   methods: {
-    ...mapActions([
-      'toggleMenu',
-    ]),
+    toggleMenu() {
+      this.menuIsOpen = !this.menuIsOpen;
+    },
+    closeMenu() {
+      this.menuIsOpen = false;
+    },
     brandsIsActive() {
       return window.location.pathname === '/';
     },
