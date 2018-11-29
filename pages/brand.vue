@@ -37,26 +37,19 @@
 
 <script>
 import _ from 'lodash';
-import { mapGetters } from 'vuex';
 
 export default {
   name: 'Brand',
   props: ['title'],
   data() {
     return {
+      brands: [],
       brand: {},
       isLoaded: false,
     };
   },
-  computed: {
-    ...mapGetters([
-      'brands',
-    ]),
-  },
   mounted() {
     this.brand = _.find(this.brands, brand => brand.slug === this.title);
-    // document.title = `Brand Identity | ${this.brand.name}`;
-    // document.querySelector('meta[name="description"]').content = this.brand.description;
   },
 };
 </script>

@@ -2,12 +2,12 @@
   <div id="app">
     <header :class="{ 'menu-open': menuIsOpen }">
       <div class="container">
-        <router-link
-          :to="{ name: 'home' }"
+        <nuxt-link
+          :to="{ name: 'index' }"
           class="logo"
         >
           Austin Kandt
-        </router-link>
+        </nuxt-link>
         <button @click="toggleMenu">
           <span></span>
           <span></span>
@@ -17,35 +17,32 @@
         <nav>
           <ul>
             <li @click="closeMenu()">
-              <router-link
-                :to="{ name: 'brands' }"
-                :class="{
-                  'router-link-active': brandsIsActive(),
-                }"
+              <nuxt-link
+                :to="{ name: 'index' }"
               >
                 Brand Identity
-              </router-link>
+              </nuxt-link>
             </li>
             <li @click="closeMenu()">
-              <router-link
+              <nuxt-link
                 :to="{ name: 'illustrations' }"
               >
                 Illustrations
-              </router-link>
+              </nuxt-link>
             </li>
             <li @click="closeMenu()">
-              <router-link
+              <nuxt-link
                 :to="{ name: 'logos' }"
               >
                 Logo Design
-              </router-link>
+              </nuxt-link>
             </li>
             <li @click="closeMenu()">
-              <router-link
+              <nuxt-link
                 :to="{ name: 'contact' }"
               >
                 Contact
-              </router-link>
+              </nuxt-link>
             </li>
           </ul>
         </nav>
@@ -53,7 +50,7 @@
     </header>
     <main>
       <transition name="fade">
-        <router-view/>
+        <nuxt/>
       </transition>
     </main>
     <footer>
@@ -61,32 +58,32 @@
         <nav>
           <ul>
             <li>
-              <router-link
-                :to="{ name: 'brands' }"
+              <nuxt-link
+                :to="{ name: 'index' }"
               >
                 Brand Identity
-              </router-link>
+              </nuxt-link>
             </li>
             <li>
-              <router-link
+              <nuxt-link
                 :to="{ name: 'illustrations' }"
               >
                 Illustrations
-              </router-link>
+              </nuxt-link>
             </li>
             <li>
-              <router-link
+              <nuxt-link
                 :to="{ name: 'logos' }"
               >
                 Logo Design
-              </router-link>
+              </nuxt-link>
             </li>
             <li>
-              <router-link
+              <nuxt-link
                 :to="{ name: 'contact' }"
               >
                 Contact
-              </router-link>
+              </nuxt-link>
             </li>
           </ul>
         </nav>
@@ -98,7 +95,7 @@
 
 <script>
 export default {
-  name: 'App',
+  name: 'default',
   data() {
     return {
       menuIsOpen: false,
@@ -112,7 +109,7 @@ export default {
       this.menuIsOpen = false;
     },
     brandsIsActive() {
-      return window.location.pathname === '/';
+      return this.$route.path === '/';
     },
   },
 };

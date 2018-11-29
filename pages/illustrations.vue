@@ -1,21 +1,21 @@
 <template>
-  <div class="brands">
+  <div class="illustrations">
     <div class="container">
       <div
-        v-for="brand in brands"
-        :key="brand.slug"
-        class="brand"
+        v-for="illustration in illustrations"
+        :key="illustration.slug"
+        class="illustration"
       >
         <router-link
           :to="{
-            name: 'brand',
+            name: 'illustration',
             params: {
-              title: brand.slug,
+              title: illustration.slug,
             },
           }"
         >
           <img
-            :src="`./images/${brand.featuredAsset}`"
+            :src="`./images/${illustration.featuredAsset}`"
             alt=""
           >
         </router-link>
@@ -25,25 +25,20 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex';
-
 export default {
-  name: 'Brands',
+  name: 'illustrations',
   data() {
-    return {};
-  },
-  computed: {
-    ...mapGetters([
-      'brands',
-    ]),
+    return {
+      illustrations: [],
+    };
   },
 };
 </script>
 
 <style lang="scss" scoped>
 @import "../assets/styles/app.scss";
-.brands {
-  .brand {
+.illustrations {
+  .illustration {
     margin: 0 0 15px;
     @media only screen and (min-width: $medium) {
       margin-bottom: 30px;

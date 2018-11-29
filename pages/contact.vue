@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="about">
-      <img src="/images/austin.png" alt="">
+      <img src="../assets/images/austin.png" alt="">
       <div class="content">
         <h2>About</h2>
         <p>

@@ -68,7 +68,7 @@ header {
         color: $white;
         border-top: 1px solid $white;
         text-align: center;
-        &.router-link-active {
+        &.nuxt-link-active {
           color: $blue;
         }
       }
@@ -150,7 +150,7 @@ header {
             left: 0;
             transition: 0.4s;
           }
-          &.router-link-active,
+          &.nuxt-link-active,
           &:hover {
             color: $gray;
             &:before {

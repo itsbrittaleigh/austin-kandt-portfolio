@@ -21,21 +21,16 @@
 
 <script>
 import _ from 'lodash';
-import { mapGetters } from 'vuex';
 
 export default {
   name: 'Illustration',
   props: ['title'],
   data() {
     return {
+      illustrations: [],
       illustration: {},
       isLoaded: false,
     };
-  },
-  computed: {
-    ...mapGetters([
-      'illustrations',
-    ]),
   },
   mounted() {
     this.illustration = _.find(

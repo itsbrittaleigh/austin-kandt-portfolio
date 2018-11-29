@@ -27,17 +27,12 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex';
-
 export default {
   name: 'Logos',
   data() {
-    return {};
-  },
-  computed: {
-    ...mapGetters([
-      'logos',
-    ]),
+    return {
+      logos: [],
+    };
   },
 };
 </script>
