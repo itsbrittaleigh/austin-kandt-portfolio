@@ -1,24 +1,20 @@
 <template>
   <div class="logos">
     <div class="container">
-      <h1>Logo Design</h1>
-      <p>
-        I love logos. Piecing together shapes and colors is like a puzzle where
-        one tiny element has a cascading impact on the overall look and feel of the
-        mark. These are just some of the designs I have had the pleasure to work on.
-      </p>
+      <h1>{{ headline }}</h1>
+      <vue-markdown>{{ body }}</vue-markdown>
       <div class="assets">
         <div
-          v-for="(asset, index) in logos.assets"
+          v-for="(asset, index) in images"
           :key="index"
           class="image-container"
-          :style="`width: ${asset.width * 200 / asset.height}px;
-            flex-grow: ${asset.width * 200 / asset.height}`"
+          :style="`width: ${asset.dimensions.width * 200 / asset.dimensions.height}px;
+            flex-grow: ${asset.dimensions.width * 200 / asset.dimensions.height}`"
         >
-          <i :style="`padding-bottom: ${asset.height / asset.width * 100}%`"></i>
+          <i :style="`padding-bottom: ${asset.dimensions.height / asset.dimensions.width * 100}%`"></i>
           <img
-            :src="`/images/${asset.image}`"
-            alt=""
+            :src="asset.image"
+            :alt="asset.label"
           >
         </div>
       </div>
@@ -27,18 +23,30 @@
 </template>
 
 <script>
+import VueMarkdown from 'vue-markdown';
+
 export default {
   name: 'Logos',
-  data() {
+  async asyncData({ params }) {
+    const pageData = await import('~/content/pages/logos.json');
+    return pageData;
+  },
+  components: {
+    'vue-markdown': VueMarkdown,
+  },
+  head() {
     return {
-      logos: [],
+      title: this.meta.title,
+      meta: [
+        { hid: 'description', name: 'description', content: this.meta.description }
+      ]
     };
   },
 };
 </script>
 
 <style lang="scss" scoped>
-@import "../assets/styles/app.scss";
+@import "~/assets/styles/app.scss";
 h1 {
   margin: 40px 0 20px;
 }

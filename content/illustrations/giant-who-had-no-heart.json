@@ -1,0 +1,32 @@
+{
+  "title": "The Giant Who Had No Heart",
+  "services": "Illustration, Graphic Design",
+  "description": "The Giant Who Had No Heart in His Body is a classic Norwegian fairy tale that I found inspiration in. Here is a couple of the pages that I created for it.",
+  "featured": "/images/uploads/giant-with-no-heart__feature.png",
+  "images": [
+    {
+      "image": "/images/uploads/giant-with-no-heart__asset001.jpg",
+      "label": "The Giant Who Had No Heart illustration"
+    },
+    {
+      "image": "/images/uploads/giant-with-no-heart__asset002.jpg",
+      "label": "The Giant Who Had No Heart illustration"
+    },
+    {
+      "image": "/images/uploads/giant-with-no-heart__asset003.jpg",
+      "label": "The Giant Who Had No Heart illustration"
+    },
+    {
+      "image": "/images/uploads/giant-with-no-heart__asset004.jpg",
+      "label": "The Giant Who Had No Heart illustration"
+    },
+    {
+      "image": "/images/uploads/giant-with-no-heart__asset005.jpg",
+      "label": "The Giant Who Had No Heart illustration"
+    },
+    {
+      "image": "/images/uploads/giant-with-no-heart__asset006.jpg",
+      "label": "The Giant Who Had No Heart illustration"
+    }
+  ]
+}

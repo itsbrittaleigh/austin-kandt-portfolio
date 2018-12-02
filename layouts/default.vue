@@ -18,7 +18,8 @@
           <ul>
             <li @click="closeMenu()">
               <nuxt-link
-                :to="{ name: 'index' }"
+                :to="{ name: 'brand-identity' }"
+                :class="{'nuxt-link-active': brandsIsActive() }"
               >
                 Brand Identity
               </nuxt-link>
@@ -110,13 +111,13 @@ export default {
     },
     brandsIsActive() {
       return this.$route.path === '/';
-    },
+    }
   },
 };
 </script>
 
 <style lang="scss">
-@import './assets/styles/app.scss';
+@import '~/assets/styles/app.scss';
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.5s;

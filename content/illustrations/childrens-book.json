@@ -1,0 +1,28 @@
+{
+  "title": "Beside the Sea",
+  "services": "Ink, Watercolor, Digital",
+  "description": "I have a loose story in my head about two kids sailing away on a boat they built around a tree. Here, you can see my different attempts at experimenting with combining traditional watercolor and ink, with digital coloring techniques.",
+  "featured": "/images/uploads/childrens-book__feature.png",
+  "images": [
+    {
+      "image": "/images/uploads/childrens-book__asset001.jpg",
+      "label": "Beside the Sea Children's Book"
+    },
+    {
+      "image": "/images/uploads/childrens-book__asset002.jpg",
+      "label": "Beside the Sea Children's Book"
+    },
+    {
+      "image": "/images/uploads/childrens-book__asset003.jpg",
+      "label": "Beside the Sea Children's Book"
+    },
+    {
+      "image": "/images/uploads/childrens-book__asset004.jpg",
+      "label": "Beside the Sea Children's Book"
+    },
+    {
+      "image": "/images/uploads/childrens-book__asset005.jpg",
+      "label": "Beside the Sea Children's Book"
+    }
+  ]
+}

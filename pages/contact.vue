@@ -1,46 +1,55 @@
 <template>
   <div class="container">
     <div class="about">
-      <img src="../assets/images/austin.png" alt="">
+      <img :src="photo" alt="Photo of Austin">
       <div class="content">
-        <h2>About</h2>
-        <p>
-          I've always felt a strong pull towards different forms of media, especially
-          those that featured unique illustrative work. In pursuit of my desire to affect
-          the same media I grew up loving, I set out studying classical illustrative
-          techniques at the Birmingham-Bloomfield Art Center, and later the College for
-          Creative Studies. It was here that I was exposed to graphic design and the
-          possibilities of merging traditional techniques with today's technologies.
-        </p>
+        <h2>{{ headline }}</h2>
+        <vue-markdown>{{ body }}</vue-markdown>
         <div class="methods">
-          <a href="mailto:austinkandt@gmail.com" target="_blank">austinkandt@gmail.com</a>
-          <a href="tel:+12483027435">(248) 302-7435</a>
+          <a :href="`mailto:${email}`" target="_blank">{{ email }}</a>
+          <a :href="`tel:+1${stripPhone(phone)}`">{{ phone }}</a>
         </div>
       </div>
     </div>
     <div class="contact">
-      <h2>Contact</h2>
+      <h2>{{ form }}</h2>
       <contact-form></contact-form>
     </div>
   </div>
 </template>
 
 <script>
+import VueMarkdown from 'vue-markdown';
 import ContactForm from '../components/ContactForm.vue';
 
 export default {
   name: 'Contact',
-  data() {
-    return {};
+  async asyncData({ params }) {
+    const pageData = await import('~/content/pages/contact.json');
+    return pageData;
   },
   components: {
     'contact-form': ContactForm,
+    'vue-markdown': VueMarkdown,
+  },
+  methods: {
+    stripPhone(phoneNumber) {
+      return phoneNumber.replace( /^\D+/g, '');
+    },
+  },
+  head() {
+    return {
+      title: this.meta.title,
+      meta: [
+        { hid: 'description', name: 'description', content: this.meta.description }
+      ]
+    };
   },
 };
 </script>
 
 <style lang="scss" scoped>
-@import "../assets/styles/app.scss";
+@import "~/assets/styles/app.scss";
 .about {
   position: relative;
   padding-top: 50px;

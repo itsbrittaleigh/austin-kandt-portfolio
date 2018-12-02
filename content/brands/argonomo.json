@@ -1,0 +1,57 @@
+{
+  "title": "Argonomo",
+  "services": "Brand Identity, Art Direction, Graphic Design",
+  "description": "Argonomo is Michigan's premier venture studio specializing in rapid prototyping and bringing technology ventures to market. I've had the pleasure of creating and building their brand since inception.",
+  "hero": "/images/uploads/argonomo__hero.jpg",
+  "featured": "/images/uploads/argonomo__feature.jpg",
+  "images": [
+    {
+      "image": "/images/uploads/argonomo__asset001.jpg",
+      "label": "Argonomo branding",
+      "dimensions": {
+        "width": 500,
+        "height": 802
+      }
+    },
+    {
+      "image": "/images/uploads/argonomo__asset002.jpg",
+      "label": "Argonomo branding",
+      "dimensions": {
+        "width": 750,
+        "height": 423
+      }
+    },
+    {
+      "image": "/images/uploads/argonomo__asset003.jpg",
+      "label": "Argonomo branding",
+      "dimensions": {
+        "width": 500,
+        "height": 500
+      }
+    },
+    {
+      "image": "/images/uploads/argonomo__asset004.jpg",
+      "label": "Argonomo branding",
+      "dimensions": {
+        "width": 500,
+        "height": 500
+      }
+    },
+    {
+      "image": "/images/uploads/argonomo__asset005.jpg",
+      "label": "Argonomo branding",
+      "dimensions": {
+        "width": 750,
+        "height": 422
+      }
+    },
+    {
+      "image": "/images/uploads/argonomo__asset006.jpg",
+      "label": "Argonomo branding",
+      "dimensions": {
+        "width": 500,
+        "height": 373
+      }
+    }
+  ]
+}

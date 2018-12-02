@@ -2,17 +2,17 @@
   <div class="illustration">
     <div class="container">
       <div class="description">
-        <h1>{{ illustration.name }}</h1>
-        <p class="lead"><em>{{ illustration.servicesProvided }}</em></p>
-        <p>{{ illustration.description }}</p>
+        <h1>{{ title }}</h1>
+        <p class="lead"><em>{{ services }}</em></p>
+        <vue-markdown>{{ description }}</vue-markdown>
       </div>
       <div class="assets">
         <div
-          v-for="(asset, index) in illustration.assets"
+          v-for="(asset, index) in images"
           :key="index"
           class="image-container"
         >
-          <img :src="`/images/${asset}`" alt="">
+          <img :src="asset.image" :alt="asset.label">
         </div>
       </div>
     </div>
@@ -20,29 +20,30 @@
 </template>
 
 <script>
-import _ from 'lodash';
+import VueMarkdown from 'vue-markdown';
 
 export default {
   name: 'Illustration',
-  props: ['title'],
-  data() {
-    return {
-      illustrations: [],
-      illustration: {},
-      isLoaded: false,
-    };
+  async asyncData({ params }) {
+    const pageData = await import(`~/content/illustrations/${params.slug}.json`);
+    return pageData;
   },
-  mounted() {
-    this.illustration = _.find(
-      this.illustrations,
-      illustration => illustration.slug === this.title,
-    );
+  components: {
+    'vue-markdown': VueMarkdown,
+  },
+  head() {
+    return {
+      title: `Austin Kandt | Illustrations - ${this.title}`,
+      meta: [
+        { hid: 'description', name: 'description', content: this.description }
+      ]
+    };
   },
 };
 </script>
 
 <style lang="scss" scoped>
-@import "../assets/styles/app.scss";
+@import "~/assets/styles/app.scss";
 .illustration {
   .description {
     padding: 0 0 40px;

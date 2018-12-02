@@ -15,7 +15,7 @@
     "node-sass": "^4.10.0",
     "nuxt": "^1.0.0",
     "sass-loader": "^7.1.0",
-    "v-click-outside": "^2.0.1"
+    "vue-markdown": "^2.2.4"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",

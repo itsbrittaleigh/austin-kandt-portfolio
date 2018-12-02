@@ -1,17 +1,17 @@
 <template>
-  <div class="brands">
+  <div class="illustrations">
     <div class="container">
       <div
-        v-for="(brand, index) in brands"
+        v-for="(illustration, index) in illustrations"
         :key="index"
-        class="brand"
+        class="illustration"
       >
         <nuxt-link
-          :to="brand._path"
+          :to="illustration._path"
         >
           <img
-            :src="brand.featured"
-            :alt="`${brand.name} branding`"
+            :src="illustration.featured"
+            :alt="`${illustration.name} illustrations`"
           >
         </nuxt-link>
       </div>
@@ -21,17 +21,17 @@
 
 <script>
 export default {
-  name: 'Brands',
-    async asyncData({ params }) {
-    const brandsPageData = await import('~/content/pages/brands.json');
-    const brands = await require.context('~/content/brands/', false, /\.json$/);
-    const searchBrands = await brands.keys().map((key) => ({
-      ...brands(key),
-      _path: `/brand-identity/${key.replace('.json', '').replace('./', '')}`
+  name: 'illustrations',
+  async asyncData({ params }) {
+    const illustrationsPageData = await import('~/content/pages/illustrations.json');
+    const illustrations = await require.context('~/content/illustrations/', false, /\.json$/);
+    const searchIllustrations = await illustrations.keys().map((key) => ({
+      ...illustrations(key),
+      _path: `/illustrations/${key.replace('.json', '').replace('./', '')}`
     }));
     const pageData = {
-      brands: searchBrands,
-      ...brandsPageData,
+      illustrations: searchIllustrations,
+      ...illustrationsPageData,
     }
     return pageData;
   },
@@ -48,8 +48,8 @@ export default {
 
 <style lang="scss" scoped>
 @import "~/assets/styles/app.scss";
-.brands {
-  .brand {
+.illustrations {
+  .illustration {
     margin: 0 0 15px;
     @media only screen and (min-width: $medium) {
       margin-bottom: 30px;

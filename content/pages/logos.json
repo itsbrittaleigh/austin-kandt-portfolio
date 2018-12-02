@@ -1,0 +1,114 @@
+{
+  "headline": "Logo Design",
+  "body": "I love logos. Piecing together shapes and colors is like a puzzle where one tiny element has a cascading impact on the overall look and feel of the mark. These are just some of the designs I have had the pleasure to work on.",
+  "images": [
+    {
+      "image": "/images/uploads/logos__asset001.png",
+      "label": "Argocon",
+      "dimensions": {
+        "width": 500,
+        "height": 500
+      }
+    },
+    {
+      "image": "/images/uploads/logos__asset002.png",
+      "label": "Atnip & Associates, PLLC",
+      "dimensions": {
+        "width": 750,
+        "height": 373
+      }
+    },
+    {
+      "image": "/images/uploads/logos__asset003.png",
+      "label": "SafeWhistle, LLC",
+      "dimensions": {
+        "width": 500,
+        "height": 251
+      }
+    },
+    {
+      "image": "/images/uploads/logos__asset004.png",
+      "label": "I forget this one, I'm sorry",
+      "dimensions": {
+        "width": 500,
+        "height": 248
+      }
+    },
+    {
+      "image": "/images/uploads/logos__asset005.jpg",
+      "label": "Salzeider",
+      "dimensions": {
+        "width": 500,
+        "height": 334
+      }
+    },
+    {
+      "image": "/images/uploads/logos__asset007.png",
+      "label": "Gaddis Gaming",
+      "dimensions": {
+        "width": 750,
+        "height": 562
+      }
+    },
+    {
+      "image": "/images/uploads/logos__asset006.png",
+      "label": "Gaddis Gaming",
+      "dimensions": {
+        "width": 750,
+        "height": 232
+      }
+    },
+    {
+      "image": "/images/uploads/logos__asset008.png",
+      "label": "I don't know this one either",
+      "dimensions": {
+        "width": 500,
+        "height": 502
+      }
+    },
+    {
+      "image": "/images/uploads/logos__asset009.png",
+      "label": "I don't know this one either",
+      "dimensions": {
+        "width": 750,
+        "height": 376
+      }
+    },
+    {
+      "image": "/images/uploads/logos__asset010.png",
+      "label": "TechStak",
+      "dimensions": {
+        "width": 500,
+        "height": 276
+      }
+    },
+    {
+      "image": "/images/uploads/logos__asset011.png",
+      "label": "New Detroit",
+      "dimensions": {
+        "width": 500,
+        "height": 349
+      }
+    },
+    {
+      "image": "/images/uploads/logos__asset012.png",
+      "label": "Ensureum",
+      "dimensions": {
+        "width": 750,
+        "height": 260
+      }
+    },
+    {
+      "image": "/images/uploads/logos__asset013.png",
+      "label": "Gaddis Gaming",
+      "dimensions": {
+        "width": 500,
+        "height": 500
+      }
+    }
+  ],
+  "meta": {
+    "title": "Austin Kandt | Logo Design",
+    "description": "Brand strategist, graphic designer, illustrator based in metro Detroit"
+  }
+}

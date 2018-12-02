@@ -1,0 +1,23 @@
+{
+  "title": "Figure Drawings",
+  "services": "Ink, Charcoal, Color Pencil, Watercolor",
+  "featured": "/images/uploads/figure-drawings__feature.png",
+  "images": [
+    {
+      "image": "/images/uploads/figure-drawings__asset001.jpg",
+      "label": "Figure drawing"
+    },
+    {
+      "image": "/images/uploads/figure-drawings__asset002.jpg",
+      "label": "Figure drawing"
+    },
+    {
+      "image": "/images/uploads/figure-drawings__asset003.jpg",
+      "label": "Figure drawing"
+    },
+    {
+      "image": "/images/uploads/figure-drawings__asset004.jpg",
+      "label": "Figure drawing"
+    }
+  ]
+}

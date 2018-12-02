@@ -1,0 +1,105 @@
+{
+  "title": "Hack WSU",
+  "services": "Art Direction, Graphic Design, Illustration",
+  "description": "Wayne State University was hosting their annual hack-a-thon, and was looking to take the theme to the next level. Utilizing 8-bit illustrations, the assets that resulted carried a strong sense of continuity and community.",
+  "hero": "/images/uploads/hack-wsu__hero.jpg",
+  "featured": "/images/uploads/hack-wsu__feature.png",
+  "images": [
+    {
+      "image": "/images/uploads/hack-wsu__asset001.jpg",
+      "label": "Hack WSU branding",
+      "dimensions": {
+        "width": 500,
+        "height": 348
+      }
+    },
+    {
+      "image": "/images/uploads/hack-wsu__asset002.jpg",
+      "label": "Hack WSU branding",
+      "dimensions": {
+        "width": 500,
+        "height": 334
+      }
+    },
+    {
+      "image": "/images/uploads/hack-wsu__asset003.jpg",
+      "label": "Hack WSU branding",
+      "dimensions": {
+        "width": 250,
+        "height": 550
+      }
+    },
+    {
+      "image": "/images/uploads/hack-wsu__asset004.jpg",
+      "label": "Hack WSU branding",
+      "dimensions": {
+        "width": 500,
+        "height": 500
+      }
+    },
+    {
+      "image": "/images/uploads/hack-wsu__asset005.jpg",
+      "label": "Hack WSU branding",
+      "dimensions": {
+        "width": 500,
+        "height": 648
+      }
+    },
+    {
+      "image": "/images/uploads/hack-wsu__asset006.jpg",
+      "label": "Hack WSU branding",
+      "dimensions": {
+        "width": 500,
+        "height": 500
+      }
+    },
+    {
+      "image": "/images/uploads/hack-wsu__asset007.jpg",
+      "label": "Hack WSU branding",
+      "dimensions": {
+        "width": 500,
+        "height": 500
+      }
+    },
+    {
+      "image": "/images/uploads/hack-wsu__asset008.jpg",
+      "label": "Hack WSU branding",
+      "dimensions": {
+        "width": 750,
+        "height": 423
+      }
+    },
+    {
+      "image": "/images/uploads/hack-wsu__asset009.jpg",
+      "label": "Hack WSU branding",
+      "dimensions": {
+        "width": 500,
+        "height": 498
+      }
+    },
+    {
+      "image": "/images/uploads/hack-wsu__asset010.jpg",
+      "label": "Hack WSU branding",
+      "dimensions": {
+        "width": 750,
+        "height": 422
+      }
+    },
+    {
+      "image": "/images/uploads/hack-wsu__asset011.jpg",
+      "label": "Hack WSU branding",
+      "dimensions": {
+        "width": 500,
+        "height": 322
+      }
+    },
+    {
+      "image": "/images/uploads/hack-wsu__asset012.jpg",
+      "label": "Hack WSU branding",
+      "dimensions": {
+        "width": 1000,
+        "height": 564
+      }
+    }
+  ]
+}

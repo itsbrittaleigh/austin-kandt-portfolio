@@ -11,7 +11,7 @@
         >
           <img
             :src="brand.featured"
-            :alt="`${brand.name} branding`"
+            :alt="`${brand.title} branding`"
           >
         </nuxt-link>
       </div>
@@ -22,7 +22,7 @@
 <script>
 export default {
   name: 'Brands',
-    async asyncData({ params }) {
+  async asyncData({ params }) {
     const brandsPageData = await import('~/content/pages/brands.json');
     const brands = await require.context('~/content/brands/', false, /\.json$/);
     const searchBrands = await brands.keys().map((key) => ({

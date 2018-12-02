@@ -1,17 +1,109 @@
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
-media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
-public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+  branch: master
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
 collections:
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog" # Used in the UI
-    folder: "content/blog/posts" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  - name: "brand-identity"
+    label: "Brands"
+    folder: "content/brands"
+    create: true
     format: 'json'
-    fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+    fields:
+      - {label: "Client / Name", name: "title", widget: "string"}
+      - {label: "Services Provided", name: "services", widget: "string"}
+      - {label: "Description", name: "description", widget: "markdown"}
+      - label: "Credit"
+        name: "credit"
+        widget: "object"
+        required: false
+        fields:
+          - {label: "Text", name: "text", widget: "string"}
+          - {label: "Link", name: "link", widget: "string"}
+      - {label: "Hero image", name: "hero", widget: "image"}
+      - {label: "Featured image (for index)", name: "featured", widget: "image"}
+      - label: "Project images"
+        name: "images"
+        widget: "list"
+        fields:
+          - {label: "Image Upload", name: "image", widget: "image"}
+          - {label: "Image Description", name: "label", widget: "string"}
+          - label: "Dimensions (this is hopefully temporary until I find a more graceful solution 😬)"
+            name: "dimensions"
+            widget: "object"
+            fields:
+              - {label: "Height", name: "height", widget: "number"}
+              - {label: "Width", name: "width", widget: "number"}
+  - name: "illustrations"
+    label: "Illustrations"
+    folder: "content/illustrations"
+    create: true
+    format: 'json'
+    fields:
+      - {label: "Name / Title", name: "title", widget: "string"}
+      - {label: "Services Provided", name: "services", widget: "string"}
+      - {label: "Description", name: "description", widget: "markdown", required: false}
+      - {label: "Featured image (for index)", name: "featured", widget: "image"}
+      - label: "Project images"
+        name: "images"
+        widget: "list"
+        fields:
+          - {label: "Image Upload", name: "image", widget: "image"}
+          - {label: "Image Description", name: "label", widget: "string"}
+  - name: "pages"
+    label: "Pages"
+    editor: false
+    create: false
+    files:
+      - label: "Logo Design"
+        name: "logos"
+        file: "content/pages/logos.json"
+        fields:
+          - {label: "Page Title", name: "headline", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - label: "Images"
+            name: "images"
+            widget: "list"
+            fields:
+              - {label: "Image Upload", name: "image", widget: "image"}
+              - {label: "Image Description", name: "label", widget: "string"}
+              - label: "Dimensions (this is hopefully temporary until I find a more graceful solution 😬)"
+                name: "dimensions"
+                widget: "object"
+                fields:
+                  - {label: "Height", name: "height", widget: "number"}
+                  - {label: "Width", name: "width", widget: "number"}
+          - label: "Meta information"
+            name: "meta"
+            widget: "object"
+            fields:
+              - {label: "Meta Title", name: "title", widget: "string"}
+              - {label: "Meta Description", name: "description", widget: "string"}
+      - label: "Contact"
+        name: "contact"
+        file: "content/pages/contact.json"
+        fields:
+          - {label: "Page Title", name: "headline", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Email Address", name: "email", widget: "string", required: false}
+          - {label: "Phone Number", name: "phone", widget: "string", required: false}
+          - {label: "Photo", name: "photo", widget: "image"}
+          - {label: "Form Title", name: "form", widget: "string"}
+          - label: "Meta information"
+            name: "meta"
+            widget: "object"
+            fields:
+              - {label: "Meta Title", name: "title", widget: "string"}
+              - {label: "Meta Description", name: "description", widget: "string"}
+      - label: "Brand Identity Index"
+        name: "brands"
+        file: "content/pages/brands.json"
+        fields:
+          - {label: "Meta Title", name: "title", widget: "string"}
+          - {label: "Meta Description", name: "description", widget: "string"}
+      - label: "Illustrations Index"
+        name: "illustrations"
+        file: "content/pages/illustrations.json"
+        fields:
+          - {label: "Meta Title", name: "title", widget: "string"}
+          - {label: "Meta Description", name: "description", widget: "string"}

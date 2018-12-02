@@ -1,0 +1,125 @@
+{
+  "title": "Gaddis Gaming",
+  "services": "Brand Management, Art Direction, Graphic Design, Product Development",
+  "description": "Gaddis Gaming creates lightweight table toppers for large scale board games. I worked closely with them at every step, from the initial brand strategy and identity, to product development, web development, and finally ending in a successful Kickstarter campaign.",
+  "credit": {
+    "text": "Photo credit to Remy Roman",
+    "link": "https://www.remyroman.com/"
+  },
+  "hero": "/images/uploads/gaddis-gaming__hero.png",
+  "featured": "/images/uploads/gaddis-gaming__feature.png",
+  "images": [
+    {
+      "image": "/images/uploads/gaddis-gaming__asset001.jpg",
+      "label": "Gaddis Gaming branding",
+      "dimensions": {
+        "width": 500,
+        "height": 287
+      }
+    },
+    {
+      "image": "/images/uploads/gaddis-gaming__asset002.jpg",
+      "label": "Gaddis Gaming branding",
+      "dimensions": {
+        "width": 500,
+        "height": 280
+      }
+    },
+    {
+      "image": "/images/uploads/gaddis-gaming__asset003.png",
+      "label": "Gaddis Gaming branding",
+      "dimensions": {
+        "width": 500,
+        "height": 500
+      }
+    },
+    {
+      "image": "/images/uploads/gaddis-gaming__asset004.jpg",
+      "label": "Gaddis Gaming branding",
+      "dimensions": {
+        "width": 624,
+        "height": 458
+      }
+    },
+    {
+      "image": "/images/uploads/gaddis-gaming__asset005.jpg",
+      "label": "Gaddis Gaming branding",
+      "dimensions": {
+        "width": 500,
+        "height": 564
+      }
+    },
+    {
+      "image": "/images/uploads/gaddis-gaming__asset006.gif",
+      "label": "Gaddis Gaming branding",
+      "dimensions": {
+        "width": 680,
+        "height": 453
+      }
+    },
+    {
+      "image": "/images/uploads/gaddis-gaming__asset007.jpg",
+      "label": "Gaddis Gaming branding",
+      "dimensions": {
+        "width": 500,
+        "height": 282
+      }
+    },
+    {
+      "image": "/images/uploads/gaddis-gaming__asset008.jpg",
+      "label": "Gaddis Gaming branding",
+      "dimensions": {
+        "width": 750,
+        "height": 327
+      }
+    },
+    {
+      "image": "/images/uploads/gaddis-gaming__asset009.jpg",
+      "label": "Gaddis Gaming branding",
+      "dimensions": {
+        "width": 500,
+        "height": 334
+      }
+    },
+    {
+      "image": "/images/uploads/gaddis-gaming__asset010.jpg",
+      "label": "Gaddis Gaming branding",
+      "dimensions": {
+        "width": 750,
+        "height": 290
+      }
+    },
+    {
+      "image": "/images/uploads/gaddis-gaming__asset011.gif",
+      "label": "Gaddis Gaming branding",
+      "dimensions": {
+        "width": 600,
+        "height": 264
+      }
+    },
+    {
+      "image": "/images/uploads/gaddis-gaming__asset012.jpg",
+      "label": "Gaddis Gaming branding",
+      "dimensions": {
+        "width": 250,
+        "height": 250
+      }
+    },
+    {
+      "image": "/images/uploads/gaddis-gaming__asset013.jpg",
+      "label": "Gaddis Gaming branding",
+      "dimensions": {
+        "width": 750,
+        "height": 251
+      }
+    },
+    {
+      "image": "/images/uploads/gaddis-gaming__asset014.jpg",
+      "label": "Gaddis Gaming branding",
+      "dimensions": {
+        "width": 750,
+        "height": 485
+      }
+    }
+  ]
+}

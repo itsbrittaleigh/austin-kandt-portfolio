@@ -113,7 +113,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../assets/styles/app.scss";
+@import "~/assets/styles/app.scss";
 .field {
   width: 100%;
   position: relative;

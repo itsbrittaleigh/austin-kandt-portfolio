@@ -3,32 +3,32 @@
     <div class="container">
       <div class="hero">
         <img
-          :src="`/images/${brand.heroAsset}`"
-          :alt="`${brand.name} cover`"
+          :src="hero"
+          :alt="`${title} cover`"
         >
       </div>
       <div class="description">
-        <h1>{{ brand.name }}</h1>
-        <p class="lead"><em>{{ brand.servicesProvided }}</em></p>
-        <p>{{ brand.description }}</p>
+        <h1>{{ title }}</h1>
+        <p class="lead"><em>{{ services }}</em></p>
+        <vue-markdown>{{ description }}</vue-markdown>
         <a
-          v-if="brand.credit"
-          :href="brand.credit.link"
+          v-if="credit"
+          :href="credit.link"
           class="credit"
         >
-          {{ brand.credit.text }}
+          {{ credit.text }}
         </a>
       </div>
       <div class="assets">
         <div
-          v-for="(asset, index) in brand.assets"
+          v-for="(asset, index) in images"
           :key="index"
           class="image-container"
-          :style="`width: ${asset.width * 250 / asset.height}px;
-            flex-grow: ${asset.width * 250 / asset.height}`"
+          :style="`width: ${asset.dimensions.width * 250 / asset.dimensions.height}px;
+            flex-grow: ${asset.dimensions.width * 250 / asset.dimensions.height}`"
         >
-          <i :style="`padding-bottom: ${asset.height / asset.width * 100}%`"></i>
-          <img :src="`/images/${asset.image}`" alt="">
+          <i :style="`padding-bottom: ${asset.dimensions.height / asset.dimensions.width * 100}%`"></i>
+          <img :src="asset.image" :alt="asset.label">
         </div>
       </div>
     </div>
@@ -36,26 +36,30 @@
 </template>
 
 <script>
-import _ from 'lodash';
+import VueMarkdown from 'vue-markdown';
 
 export default {
   name: 'Brand',
-  props: ['title'],
-  data() {
-    return {
-      brands: [],
-      brand: {},
-      isLoaded: false,
-    };
+  async asyncData({ params }) {
+    const pageData = await import(`~/content/brands/${params.slug}.json`);
+    return pageData;
   },
-  mounted() {
-    this.brand = _.find(this.brands, brand => brand.slug === this.title);
+  components: {
+    'vue-markdown': VueMarkdown,
+  },
+  head() {
+    return {
+      title: `Austin Kandt | Brand Identity - ${this.title}`,
+      meta: [
+        { hid: 'description', name: 'description', content: this.description }
+      ]
+    };
   },
 };
 </script>
 
 <style lang="scss" scoped>
-@import "../assets/styles/app.scss";
+@import "~/assets/styles/app.scss";
 .brand {
   .hero {
     img {
