@@ -2,8 +2,8 @@
   <div class="brands">
     <div class="container">
       <div
-        v-for="(brand, index) in brands"
-        :key="index"
+        v-for="brand in orderedBrands"
+        :key="brand.order"
         class="brand"
       >
         <nuxt-link
@@ -11,7 +11,7 @@
         >
           <img
             :src="brand.featured"
-            :alt="`${brand.name} branding`"
+            :alt="`${brand.title} branding`"
           >
         </nuxt-link>
       </div>
@@ -22,7 +22,7 @@
 <script>
 export default {
   name: 'Brands',
-    async asyncData({ params }) {
+  async asyncData({ params }) {
     const brandsPageData = await import('~/content/pages/brands.json');
     const brands = await require.context('~/content/brands/', false, /\.json$/);
     const searchBrands = await brands.keys().map((key) => ({
@@ -34,6 +34,12 @@ export default {
       ...brandsPageData,
     }
     return pageData;
+  },
+  computed: {
+    orderedBrands() {
+      // eslint-disable-next-line
+      return this.brands.sort((a, b) => a.order - b.order);
+    },
   },
   head() {
     return {

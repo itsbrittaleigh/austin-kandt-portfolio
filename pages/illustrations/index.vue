@@ -2,8 +2,8 @@
   <div class="illustrations">
     <div class="container">
       <div
-        v-for="(illustration, index) in illustrations"
-        :key="index"
+        v-for="illustration in orderedIllustrations"
+        :key="illustration.order"
         class="illustration"
       >
         <nuxt-link
@@ -34,6 +34,12 @@ export default {
       ...illustrationsPageData,
     }
     return pageData;
+  },
+  computed: {
+    orderedIllustrations() {
+      // eslint-disable-next-line
+      return this.illustrations.sort((a, b) => a.order - b.order);
+    },
   },
   head() {
     return {

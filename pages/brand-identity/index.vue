@@ -2,8 +2,8 @@
   <div class="brands">
     <div class="container">
       <div
-        v-for="(brand, index) in brands"
-        :key="index"
+        v-for="brand in orderedBrands"
+        :key="brand.order"
         class="brand"
       >
         <nuxt-link
@@ -34,6 +34,12 @@ export default {
       ...brandsPageData,
     }
     return pageData;
+  },
+  computed: {
+    orderedBrands() {
+      // eslint-disable-next-line
+      return this.brands.sort((a, b) => a.order - b.order);
+    },
   },
   head() {
     return {
