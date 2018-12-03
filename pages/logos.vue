@@ -2,7 +2,7 @@
   <div class="logos">
     <div class="container">
       <h1>{{ headline }}</h1>
-      <vue-markdown>{{ body }}</vue-markdown>
+      <p>{{ body }}</p>
       <div class="assets">
         <div
           v-for="(asset, index) in images"
@@ -23,16 +23,11 @@
 </template>
 
 <script>
-import VueMarkdown from 'vue-markdown';
-
 export default {
   name: 'Logos',
   async asyncData({ params }) {
     const pageData = await import('~/content/pages/logos.json');
     return pageData;
-  },
-  components: {
-    'vue-markdown': VueMarkdown,
   },
   head() {
     return {

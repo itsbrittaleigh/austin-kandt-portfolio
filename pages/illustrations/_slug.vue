@@ -4,7 +4,7 @@
       <div class="description">
         <h1>{{ title }}</h1>
         <p class="lead"><em>{{ services }}</em></p>
-        <vue-markdown>{{ description }}</vue-markdown>
+        <p>{{ description }}</p>
       </div>
       <div class="assets">
         <div
@@ -20,16 +20,11 @@
 </template>
 
 <script>
-import VueMarkdown from 'vue-markdown';
-
 export default {
   name: 'Illustration',
   async asyncData({ params }) {
     const pageData = await import(`~/content/illustrations/${params.slug}.json`);
     return pageData;
-  },
-  components: {
-    'vue-markdown': VueMarkdown,
   },
   head() {
     return {

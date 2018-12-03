@@ -10,7 +10,7 @@
       <div class="description">
         <h1>{{ title }}</h1>
         <p class="lead"><em>{{ services }}</em></p>
-        <vue-markdown>{{ description }}</vue-markdown>
+        <p>{{ description }}</p>
         <a
           v-if="credit"
           :href="credit.link"
@@ -36,16 +36,11 @@
 </template>
 
 <script>
-import VueMarkdown from 'vue-markdown';
-
 export default {
   name: 'Brand',
   async asyncData({ params }) {
     const pageData = await import(`~/content/brands/${params.slug}.json`);
     return pageData;
-  },
-  components: {
-    'vue-markdown': VueMarkdown,
   },
   head() {
     return {

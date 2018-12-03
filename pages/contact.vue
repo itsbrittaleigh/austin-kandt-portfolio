@@ -4,7 +4,7 @@
       <img :src="photo" alt="Photo of Austin">
       <div class="content">
         <h2>{{ headline }}</h2>
-        <vue-markdown>{{ body }}</vue-markdown>
+        <p>{{ body }}</p>
         <div class="methods">
           <a :href="`mailto:${email}`" target="_blank">{{ email }}</a>
           <a :href="`tel:+1${stripPhone(phone)}`">{{ phone }}</a>
@@ -19,7 +19,6 @@
 </template>
 
 <script>
-import VueMarkdown from 'vue-markdown';
 import ContactForm from '../components/ContactForm.vue';
 
 export default {
@@ -30,7 +29,6 @@ export default {
   },
   components: {
     'contact-form': ContactForm,
-    'vue-markdown': VueMarkdown,
   },
   methods: {
     stripPhone(phoneNumber) {

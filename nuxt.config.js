@@ -35,11 +35,6 @@ module.exports = {
     },
     analyze: true,
   },
-  plugins: [
-    {
-      src: '~/plugins/vue-markdown',
-    },
-  ],
 };
 
 function getDynamicPaths(urlFilepathTable) {
