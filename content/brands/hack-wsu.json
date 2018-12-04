@@ -3,6 +3,10 @@
   "order": 3,
   "services": "Art Direction, Graphic Design, Illustration",
   "description": "Wayne State University was hosting their annual hack-a-thon, and was looking to take the theme to the next level. Utilizing 8-bit illustrations, the assets that resulted carried a strong sense of continuity and community.",
+  "credit": {
+    "text": "Photo credit to Remy Roman",
+    "link": "https://remyroman.com"
+  },
   "hero": "/images/uploads/hack-wsu__hero.jpg",
   "featured": "/images/uploads/hack-wsu__feature.png",
   "images": [
@@ -10,96 +14,96 @@
       "image": "/images/uploads/hack-wsu__asset001.jpg",
       "label": "Hack WSU branding",
       "dimensions": {
-        "width": 500,
-        "height": 348
+        "height": 348,
+        "width": 500
       }
     },
     {
       "image": "/images/uploads/hack-wsu__asset002.jpg",
       "label": "Hack WSU branding",
       "dimensions": {
-        "width": 500,
-        "height": 334
+        "height": 334,
+        "width": 500
       }
     },
     {
       "image": "/images/uploads/hack-wsu__asset003.jpg",
       "label": "Hack WSU branding",
       "dimensions": {
-        "width": 250,
-        "height": 550
+        "height": 550,
+        "width": 250
       }
     },
     {
       "image": "/images/uploads/hack-wsu__asset004.jpg",
       "label": "Hack WSU branding",
       "dimensions": {
-        "width": 500,
-        "height": 500
+        "height": 500,
+        "width": 500
       }
     },
     {
       "image": "/images/uploads/hack-wsu__asset005.jpg",
       "label": "Hack WSU branding",
       "dimensions": {
-        "width": 500,
-        "height": 648
+        "height": 648,
+        "width": 500
       }
     },
     {
       "image": "/images/uploads/hack-wsu__asset006.jpg",
       "label": "Hack WSU branding",
       "dimensions": {
-        "width": 500,
-        "height": 500
+        "height": 500,
+        "width": 500
       }
     },
     {
       "image": "/images/uploads/hack-wsu__asset007.jpg",
       "label": "Hack WSU branding",
       "dimensions": {
-        "width": 500,
-        "height": 500
+        "height": 500,
+        "width": 500
       }
     },
     {
       "image": "/images/uploads/hack-wsu__asset008.jpg",
       "label": "Hack WSU branding",
       "dimensions": {
-        "width": 750,
-        "height": 423
+        "height": 423,
+        "width": 750
       }
     },
     {
       "image": "/images/uploads/hack-wsu__asset009.jpg",
       "label": "Hack WSU branding",
       "dimensions": {
-        "width": 500,
-        "height": 498
+        "height": 498,
+        "width": 500
       }
     },
     {
       "image": "/images/uploads/hack-wsu__asset010.jpg",
       "label": "Hack WSU branding",
       "dimensions": {
-        "width": 750,
-        "height": 422
+        "height": 422,
+        "width": 750
       }
     },
     {
       "image": "/images/uploads/hack-wsu__asset011.jpg",
       "label": "Hack WSU branding",
       "dimensions": {
-        "width": 500,
-        "height": 322
+        "height": 322,
+        "width": 500
       }
     },
     {
       "image": "/images/uploads/hack-wsu__asset012.jpg",
       "label": "Hack WSU branding",
       "dimensions": {
-        "width": 1000,
-        "height": 564
+        "height": 564,
+        "width": 1000
       }
     }
   ]
