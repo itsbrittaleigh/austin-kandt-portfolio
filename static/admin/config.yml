@@ -1,8 +1,8 @@
 backend:
   name: git-gateway
   branch: master
-media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
+media_folder: "static/uploads"
+public_folder: "/uploads"
 collections:
   - name: "brand-identity"
     label: "Brands"
@@ -89,6 +89,7 @@ collections:
           - {label: "Body", name: "body", widget: "text"}
           - {label: "Email Address", name: "email", widget: "string", required: false}
           - {label: "Phone Number", name: "phone", widget: "string", required: false}
+          - {label: "Resume", name: "resume", widget: "file", required: false}
           - {label: "Photo", name: "photo", widget: "image"}
           - {label: "Form Title", name: "form", widget: "string"}
           - label: "Meta information"

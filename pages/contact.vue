@@ -4,10 +4,13 @@
       <img :src="photo" alt="Photo of Austin">
       <div class="content">
         <h2>{{ headline }}</h2>
-        <p>{{ body }}</p>
+        <p>
+          {{ body }}
+          <a v-if="resume" :href="resume" target="_blank">View my resume</a>
+        </p>
         <div class="methods">
-          <a :href="`mailto:${email}`" target="_blank">{{ email }}</a>
-          <a :href="`tel:+1${stripPhone(phone)}`">{{ phone }}</a>
+          <a v-if="email" :href="`mailto:${email}`" target="_blank">{{ email }}</a>
+          <a v-if="phone" :href="`tel:+1${stripPhone(phone)}`">{{ phone }}</a>
         </div>
       </div>
     </div>
@@ -69,6 +72,12 @@ export default {
     display: block;
     font-size: 16px;
     margin-bottom: 20px;
+  }
+  p {
+    a {
+      font-size: inherit;
+      display: inline;
+    }
   }
   @media only screen and (min-width: $medium) {
     padding-top: 0;

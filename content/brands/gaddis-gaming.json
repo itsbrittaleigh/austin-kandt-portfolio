@@ -7,11 +7,11 @@
     "text": "Photo credit to Remy Roman",
     "link": "https://www.remyroman.com/"
   },
-  "hero": "/images/uploads/gaddis-gaming__hero.png",
-  "featured": "/images/uploads/gaddis-gaming__feature.png",
+  "hero": "/uploads/gaddis-gaming__hero.png",
+  "featured": "/uploads/gaddis-gaming__feature.png",
   "images": [
     {
-      "image": "/images/uploads/gaddis-gaming__asset001.jpg",
+      "image": "/uploads/gaddis-gaming__asset001.jpg",
       "label": "Gaddis Gaming branding",
       "dimensions": {
         "width": 500,
@@ -19,7 +19,7 @@
       }
     },
     {
-      "image": "/images/uploads/gaddis-gaming__asset002.jpg",
+      "image": "/uploads/gaddis-gaming__asset002.jpg",
       "label": "Gaddis Gaming branding",
       "dimensions": {
         "width": 500,
@@ -27,7 +27,7 @@
       }
     },
     {
-      "image": "/images/uploads/gaddis-gaming__asset003.png",
+      "image": "/uploads/gaddis-gaming__asset003.png",
       "label": "Gaddis Gaming branding",
       "dimensions": {
         "width": 500,
@@ -35,7 +35,7 @@
       }
     },
     {
-      "image": "/images/uploads/gaddis-gaming__asset004.jpg",
+      "image": "/uploads/gaddis-gaming__asset004.jpg",
       "label": "Gaddis Gaming branding",
       "dimensions": {
         "width": 624,
@@ -43,7 +43,7 @@
       }
     },
     {
-      "image": "/images/uploads/gaddis-gaming__asset005.jpg",
+      "image": "/uploads/gaddis-gaming__asset005.jpg",
       "label": "Gaddis Gaming branding",
       "dimensions": {
         "width": 500,
@@ -51,7 +51,7 @@
       }
     },
     {
-      "image": "/images/uploads/gaddis-gaming__asset006.gif",
+      "image": "/uploads/gaddis-gaming__asset006.gif",
       "label": "Gaddis Gaming branding",
       "dimensions": {
         "width": 680,
@@ -59,7 +59,7 @@
       }
     },
     {
-      "image": "/images/uploads/gaddis-gaming__asset007.jpg",
+      "image": "/uploads/gaddis-gaming__asset007.jpg",
       "label": "Gaddis Gaming branding",
       "dimensions": {
         "width": 500,
@@ -67,7 +67,7 @@
       }
     },
     {
-      "image": "/images/uploads/gaddis-gaming__asset008.jpg",
+      "image": "/uploads/gaddis-gaming__asset008.jpg",
       "label": "Gaddis Gaming branding",
       "dimensions": {
         "width": 750,
@@ -75,7 +75,7 @@
       }
     },
     {
-      "image": "/images/uploads/gaddis-gaming__asset009.jpg",
+      "image": "/uploads/gaddis-gaming__asset009.jpg",
       "label": "Gaddis Gaming branding",
       "dimensions": {
         "width": 500,
@@ -83,7 +83,7 @@
       }
     },
     {
-      "image": "/images/uploads/gaddis-gaming__asset010.jpg",
+      "image": "/uploads/gaddis-gaming__asset010.jpg",
       "label": "Gaddis Gaming branding",
       "dimensions": {
         "width": 750,
@@ -91,7 +91,7 @@
       }
     },
     {
-      "image": "/images/uploads/gaddis-gaming__asset011.gif",
+      "image": "/uploads/gaddis-gaming__asset011.gif",
       "label": "Gaddis Gaming branding",
       "dimensions": {
         "width": 600,
@@ -99,7 +99,7 @@
       }
     },
     {
-      "image": "/images/uploads/gaddis-gaming__asset012.jpg",
+      "image": "/uploads/gaddis-gaming__asset012.jpg",
       "label": "Gaddis Gaming branding",
       "dimensions": {
         "width": 250,
@@ -107,7 +107,7 @@
       }
     },
     {
-      "image": "/images/uploads/gaddis-gaming__asset013.jpg",
+      "image": "/uploads/gaddis-gaming__asset013.jpg",
       "label": "Gaddis Gaming branding",
       "dimensions": {
         "width": 750,
@@ -115,7 +115,7 @@
       }
     },
     {
-      "image": "/images/uploads/gaddis-gaming__asset014.jpg",
+      "image": "/uploads/gaddis-gaming__asset014.jpg",
       "label": "Gaddis Gaming branding",
       "dimensions": {
         "width": 750,

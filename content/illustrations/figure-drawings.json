@@ -2,22 +2,22 @@
   "title": "Figure Drawings",
   "order": 2,
   "services": "Ink, Charcoal, Color Pencil, Watercolor",
-  "featured": "/images/uploads/figure-drawings__feature.png",
+  "featured": "/uploads/figure-drawings__feature.png",
   "images": [
     {
-      "image": "/images/uploads/figure-drawings__asset001.jpg",
+      "image": "/uploads/figure-drawings__asset001.jpg",
       "label": "Figure drawing"
     },
     {
-      "image": "/images/uploads/figure-drawings__asset002.jpg",
+      "image": "/uploads/figure-drawings__asset002.jpg",
       "label": "Figure drawing"
     },
     {
-      "image": "/images/uploads/figure-drawings__asset003.jpg",
+      "image": "/uploads/figure-drawings__asset003.jpg",
       "label": "Figure drawing"
     },
     {
-      "image": "/images/uploads/figure-drawings__asset004.jpg",
+      "image": "/uploads/figure-drawings__asset004.jpg",
       "label": "Figure drawing"
     }
   ]
