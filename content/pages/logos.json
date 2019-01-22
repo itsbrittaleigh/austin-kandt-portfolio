@@ -6,104 +6,104 @@
       "image": "/uploads/logos__asset001.png",
       "label": "Argocon",
       "dimensions": {
-        "width": 500,
-        "height": 500
+        "height": 500,
+        "width": 500
       }
     },
     {
       "image": "/uploads/logos__asset002.png",
       "label": "Atnip & Associates, PLLC",
       "dimensions": {
-        "width": 750,
-        "height": 373
+        "height": 373,
+        "width": 750
       }
     },
     {
       "image": "/uploads/logos__asset003.png",
       "label": "SafeWhistle, LLC",
       "dimensions": {
-        "width": 500,
-        "height": 251
+        "height": 251,
+        "width": 500
       }
     },
     {
       "image": "/uploads/logos__asset004.png",
-      "label": "I forget this one, I'm sorry",
+      "label": "Analyteum",
       "dimensions": {
-        "width": 500,
-        "height": 248
+        "height": 248,
+        "width": 500
       }
     },
     {
       "image": "/uploads/logos__asset005.jpg",
       "label": "Salzeider",
       "dimensions": {
-        "width": 500,
-        "height": 334
+        "height": 334,
+        "width": 500
       }
     },
     {
       "image": "/uploads/logos__asset007.png",
       "label": "Gaddis Gaming",
       "dimensions": {
-        "width": 750,
-        "height": 562
+        "height": 562,
+        "width": 750
       }
     },
     {
       "image": "/uploads/logos__asset006.png",
       "label": "Gaddis Gaming",
       "dimensions": {
-        "width": 750,
-        "height": 232
+        "height": 232,
+        "width": 750
       }
     },
     {
       "image": "/uploads/logos__asset008.png",
-      "label": "I don't know this one either",
+      "label": "WolfDarling",
       "dimensions": {
-        "width": 500,
-        "height": 502
+        "height": 502,
+        "width": 500
       }
     },
     {
       "image": "/uploads/logos__asset009.png",
-      "label": "I don't know this one either",
+      "label": "Dave Kandt",
       "dimensions": {
-        "width": 750,
-        "height": 376
+        "height": 376,
+        "width": 750
       }
     },
     {
       "image": "/uploads/logos__asset010.png",
       "label": "TechStak",
       "dimensions": {
-        "width": 500,
-        "height": 276
+        "height": 276,
+        "width": 500
       }
     },
     {
       "image": "/uploads/logos__asset011.png",
       "label": "New Detroit",
       "dimensions": {
-        "width": 500,
-        "height": 349
+        "height": 349,
+        "width": 500
       }
     },
     {
       "image": "/uploads/logos__asset012.png",
       "label": "Ensureum",
       "dimensions": {
-        "width": 750,
-        "height": 260
+        "height": 260,
+        "width": 750
       }
     },
     {
       "image": "/uploads/logos__asset013.png",
       "label": "Gaddis Gaming",
       "dimensions": {
-        "width": 500,
-        "height": 500
+        "height": 500,
+        "width": 500
       }
     }
   ],
