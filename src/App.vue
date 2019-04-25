@@ -6,13 +6,15 @@
         <router-view />
       </transition>
     </main>
+    <app-footer />
+    <to-top />
   </div>
-  <!-- Footer -->
-  <!-- To Top -->
 </template>
 
 <script>
+import Footer from './components/Footer.vue';
 import Navigation from './components/Navigation.vue';
+import ToTop from './components/ToTop.vue';
 
 export default {
   name: 'App',
@@ -21,11 +23,15 @@ export default {
   },
   components: {
     'app-navigation': Navigation,
+    'app-footer': Footer,
+    'to-top': ToTop,
   },
 };
 </script>
 
 <style>
+@import url('./assets/styles/app.css');
+
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.5s;

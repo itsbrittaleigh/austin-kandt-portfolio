@@ -44,5 +44,7 @@ export default {
 </script>
 
 <style>
-
+ul {
+  margin: 0;
+}
 </style>
