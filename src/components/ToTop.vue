@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: '',
+  name: 'ToTop',
   data() {
     return {};
   },

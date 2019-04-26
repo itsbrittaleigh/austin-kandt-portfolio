@@ -33,17 +33,7 @@
         <a>Take a look &rarr;</a>
       </router-link>
     </section>
-    <section class="Project">
-      <div class="Project__slideshow">
-        <img src="https://placekitten.com/200/150" alt="">
-        <img src="https://placekitten.com/200/150" alt="">
-        <img src="https://placekitten.com/200/150" alt="">
-        <img src="https://placekitten.com/200/150" alt="">
-        <img src="https://placekitten.com/50" alt="">
-        <h2>Latest Dribbble Shots</h2>
-        <a href="https://dribbble.com/austinkandt" target="_blank">See more &rarr;</a>
-      </div>
-    </section>
+    <dribbble-posts />
     <section class="Project">
       <img src="https://placekitten.com/50/42" alt="SafeWhistle logo">
       <h2>SafeWhistle</h2>
@@ -66,6 +56,7 @@
 </template>
 
 <script>
+import DribbblePosts from '../components/DribbblePosts.vue';
 import MoreProjects from '../components/MoreProjects.vue';
 
 export default {
@@ -74,6 +65,7 @@ export default {
     return {};
   },
   components: {
+    'dribbble-posts': DribbblePosts,
     'more-projects': MoreProjects,
   },
 };

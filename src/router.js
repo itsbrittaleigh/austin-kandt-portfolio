@@ -29,7 +29,7 @@ const router = new Router({
       component: Projects,
     },
     {
-      path: '/project/:title',
+      path: '/projects/:title',
       name: 'project',
       component: Project,
       props: true,

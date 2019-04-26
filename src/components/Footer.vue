@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: '',
+  name: 'Footer',
   data() {
     return {
       date: new Date(),
