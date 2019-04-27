@@ -1,12 +1,15 @@
 <template>
-  <div id="project">
-    <component :is="project.slug" />
-  </div>
+  <component :is="project.slug" />
 </template>
 
 <script>
 import { mapGetters } from 'vuex';
 import Amtech from './projects/Amtech.vue';
+import DailyUI from './projects/DailyUI.vue';
+import DowntownDetroitPartnership from './projects/DowntownDetroitPartnership.vue';
+import GaddisGaming from './projects/GaddisGaming.vue';
+import HackWSU from './projects/HackWSU.vue';
+import Safewhistle from './projects/Safewhistle.vue';
 
 export default {
   name: 'Project',
@@ -18,6 +21,11 @@ export default {
   },
   components: {
     amtech: Amtech,
+    'daily-ui': DailyUI,
+    'downtown-detroit-partnership': DowntownDetroitPartnership,
+    'gaddis-gaming': GaddisGaming,
+    'hack-wsu': HackWSU,
+    safewhistle: Safewhistle,
   },
   computed: {
     ...mapGetters([
