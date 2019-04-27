@@ -1,7 +1,7 @@
 <template>
   <div id="amtech">
     <header>
-      <img src="https://placekitten.com/50/37" alt="">
+      <img src="https://placekitten.com/50/37" alt="" />
       <h1><strong>Amtech</strong> &mdash; Innovative electronics manufacturing</h1>
       <p>
         Amtech is unique in that they are forward thinking in the way they approach the
@@ -23,17 +23,17 @@
         playing in. Combining this with a clean, modern aesthetic, we were able to create an
         identity that stuck.
       </p>
-      <img src="https://placekitten.com/810/608" alt="">
+      <img src="https://placekitten.com/810/608" alt="" />
     </section>
     <section class="Images">
-      <img src="https://placekitten.com/460/345" alt="">
-      <img src="https://placekitten.com/460/460" alt="">
-      <img src="https://placekitten.com/460/345" alt="">
-      <img src="https://placekitten.com/460/345" alt="">
-      <img src="https://placekitten.com/460/345" alt="">
+      <img src="https://placekitten.com/460/345" alt="" />
+      <img src="https://placekitten.com/460/460" alt="" />
+      <img src="https://placekitten.com/460/345" alt="" />
+      <img src="https://placekitten.com/460/345" alt="" />
+      <img src="https://placekitten.com/460/345" alt="" />
     </section>
     <section class="ProjectSection">
-      <img src="https://placekitten.com/540/546" alt="">
+      <img src="https://placekitten.com/540/546" alt="" />
       <h2><strong>Telling the Story Visually</strong>&mdash; Web graphics and illustrations</h2>
       <p>
         Talking about electronics isn’t always the most accessible conversation for everyone.
@@ -50,10 +50,10 @@
       </p>
     </section>
     <section class="ProjectSection">
-      <img src="https://placekitten.com/460/345" alt="">
-      <img src="https://placekitten.com/460/345" alt="">
-      <img src="https://placekitten.com/460/596" alt="">
-      <img src="https://placekitten.com/460/1167" alt="">
+      <img src="https://placekitten.com/460/345" alt="" />
+      <img src="https://placekitten.com/460/345" alt="" />
+      <img src="https://placekitten.com/460/596" alt="" />
+      <img src="https://placekitten.com/460/1167" alt="" />
     </section>
     <more-projects />
   </div>

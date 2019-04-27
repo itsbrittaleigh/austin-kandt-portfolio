@@ -9,7 +9,7 @@
     <section class="Project">
       <router-link to="/projects/amtech">
         <a>
-          <img src="https://placekitten.com/300/225" alt="">
+          <img src="https://placekitten.com/300/225" alt="" />
         </a>
       </router-link>
       <h2>
@@ -28,7 +28,7 @@
     <section class="Project">
       <router-link to="/projects/daily-ui">
         <a>
-          <img src="https://placekitten.com/300/225" alt="">
+          <img src="https://placekitten.com/300/225" alt="" />
         </a>
       </router-link>
       <h2>
@@ -47,7 +47,7 @@
     <section class="Project">
       <router-link to="/projects/downtown-detroit-partnership">
         <a>
-          <img src="https://placekitten.com/300/225" alt="">
+          <img src="https://placekitten.com/300/225" alt="" />
         </a>
       </router-link>
       <h2>
@@ -66,7 +66,7 @@
     <section class="Project">
       <router-link to="/projects/gaddis-gaming">
         <a>
-          <img src="https://placekitten.com/300/225" alt="">
+          <img src="https://placekitten.com/300/225" alt="" />
         </a>
       </router-link>
       <h2>
@@ -86,7 +86,7 @@
     <section class="Project">
       <router-link to="/projects/hack-wsu">
         <a>
-          <img src="https://placekitten.com/300/225" alt="">
+          <img src="https://placekitten.com/300/225" alt="" />
         </a>
       </router-link>
       <h2>
@@ -105,7 +105,7 @@
     <section class="Project">
       <router-link to="/projects/safewhistle">
         <a>
-          <img src="https://placekitten.com/300/225" alt="">
+          <img src="https://placekitten.com/300/225" alt="" />
         </a>
       </router-link>
       <h2>

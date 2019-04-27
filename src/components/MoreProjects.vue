@@ -1,31 +1,31 @@
 <template>
   <div id="more-projects">
-    <router-link to="/projects/amtech">
+    <router-link
+      v-for="project in projects"
+      :key="project.slug"
+      :to="`/projects/${project.slug}`"
+    >
       <a>
-        <img src="https://placekitten.com/300/225" alt="">
+        <img src="https://placekitten.com/300/225" alt="" />
       </a>
-    </router-link>
-    <router-link to="/projects/amtech">
-      <a>
-        <img src="https://placekitten.com/300/225" alt="">
-      </a>
-    </router-link>
-    <router-link to="/projects/amtech">
-      <a>
-        <img src="https://placekitten.com/300/225" alt="">
-      </a>
-    </router-link>
-    <router-link to="/projects/amtech">
-      <a>See all &rarr;</a>
     </router-link>
   </div>
 </template>
 
 <script>
+import { mapGetters } from 'vuex';
+
 export default {
   name: 'MoreProjects',
   data() {
-    return {};
+    return {
+      randomProjects: [],
+    };
+  },
+  computed: {
+    ...mapGetters([
+      'projects',
+    ]),
   },
 };
 </script>

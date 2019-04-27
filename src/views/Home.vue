@@ -10,7 +10,7 @@
       <a>More info &rarr;</a>
     </router-link>
     <section class="Project">
-      <img src="https://placekitten.com/33/50" alt="Downtown Detroit Partnership logo">
+      <img src="https://placekitten.com/33/50" alt="Downtown Detroit Partnership logo" />
       <h2>Downtown Detroit Partnership</h2>
       <p>
         DDP is commited in their mission of growing Detroit’s urban core. I worked closely with
@@ -19,11 +19,11 @@
       <router-link to="/projects/downtown-detroit-partnership">
         <a>Take a look &rarr;</a>
       </router-link>
-      <img src="https://placekitten.com/810" alt="Mockup of mockup">
+      <img src="https://placekitten.com/810" alt="Mockup of mockup" />
     </section>
     <section class="Project">
-      <img src="https://placekitten.com/560/420" alt="Mockup of mobile application">
-      <img src="https://placekitten.com/50" alt="Daily UI icon">
+      <img src="https://placekitten.com/560/420" alt="Mockup of mobile application" />
+      <img src="https://placekitten.com/50" alt="Daily UI icon" />
       <h2>Daily UI</h2>
       <p>
         Daily UI is a 100 day design challenge with the goal of pushing your skills and portfolio
@@ -35,7 +35,7 @@
     </section>
     <dribbble-posts />
     <section class="Project">
-      <img src="https://placekitten.com/50/42" alt="SafeWhistle logo">
+      <img src="https://placekitten.com/50/42" alt="SafeWhistle logo" />
       <h2>SafeWhistle</h2>
       <p>
         An anonymous whistleblowing platform for corporations. Safewhistle provided a unique

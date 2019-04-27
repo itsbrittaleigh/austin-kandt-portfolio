@@ -1,7 +1,7 @@
 <template>
   <div id="downtown-detroit-partnership">
     <header>
-      <img src="https://placekitten.com/33/50" alt="">
+      <img src="https://placekitten.com/33/50" alt="" />
       <h1>
         <strong>Downtown Detroit Partnership</strong>
         &mdash; Advancing Detroit through engagement
@@ -16,7 +16,7 @@
       </p>
     </header>
     <section class="ProjectSection">
-      <img src="https://placekitten.com/810/607" alt="">
+      <img src="https://placekitten.com/810/607" alt="" />
       <h2><strong>Ambassador Vehicles</strong>&mdash; Vehicle design</h2>
       <p>
         DDP was looking for a refresh of their downtown vehicles to be more noticeable and
@@ -25,16 +25,16 @@
       </p>
     </section>
     <section class="ProjectSection">
-      <img src="https://placekitten.com/460/644" alt="">
-      <img src="https://placekitten.com/460/259" alt="">
-      <img src="https://placekitten.com/460/259" alt="">
-      <img src="https://placekitten.com/460/259" alt="">
-      <img src="https://placekitten.com/460/259" alt="">
-      <img src="https://placekitten.com/460/259" alt="">
-      <img src="https://placekitten.com/460/259" alt="">
+      <img src="https://placekitten.com/460/644" alt="" />
+      <img src="https://placekitten.com/460/259" alt="" />
+      <img src="https://placekitten.com/460/259" alt="" />
+      <img src="https://placekitten.com/460/259" alt="" />
+      <img src="https://placekitten.com/460/259" alt="" />
+      <img src="https://placekitten.com/460/259" alt="" />
+      <img src="https://placekitten.com/460/259" alt="" />
     </section>
     <section class="ProjectSection">
-      <img src="https://placekitten.com/540/457" alt="">
+      <img src="https://placekitten.com/540/457" alt="" />
       <h2><strong>2018 Perceptions Report</strong>&mdash; Print media, infographics</h2>
       <p>
         Every year DDP collects data through surveys sent out to a diverse sample size of
@@ -43,10 +43,10 @@
       </p>
     </section>
     <section class="ProjectSection">
-      <img src="https://placekitten.com/460/723" alt="">
-      <img src="https://placekitten.com/460/362" alt="">
-      <img src="https://placekitten.com/460/362" alt="">
-      <img src="https://placekitten.com/460/362" alt="">
+      <img src="https://placekitten.com/460/723" alt="" />
+      <img src="https://placekitten.com/460/362" alt="" />
+      <img src="https://placekitten.com/460/362" alt="" />
+      <img src="https://placekitten.com/460/362" alt="" />
     </section>
     <section class="ProjectSection">
       <h2><strong>Summer Parks</strong>&mdash; Signage, social media graphics</h2>
@@ -56,24 +56,24 @@
         suburbs.
       </p>
       <h2>&mdash; Aframe signs</h2>
-      <img src="https://placekitten.com/220/330" alt="">
-      <img src="https://placekitten.com/220/330" alt="">
-      <img src="https://placekitten.com/220/330" alt="">
-      <img src="https://placekitten.com/220/330" alt="">
-      <img src="https://placekitten.com/220/330" alt="">
-      <img src="https://placekitten.com/220/330" alt="">
-      <img src="https://placekitten.com/220/330" alt="">
-      <img src="https://placekitten.com/220/330" alt="">
+      <img src="https://placekitten.com/220/330" alt="" />
+      <img src="https://placekitten.com/220/330" alt="" />
+      <img src="https://placekitten.com/220/330" alt="" />
+      <img src="https://placekitten.com/220/330" alt="" />
+      <img src="https://placekitten.com/220/330" alt="" />
+      <img src="https://placekitten.com/220/330" alt="" />
+      <img src="https://placekitten.com/220/330" alt="" />
+      <img src="https://placekitten.com/220/330" alt="" />
       <h2>&mdash; Social media graphics</h2>
-      <img src="https://placekitten.com/300/300" alt="">
-      <img src="https://placekitten.com/300/300" alt="">
-      <img src="https://placekitten.com/300/300" alt="">
-      <img src="https://placekitten.com/220/391" alt="">
-      <img src="https://placekitten.com/220/391" alt="">
-      <img src="https://placekitten.com/220/391" alt="">
-      <img src="https://placekitten.com/220/391" alt="">
-      <img src="https://placekitten.com/300/388" alt="">
-      <img src="https://placekitten.com/620/349" alt="">
+      <img src="https://placekitten.com/300/300" alt="" />
+      <img src="https://placekitten.com/300/300" alt="" />
+      <img src="https://placekitten.com/300/300" alt="" />
+      <img src="https://placekitten.com/220/391" alt="" />
+      <img src="https://placekitten.com/220/391" alt="" />
+      <img src="https://placekitten.com/220/391" alt="" />
+      <img src="https://placekitten.com/220/391" alt="" />
+      <img src="https://placekitten.com/300/388" alt="" />
+      <img src="https://placekitten.com/620/349" alt="" />
     </section>
     <section class="ProjectSection">
       <h2><strong>Tree Lighting</strong>&mdash; Illustration, signage, social media</h2>
@@ -83,15 +83,15 @@
       </p>
     </section>
     <section class="ProjectSection">
-      <img src="https://placekitten.com/460/689" alt="">
-      <img src="https://placekitten.com/460/154" alt="">
-      <img src="https://placekitten.com/460/154" alt="">
-      <img src="https://placekitten.com/460/322" alt="">
-      <img src="https://placekitten.com/460/46" alt="">
-      <img src="https://placekitten.com/220/330" alt="">
-      <img src="https://placekitten.com/220/330" alt="">
-      <img src="https://placekitten.com/220/330" alt="">
-      <img src="https://placekitten.com/220/330" alt="">
+      <img src="https://placekitten.com/460/689" alt="" />
+      <img src="https://placekitten.com/460/154" alt="" />
+      <img src="https://placekitten.com/460/154" alt="" />
+      <img src="https://placekitten.com/460/322" alt="" />
+      <img src="https://placekitten.com/460/46" alt="" />
+      <img src="https://placekitten.com/220/330" alt="" />
+      <img src="https://placekitten.com/220/330" alt="" />
+      <img src="https://placekitten.com/220/330" alt="" />
+      <img src="https://placekitten.com/220/330" alt="" />
     </section>
     <more-projects />
   </div>

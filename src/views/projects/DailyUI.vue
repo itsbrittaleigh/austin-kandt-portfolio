@@ -1,7 +1,7 @@
 <template>
   <div id="daily-ui">
     <header>
-      <img src="https://placekitten.com/50/50" alt="">
+      <img src="https://placekitten.com/50/50" alt="" />
       <h1><strong>Daily UI</strong>&mdash; 100 user interface designs</h1>
       <p>
         In order to continually push my design skills, I decided to take on the Daily UI challenge
@@ -16,28 +16,28 @@
     </header>
     <section class="Project">
       <p>001 Sign Up</p>
-      <img src="https://placekitten.com/300/650" alt="">
+      <img src="https://placekitten.com/300/650" alt="" />
     </section>
     <section class="Project">
       <p>002 Credit Card</p>
-      <img src="https://placekitten.com/620/815" alt="">
+      <img src="https://placekitten.com/620/815" alt="" />
     </section>
     <section class="Project">
       <p>003 Landing Page</p>
-      <img src="https://placekitten.com/940/668" alt="">
+      <img src="https://placekitten.com/940/668" alt="" />
     </section>
     <section class="Project">
       <p>004 Calculator</p>
-      <img src="https://placekitten.com/460/818" alt="">
-      <img src="https://placekitten.com/460/818" alt="">
+      <img src="https://placekitten.com/460/818" alt="" />
+      <img src="https://placekitten.com/460/818" alt="" />
     </section>
     <section class="Project">
       <p>005 App Icon</p>
-      <img src="https://placekitten.com/620/465" alt="">
+      <img src="https://placekitten.com/620/465" alt="" />
     </section>
     <section class="Project">
       <p>006 Profile</p>
-      <img src="https://placekitten.com/300/534" alt="">
+      <img src="https://placekitten.com/300/534" alt="" />
     </section>
   </div>
 </template>
