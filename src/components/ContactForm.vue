@@ -13,54 +13,54 @@
     >
       I have received your message and will be responding soon.
     </p>
-    <template v-else class="fields">
-      <p class="hidden">
+    <template v-else class="Fields">
+      <p class="is-hidden">
         <label>Don’t fill this out: <input name="bot-field"></label>
       </p>
-      <div class="field field--half">
+      <div class="Field Field--half">
         <label
           for="name"
-          :class="{ lift: liftName }"
+          class="Field__label"
         >
           Name *
         </label>
         <input type="text" v-model="name">
       </div>
-      <div class="field field--half">
+      <div class="Field Field--half">
         <label
           for="email"
-          :class="{ lift: liftEmail }"
+          class="Field__label"
         >
           Email *
         </label>
         <input type="email" v-model="email">
       </div>
-      <div class="field">
+      <div class="Field">
         <label
           for="company"
-          :class="{ lift: liftCompany }"
+          class="Field__label"
         >
           Company (optional)
         </label>
         <input type="text" v-model="company">
       </div>
-      <div class="field">
+      <div class="Field">
         <label
           for="title"
-          :class="{ lift: liftTitle }"
+          class="Field__label"
         >
           Title (optional)
         </label>
         <input type="text" v-model="title">
       </div>
-      <div class="field">
+      <div class="Field">
         <label
           for="message"
-          :class="{ lift: liftMessage }"
+          class="Field__label"
         >
-          Message
+          Message *
         </label>
-        <textarea v-model="message"></textarea>
+        <textarea v-model="message" />
       </div>
       <button type="submit">Send Now</button>
     </template>
@@ -72,36 +72,14 @@ export default {
   name: 'ContactForm',
   data() {
     return {
-      name: '',
-      email: '',
-      company: '',
-      title: '',
-      message: '',
       errors: [],
+      company: '',
+      email: '',
+      message: '',
+      name: '',
+      title: '',
       wasSuccessful: false,
     };
-  },
-  computed: {
-    liftName() {
-      return this.name;
-    },
-    liftEmail() {
-      return this.email;
-    },
-    liftPhone() {
-      return this.phone;
-    },
-    liftMessage() {
-      return this.message;
-    },
-    form() {
-      return {
-        name: this.name,
-        email: this.email,
-        phone: this.phone,
-        message: this.message,
-      };
-    },
   },
   methods: {
     encode(data) {
@@ -110,22 +88,42 @@ export default {
         .join('&');
     },
     handleSubmit() {
-      fetch('/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: this.encode({ 'form-name': 'contact', ...this.form }),
-      })
-        .then(this.wasSuccessful = true)
-        .catch(error => this.errors.push(error));
+      if (this.validateForm()) {
+        fetch('/', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+          },
+          body: this.encode({
+            'form-name': 'contact',
+            ...this.form,
+          }),
+        })
+          .then(this.wasSuccessful = true)
+          .catch(error => this.errors.push(error));
+      }
+    },
+    validateForm() {
+      this.errors = [];
+      if (!this.name) this.errors.push('Please provide your name.');
+      if (!this.email) this.errors.push('Please provide your email address.');
+      else if (!this.validateEmail()) this.errors.push('Please provide a valid email address.');
+      if (!this.message) this.errors.push('Please write a brief message.');
+      return (this.errors.length === 0);
+    },
+    validateEmail() {
+      const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      return re.test(String(this.email).toLowerCase());
     },
   },
 };
 </script>
 
 <style scoped>
-.hidden {
-  display: none;
-  visibility: hidden;
+.Field__label {
+  display: block;
+}
+.Field__input {
+  display: block;
 }
 </style>
-
