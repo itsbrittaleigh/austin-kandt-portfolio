@@ -75,6 +75,7 @@ export default {
 }
 
 .navigation__items--left {
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
 }
@@ -84,13 +85,13 @@ export default {
 }
 
 .navigation__item {
-  display: flex;
-  align-items: center;
+  height: 20px;
 }
 
 .navigation__logo {
   font-size: 26px;
   font-weight: bold;
+  line-height: 36px;
   width: 100%;
 }
 
