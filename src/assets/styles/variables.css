@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700');
+
+:root {
+  --light-gray: #F4F4F4;
+  --black: #333333;
+  --amtech-orange: #FE4D0B;
+  --amtech-black: #333333;
+  --ddp-green: #DAEB41;
+  --ddp-blue: #86C1DC;
+  --ddp-red: #F77A7A;
+  --ddp-gradient: linear-gradient(193.14deg, #FFFFFF 20.15%, rgba(174, 209, 228, 0.25) 119.82%);;
+  --gaddis-blue: #7DCEDE;
+  --gaddis-blck: #171A25;
+  --wsu-gradient: linear-gradient(180deg, #EEEEEE 0%, #FFFFFF 100%);
+  --safewhistle-blue: #4D91C9;
+  --breakpoint: 768px;
+}

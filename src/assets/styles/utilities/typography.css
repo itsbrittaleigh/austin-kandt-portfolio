@@ -1,0 +1,14 @@
+.text-center {
+  display: block;
+  text-align: center;
+}
+
+.text-left {
+  display: block;
+  text-align: left;
+}
+
+.text-right {
+  display: block;
+  text-align: right;
+}

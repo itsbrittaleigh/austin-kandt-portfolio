@@ -1,0 +1,7 @@
+.wrapper {
+  display: block;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  width: calc(100% - 50px);
+}
