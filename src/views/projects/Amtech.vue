@@ -15,7 +15,7 @@
         illustrations for a new front facing website.
       </p>
     </header>
-    <section class="ProjectSection">
+    <section class="project-section">
       <h2>Appealing to the Gamer Community</h2>
       <p>
         Table top gaming, such as D n’ D and Warhammer 40K, is a big deal within a niche market.
@@ -32,7 +32,7 @@
       <img src="https://placekitten.com/460/345" alt="" />
       <img src="https://placekitten.com/460/345" alt="" />
     </section>
-    <section class="ProjectSection">
+    <section class="project-section">
       <img src="https://placekitten.com/540/546" alt="" />
       <h2><strong>Telling the Story Visually</strong>&mdash; Web graphics and illustrations</h2>
       <p>
@@ -40,7 +40,7 @@
         Creating visuals to help future customers understand exactly what Amtech does was crucial.
       </p>
     </section>
-    <section class="ProjectSection">
+    <section class="project-section">
       <h2><strong>Accelerating Growth</strong>&mdash; Marketing materials</h2>
       <p>
         Simply creating the companies brand identity isn’t enough. How that brand gets put to use
@@ -49,7 +49,7 @@
         help push Amtech’s growth forward.
       </p>
     </section>
-    <section class="ProjectSection">
+    <section class="project-section">
       <img src="https://placekitten.com/460/345" alt="" />
       <img src="https://placekitten.com/460/345" alt="" />
       <img src="https://placekitten.com/460/596" alt="" />

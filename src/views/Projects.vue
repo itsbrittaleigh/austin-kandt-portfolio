@@ -6,7 +6,7 @@
       work for over the recent years. You can keep track of more day to day stuff on my dribbble
       page.
     </p>
-    <section class="Project">
+    <section class="project">
       <router-link to="/projects/amtech">
         <a>
           <img src="https://placekitten.com/300/225" alt="" />
@@ -25,7 +25,7 @@
         design solutions as a potential advantage. Luckily, Amtech saw the opportunties.
       </p>
     </section>
-    <section class="Project">
+    <section class="project">
       <router-link to="/projects/daily-ui">
         <a>
           <img src="https://placekitten.com/300/225" alt="" />
@@ -44,7 +44,7 @@
         in user interface and product design. Here is a collection of my daily work.
       </p>
     </section>
-    <section class="Project">
+    <section class="project">
       <router-link to="/projects/downtown-detroit-partnership">
         <a>
           <img src="https://placekitten.com/300/225" alt="" />
@@ -63,7 +63,7 @@
         their team developing a wide range of designs for print, events, and functional use.
       </p>
     </section>
-    <section class="Project">
+    <section class="project">
       <router-link to="/projects/gaddis-gaming">
         <a>
           <img src="https://placekitten.com/300/225" alt="" />
@@ -83,7 +83,7 @@
         crowd.
       </p>
     </section>
-    <section class="Project">
+    <section class="project">
       <router-link to="/projects/hack-wsu">
         <a>
           <img src="https://placekitten.com/300/225" alt="" />
@@ -102,7 +102,7 @@
         major step up from previous years attendance numbers with a unique design concept.
       </p>
     </section>
-    <section class="Project">
+    <section class="project">
       <router-link to="/projects/safewhistle">
         <a>
           <img src="https://placekitten.com/300/225" alt="" />

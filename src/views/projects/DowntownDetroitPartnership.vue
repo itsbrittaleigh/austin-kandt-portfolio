@@ -15,7 +15,7 @@
         events and community outreach initiatives.
       </p>
     </header>
-    <section class="ProjectSection">
+    <section class="project-section">
       <img src="https://placekitten.com/810/607" alt="" />
       <h2><strong>Ambassador Vehicles</strong>&mdash; Vehicle design</h2>
       <p>
@@ -24,7 +24,7 @@
         people that visit downtown.
       </p>
     </section>
-    <section class="ProjectSection">
+    <section class="project-section">
       <img src="https://placekitten.com/460/644" alt="" />
       <img src="https://placekitten.com/460/259" alt="" />
       <img src="https://placekitten.com/460/259" alt="" />
@@ -33,7 +33,7 @@
       <img src="https://placekitten.com/460/259" alt="" />
       <img src="https://placekitten.com/460/259" alt="" />
     </section>
-    <section class="ProjectSection">
+    <section class="project-section">
       <img src="https://placekitten.com/540/457" alt="" />
       <h2><strong>2018 Perceptions Report</strong>&mdash; Print media, infographics</h2>
       <p>
@@ -42,13 +42,13 @@
         booklet for residents and influencers.
       </p>
     </section>
-    <section class="ProjectSection">
+    <section class="project-section">
       <img src="https://placekitten.com/460/723" alt="" />
       <img src="https://placekitten.com/460/362" alt="" />
       <img src="https://placekitten.com/460/362" alt="" />
       <img src="https://placekitten.com/460/362" alt="" />
     </section>
-    <section class="ProjectSection">
+    <section class="project-section">
       <h2><strong>Summer Parks</strong>&mdash; Signage, social media graphics</h2>
       <p>
         DDP hosts the bulk of their events in the summer time. As such, they require tons and tons
@@ -75,14 +75,14 @@
       <img src="https://placekitten.com/300/388" alt="" />
       <img src="https://placekitten.com/620/349" alt="" />
     </section>
-    <section class="ProjectSection">
+    <section class="project-section">
       <h2><strong>Tree Lighting</strong>&mdash; Illustration, signage, social media</h2>
       <p>
         One of the largest events of the year is the downtown Detroit tree lighting ceremony.
         Thousands attend, and as such, DDP was looking for a wide range of design pieces.
       </p>
     </section>
-    <section class="ProjectSection">
+    <section class="project-section">
       <img src="https://placekitten.com/460/689" alt="" />
       <img src="https://placekitten.com/460/154" alt="" />
       <img src="https://placekitten.com/460/154" alt="" />

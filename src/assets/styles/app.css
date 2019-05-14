@@ -1,6 +1,7 @@
 @import url('normalize.css');
 @import url('variables.css');
 @import url('elements.css');
+@import url('components/project.css');
 @import url('components/wrapper.css');
 @import url('utilities/spacing.css');
 @import url('utilities/typography.css');

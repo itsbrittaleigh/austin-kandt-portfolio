@@ -1,40 +1,72 @@
 <template>
   <div id="home">
-    <h1><strong>Austin Kandt</strong> &mdash; UI & Graphic Designer</h1>
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam nemo vel a autem maxime
-      corrupti maiores esse eum, nisi aliquam id placeat veritatis necessitatibus ratione itaque,
-      quae non nesciunt quaerat!
-    </p>
-    <router-link to="/contact">
-      <a>More info &rarr;</a>
-    </router-link>
-    <section class="Project">
-      <img src="https://placekitten.com/33/50" alt="Downtown Detroit Partnership logo" />
-      <h2>Downtown Detroit Partnership</h2>
+    <div class="wrapper">
+      <h1><strong>Austin Kandt</strong><em>&mdash; UI & Graphic Designer</em></h1>
       <p>
-        DDP is commited in their mission of growing Detroit’s urban core. I worked closely with
-        their team developing a wide range of designs for print, events, and functional use.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam nemo vel a autem maxime
+        corrupti maiores esse eum, nisi aliquam id placeat veritatis necessitatibus ratione itaque,
+        quae non nesciunt quaerat!
       </p>
-      <router-link to="/projects/downtown-detroit-partnership">
-        <a>Take a look &rarr;</a>
+      <router-link to="/contact">
+        <a>
+          More info
+          <arrow-icon></arrow-icon>
+        </a>
       </router-link>
-      <img src="https://placekitten.com/810" alt="Mockup of mockup" />
+    </div>
+    <section class="project project--reverse-mobile">
+      <div class="project__description">
+        <div class="wrapper">
+          <ddp-logo></ddp-logo>
+          <h2 class="project__title">Downtown Detroit Partnership</h2>
+          <p class="project__snippet">
+            DDP is commited in their mission of growing Detroit’s urban core. I worked closely with
+            their team developing a wide range of designs for print, events, and functional use.
+          </p>
+          <router-link
+            to="/projects/downtown-detroit-partnership"
+          >
+            <a class="project__link">
+              Take a look
+              <arrow-icon></arrow-icon>
+            </a>
+          </router-link>
+        </div>
+      </div>
+      <div class="project__hero-container">
+        <img class="project__hero" src="../assets/images/projects_ddp.jpg" alt="Mockup of mockup" />
+      </div>
     </section>
-    <section class="Project">
-      <img src="https://placekitten.com/560/420" alt="Mockup of mobile application" />
-      <img src="https://placekitten.com/50" alt="Daily UI icon" />
-      <h2>Daily UI</h2>
-      <p>
-        Daily UI is a 100 day design challenge with the goal of pushing your skills and portfolio
-        in user interface and product design. Here is a collection of my daily work.
-      </p>
-      <router-link to="/projects/daily-ui">
-        <a>Take a look &rarr;</a>
-      </router-link>
+    <section class="project m-bottom-100">
+      <div class="project__hero-container project__hero-wrapper-width project__hero--shadowed">
+        <img
+          alt="Mockup of mobile application"
+          class="project__hero"
+          src="../assets/images/projects_cozilo.jpg"
+        />
+      </div>
+      <div class="wrapper">
+        <div class="project__description m-top-50">
+          <daily-ui-icon></daily-ui-icon>
+          <h2 class="project__title">Daily UI</h2>
+          <p class="project__snippet">
+            Daily UI is a 100 day design challenge with the goal of pushing your skills and
+            portfolio in user interface and product design. Here is a collection of my daily work.
+          </p>
+        </div>
+        <router-link
+          class="project__link"
+          to="/projects/daily-ui"
+        >
+          <a>
+            Take a look
+            <arrow-icon></arrow-icon>
+          </a>
+        </router-link>
+      </div>
     </section>
     <dribbble-posts />
-    <section class="Project">
+    <section class="project">
       <img src="https://placekitten.com/50/42" alt="SafeWhistle logo" />
       <h2>SafeWhistle</h2>
       <p>
@@ -42,7 +74,10 @@
         challenge in implementing a cohesive brand and product at every level.
       </p>
       <router-link to="/projects/safewhistle">
-        <a>Take a look &rarr;</a>
+        <a>
+          Take a look
+          <arrow-icon></arrow-icon>
+        </a>
       </router-link>
     </section>
     <section class="CTA">
@@ -56,6 +91,9 @@
 </template>
 
 <script>
+import ArrowIcon from '../components/icons/Arrow.vue';
+import DailyUIIcon from '../components/icons/DailyUI.vue';
+import DDPLogo from '../components/logos/DowntownDetroitPartnership.vue';
 import DribbblePosts from '../components/DribbblePosts.vue';
 import MoreProjects from '../components/MoreProjects.vue';
 
@@ -65,12 +103,11 @@ export default {
     return {};
   },
   components: {
+    'arrow-icon': ArrowIcon,
+    'daily-ui-icon': DailyUIIcon,
+    'ddp-logo': DDPLogo,
     'dribbble-posts': DribbblePosts,
     'more-projects': MoreProjects,
   },
 };
 </script>
-
-<style>
-
-</style>

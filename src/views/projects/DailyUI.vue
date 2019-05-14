@@ -14,28 +14,28 @@
         from the interaction?
       </p>
     </header>
-    <section class="Project">
+    <section class="project">
       <p>001 Sign Up</p>
       <img src="https://placekitten.com/300/650" alt="" />
     </section>
-    <section class="Project">
+    <section class="project">
       <p>002 Credit Card</p>
       <img src="https://placekitten.com/620/815" alt="" />
     </section>
-    <section class="Project">
+    <section class="project">
       <p>003 Landing Page</p>
       <img src="https://placekitten.com/940/668" alt="" />
     </section>
-    <section class="Project">
+    <section class="project">
       <p>004 Calculator</p>
       <img src="https://placekitten.com/460/818" alt="" />
       <img src="https://placekitten.com/460/818" alt="" />
     </section>
-    <section class="Project">
+    <section class="project">
       <p>005 App Icon</p>
       <img src="https://placekitten.com/620/465" alt="" />
     </section>
-    <section class="Project">
+    <section class="project">
       <p>006 Profile</p>
       <img src="https://placekitten.com/300/534" alt="" />
     </section>

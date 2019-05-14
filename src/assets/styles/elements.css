@@ -3,11 +3,20 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 h1,
 h2 {
   font-size: 26px;
   font-weight: normal;
   line-height: 36px;
+}
+
+h1 strong {
+  display: block;
 }
 
 p {
