@@ -19,6 +19,10 @@ h1 strong {
   display: block;
 }
 
+h2 {
+  font-weight: bold;
+}
+
 p {
   font-size: 20px;
   line-height: 27px;

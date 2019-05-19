@@ -1,6 +1,7 @@
 <template>
   <svg
     aria-labelledby="dribbbleIconTitle"
+    class="dribbble-icon"
     fill="none" xmlns="http://www.w3.org/2000/svg"
     :height="height"
     :viewBox="`0 0 ${width} ${height}`"

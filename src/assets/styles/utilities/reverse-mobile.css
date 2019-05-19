@@ -1,0 +1,14 @@
+@media only screen and (max-width: 767px) {
+  .is-reversed-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .is-reversed-mobile .order-0 {
+    order: 0;
+  }
+  
+  .is-reversed-mobile .order-1 {
+    order: 1;
+  }
+}

@@ -8,7 +8,7 @@
         quae non nesciunt quaerat!
       </p>
       <router-link to="/contact">
-        <a>
+        <a class="project__link">
           More info
           <arrow-icon></arrow-icon>
         </a>
