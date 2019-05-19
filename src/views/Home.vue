@@ -66,19 +66,30 @@
       </div>
     </section>
     <dribbble-posts />
-    <section class="project">
-      <img src="https://placekitten.com/50/42" alt="SafeWhistle logo" />
-      <h2>SafeWhistle</h2>
-      <p>
-        An anonymous whistleblowing platform for corporations. Safewhistle provided a unique
-        challenge in implementing a cohesive brand and product at every level.
-      </p>
-      <router-link to="/projects/safewhistle">
-        <a>
-          Take a look
-          <arrow-icon></arrow-icon>
-        </a>
-      </router-link>
+    <section class="project project--reverse-mobile m-top-0">
+      <div class="project__description">
+        <div class="wrapper">
+          <safewhistle-logo></safewhistle-logo>
+          <h2 class="project__title">SafeWhistle</h2>
+          <p class="project__snippet">
+            An anonymous whistleblowing platform for corporations. Safewhistle provided a unique
+            challenge in implementing a cohesive brand and product at every level.
+          </p>
+          <router-link to="/projects/safewhistle">
+            <a class="project__link">
+              Take a look
+              <arrow-icon></arrow-icon>
+            </a>
+          </router-link>
+        </div>
+      </div>
+      <div class="project__hero-container">
+        <img
+          class="project__hero left--100"
+          src="../assets/images/projects_safewhistle.jpg"
+          alt="Mockup of mockup"
+        />
+      </div>
     </section>
     <section class="CTA">
       <p>
@@ -96,6 +107,7 @@ import DailyUIIcon from '../components/icons/DailyUI.vue';
 import DDPLogo from '../components/logos/DowntownDetroitPartnership.vue';
 import DribbblePosts from '../components/DribbblePosts.vue';
 import MoreProjects from '../components/MoreProjects.vue';
+import SafewhistleLogo from '../components/icons/Safewhistle.vue';
 
 export default {
   name: 'Home',
@@ -108,6 +120,7 @@ export default {
     'ddp-logo': DDPLogo,
     'dribbble-posts': DribbblePosts,
     'more-projects': MoreProjects,
+    'safewhistle-logo': SafewhistleLogo,
   },
 };
 </script>
