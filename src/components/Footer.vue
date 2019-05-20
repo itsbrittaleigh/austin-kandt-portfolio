@@ -1,6 +1,12 @@
 <template>
   <footer>
-    <p>Copyright &copy; 2016 - {{ date.getFullYear() }} Austin Kandt. All rights reserved.</p>
+    <div class="wrapper">
+      <p class="text-center">
+        Copyright &copy; 2016 - {{ date.getFullYear() }} Austin Kandt.
+        <br>
+        All rights reserved.
+      </p>
+    </div>
   </footer>
 </template>
 
@@ -15,6 +21,13 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+footer {
+  padding: 20px 0 40px;
+}
 
+p {
+  font-size: 14px;
+  line-height: 19px;
+}
 </style>

@@ -91,11 +91,13 @@
         />
       </div>
     </section>
-    <section class="CTA">
-      <p>
-        Thanks for looking. You can either poke around my social media pages, continue looking at
-        projects, or learn more about me and connect.
-      </p>
+    <section class="CTA m-top-100">
+      <div class="wrapper">
+        <p>
+          Thanks for looking. You can either poke around my social media pages, continue looking at
+          projects, or learn more about me and connect.
+        </p>
+      </div>
     </section>
     <more-projects />
   </div>
