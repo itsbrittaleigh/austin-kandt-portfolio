@@ -1,29 +1,31 @@
 <template>
-  <div class="more-projects wrapper">
+  <div class="wrapper">
     <h2 class="m-bottom-10">More Projects</h2>
-    <router-link
-      class="more-projects__project"
-      v-for="project in randomProjects"
-      :key="project.slug"
-      :to="`/projects/${project.slug}`"
-    >
-      <a>
-        <img
-          class="more-projects__project-image"
-          :src="`/images/${project.image}`"
-          :alt="project.name"
-        />
-      </a>
-    </router-link>
-    <router-link
-      class="more-projects__all-projects-link"
-      to="/projects"
-    >
-      <a class="project__link is-marginless">
-        See all
-        <arrow-icon></arrow-icon>
-      </a>
-    </router-link>
+    <div class="more-projects">
+      <router-link
+        class="more-projects__project"
+        v-for="project in randomProjects"
+        :key="project.slug"
+        :to="`/projects/${project.slug}`"
+      >
+        <a>
+          <img
+            class="more-projects__project-image"
+            :src="`/images/${project.image}`"
+            :alt="project.name"
+          />
+        </a>
+      </router-link>
+      <router-link
+        class="more-projects__all-projects-link"
+        to="/projects"
+      >
+        <a class="project__link is-marginless">
+          See all
+          <arrow-icon></arrow-icon>
+        </a>
+      </router-link>
+    </div>
   </div>
 </template>
 

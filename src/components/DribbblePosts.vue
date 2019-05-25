@@ -49,11 +49,13 @@ export default {
 .dribbble__shots {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
 .dribbble__shot {
   border: 6px solid white;
+  display: block;
   margin-bottom: 14px;
   width: calc((100% - 14px) / 2);
 }
