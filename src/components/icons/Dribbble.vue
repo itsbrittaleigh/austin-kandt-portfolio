@@ -1,7 +1,7 @@
 <template>
   <svg
     aria-labelledby="dribbbleIconTitle"
-    class="dribbble-icon"
+    :class="`dribbble-icon ${className}`"
     fill="none" xmlns="http://www.w3.org/2000/svg"
     :height="height"
     :viewBox="`0 0 ${width} ${height}`"
@@ -35,6 +35,10 @@
 export default {
   name: 'DribbbleIcon',
   props: {
+    className: {
+      default: '',
+      type: String,
+    },
     color: {
       default: '#333333',
       type: String,

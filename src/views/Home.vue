@@ -17,7 +17,7 @@
     <section class="project project--reverse-mobile">
       <div class="project__description">
         <div class="wrapper">
-          <ddp-logo></ddp-logo>
+          <ddp-logo class-name="project__icon"></ddp-logo>
           <h2 class="project__title">Downtown Detroit Partnership</h2>
           <p class="project__snippet">
             DDP is commited in their mission of growing Detroit’s urban core. I worked closely with
@@ -47,7 +47,7 @@
       </div>
       <div class="wrapper">
         <div class="project__description m-top-50">
-          <daily-ui-icon></daily-ui-icon>
+          <daily-ui-icon class-name="project__icon"></daily-ui-icon>
           <h2 class="project__title">Daily UI</h2>
           <p class="project__snippet">
             Daily UI is a 100 day design challenge with the goal of pushing your skills and
@@ -69,7 +69,7 @@
     <section class="project project--reverse-mobile m-top-0">
       <div class="project__description">
         <div class="wrapper">
-          <safewhistle-logo></safewhistle-logo>
+          <safewhistle-logo class-name="project__icon"></safewhistle-logo>
           <h2 class="project__title">SafeWhistle</h2>
           <p class="project__snippet">
             An anonymous whistleblowing platform for corporations. Safewhistle provided a unique
@@ -106,7 +106,7 @@
 <script>
 import ArrowIcon from '../components/icons/Arrow.vue';
 import DailyUIIcon from '../components/icons/DailyUI.vue';
-import DDPLogo from '../components/logos/DowntownDetroitPartnership.vue';
+import DDPLogo from '../components/icons/DowntownDetroitPartnership.vue';
 import DribbblePosts from '../components/DribbblePosts.vue';
 import MoreProjects from '../components/MoreProjects.vue';
 import SafewhistleLogo from '../components/icons/Safewhistle.vue';

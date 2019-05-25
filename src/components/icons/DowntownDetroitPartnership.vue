@@ -1,9 +1,5 @@
 <template>
-  <svg
-    :height="height"
-    :width="width"
-    :viewBox="`0 0 ${width} ${height}`"
-  >
+  <svg :class="className" viewBox="0 0 62.5 100">
     <g>
       <polygon
         points="35.59,31.58 35.59,0 64.44,15.81"
@@ -45,6 +41,10 @@
 export default {
   name: 'DDPLogo',
   props: {
+    className: {
+      default: '',
+      type: String,
+    },
     height: {
       default: 100,
       type: Number,
