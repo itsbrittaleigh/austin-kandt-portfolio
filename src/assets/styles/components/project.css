@@ -49,18 +49,14 @@
   top: 0;
 }
 
+.project__hero--alt {
+  box-shadow: 0 8px 15px rgba(136, 136, 136, 0.35);
+  position: relative;
+  width: 100%;
+}
+
 .project__hero.left--100 {
   left: -100px;
-}
-
-.project__hero--shadowed {
-  box-shadow: 0 8px 15px rgba(136, 136, 136, 0.35);
-}
-
-.project__hero-wrapper-width {
-  height: auto;
-  margin: 0 auto;
-  width: calc(100% - 50px);
 }
 
 .project__hero-wrapper-width .project__hero {

@@ -38,14 +38,12 @@
       </div>
     </section>
     <section class="project m-bottom-100">
-      <div class="project__hero-container project__hero-wrapper-width project__hero--shadowed">
+      <div class="wrapper">
         <img
           alt="Mockup of mobile application"
-          class="project__hero"
+          class="project__hero project__hero--alt"
           src="../assets/images/projects_cozilo.jpg"
         />
-      </div>
-      <div class="wrapper">
         <div class="project__description m-top-50">
           <daily-ui-icon class-name="project__icon"></daily-ui-icon>
           <h2 class="project__title">Daily UI</h2>
