@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="more-projects__section wrapper">
     <h2 class="m-bottom-10">More Projects</h2>
     <div class="more-projects">
       <router-link
@@ -59,6 +59,7 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  position: relative;
 }
 
 .more-projects__project {
@@ -77,5 +78,23 @@ export default {
   display: flex;
   justify-content: center;
   width: calc((100% - 10px) / 2);
+}
+
+@media only screen and (min-width: 768px) {
+  .more-projects__section {
+    margin-top: 134px;
+    padding-bottom: 47px;
+  }
+
+  .more-projects__project {
+    width: calc((100% - 40px) / 3);
+  }
+
+  .more-projects__all-projects-link {
+    position: absolute;
+    top: calc(100% + 20px);
+    right: 0;
+    width: auto;
+  }
 }
 </style>

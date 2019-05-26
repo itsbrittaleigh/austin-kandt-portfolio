@@ -30,4 +30,14 @@ p {
   font-size: 14px;
   line-height: 19px;
 }
+
+@media only screen and (min-width: 768px) {
+  footer {
+    padding: 60px 0 20px;
+  }
+
+  br {
+    display: none;
+  }
+}
 </style>

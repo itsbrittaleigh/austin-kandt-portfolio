@@ -1,18 +1,20 @@
 <template>
   <div id="home">
     <div class="wrapper">
-      <h1><strong>Austin Kandt</strong><em>&mdash; UI & Graphic Designer</em></h1>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam nemo vel a autem maxime
-        corrupti maiores esse eum, nisi aliquam id placeat veritatis necessitatibus ratione itaque,
-        quae non nesciunt quaerat!
-      </p>
-      <router-link to="/contact">
-        <a class="project__link">
-          More info
-          <arrow-icon></arrow-icon>
-        </a>
-      </router-link>
+      <div class="intro">
+        <h1><strong>Austin Kandt</strong><em>&mdash; UI & Graphic Designer</em></h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam nemo vel a autem maxime
+          corrupti maiores esse eum, nisi aliquam id placeat veritatis necessitatibus ratione
+          itaque, quae non nesciunt quaerat!
+        </p>
+        <router-link to="/contact">
+          <a class="project__link">
+            More info
+            <arrow-icon></arrow-icon>
+          </a>
+        </router-link>
+      </div>
     </div>
     <section class="project project--reverse-mobile">
       <div class="project__description">
@@ -37,7 +39,7 @@
         <img class="project__hero" src="../assets/images/projects_ddp.jpg" alt="Mockup of mockup" />
       </div>
     </section>
-    <section class="project m-bottom-100">
+    <section class="project daily-ui m-bottom-100">
       <div class="wrapper">
         <img
           alt="Mockup of mobile application"
@@ -51,16 +53,16 @@
             Daily UI is a 100 day design challenge with the goal of pushing your skills and
             portfolio in user interface and product design. Here is a collection of my daily work.
           </p>
+          <router-link
+            class="project__link"
+            to="/projects/daily-ui"
+          >
+            <a>
+              Take a look
+              <arrow-icon></arrow-icon>
+            </a>
+          </router-link>
         </div>
-        <router-link
-          class="project__link"
-          to="/projects/daily-ui"
-        >
-          <a>
-            Take a look
-            <arrow-icon></arrow-icon>
-          </a>
-        </router-link>
       </div>
     </section>
     <dribbble-posts />
@@ -89,7 +91,7 @@
         />
       </div>
     </section>
-    <section class="CTA m-top-100">
+    <section class="CTA">
       <div class="wrapper">
         <p>
           Thanks for looking. You can either poke around my social media pages, continue looking at
@@ -124,3 +126,37 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.intro {
+  max-width: 460px;
+}
+
+.project.daily-ui .wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project.daily-ui .wrapper img {
+  margin-right: 60px;
+  width: 560px;
+}
+
+.project.daily-ui .wrapper .project__description {
+  flex: 1;
+  margin-top: 0;
+}
+
+.CTA {
+  margin-top: 100px;
+}
+
+@media only screen and (min-width: 768px) {
+  .CTA {
+    margin-top: 308px;
+    width:670px;
+  }
+}
+</style>
+
