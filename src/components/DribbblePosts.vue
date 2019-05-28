@@ -2,10 +2,10 @@
   <section class="dribbble reverse-mobile">
     <div class="wrapper">
       <div class="dribbble__shots order-1">
-        <img class="dribbble__shot" src="../assets/images/dailyui-001_signup.gif" alt="" />
-        <img class="dribbble__shot" src="../assets/images/dailyui-005_appicon.jpg" alt="" />
-        <img class="dribbble__shot" src="../assets/images/cozilo_logooptions.jpg" alt="" />
-        <img class="dribbble__shot" src="../assets/images/amtech_opt1_icon.gif" alt="" />
+        <img class="dribbble__shot" src="/images/dailyui-001_signup.gif" alt="" />
+        <img class="dribbble__shot" src="/images/dailyui-005_appicon.jpg" alt="" />
+        <img class="dribbble__shot" src="/images/cozilo_logooptions.jpg" alt="" />
+        <img class="dribbble__shot" src="/images/amtech_opt1_icon.gif" alt="" />
       </div>
       <div class="dribbble__description order-0">
         <dribbble-icon color="#EA4C89" />

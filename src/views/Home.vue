@@ -16,7 +16,7 @@
         </router-link>
       </div>
     </div>
-    <section class="project project--reverse-mobile">
+    <section class="project ddp project--reverse-mobile">
       <div class="project__description">
         <div class="wrapper">
           <ddp-logo class-name="project__icon"></ddp-logo>
@@ -36,7 +36,7 @@
         </div>
       </div>
       <div class="project__hero-container">
-        <img class="project__hero" src="../assets/images/projects_ddp.jpg" alt="Mockup of mockup" />
+        <img class="project__hero" src="/images/projects_ddp.jpg" alt="Mockup of mockup" />
       </div>
     </section>
     <section class="project daily-ui m-bottom-100">
@@ -44,7 +44,7 @@
         <img
           alt="Mockup of mobile application"
           class="project__hero project__hero--alt"
-          src="../assets/images/projects_cozilo.jpg"
+          src="/images/projects_cozilo.jpg"
         />
         <div class="project__description m-top-50">
           <daily-ui-icon class-name="project__icon"></daily-ui-icon>
@@ -66,7 +66,7 @@
       </div>
     </section>
     <dribbble-posts />
-    <section class="project project--reverse-mobile m-top-0">
+    <section class="project safewhistle project--reverse-mobile m-top-0">
       <div class="project__description">
         <div class="wrapper">
           <safewhistle-logo class-name="project__icon"></safewhistle-logo>
@@ -86,7 +86,7 @@
       <div class="project__hero-container">
         <img
           class="project__hero left--100"
-          src="../assets/images/projects_safewhistle.jpg"
+          src="/images/projects_safewhistle.jpg"
           alt="Mockup of mockup"
         />
       </div>
@@ -128,34 +128,83 @@ export default {
 </script>
 
 <style scoped>
-.intro {
-  max-width: 460px;
-}
-
-.project.daily-ui .wrapper {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-}
-
-.project.daily-ui .wrapper img {
-  margin-right: 60px;
-  width: 560px;
-}
-
-.project.daily-ui .wrapper .project__description {
-  flex: 1;
-  margin-top: 0;
-}
-
 .CTA {
   margin-top: 100px;
 }
 
 @media only screen and (min-width: 768px) {
+  .intro {
+    max-width: 460px;
+  }
+
+  .project.ddp .project__description,
+  .project.safewhistle .project__description {
+    margin-right: 60px;
+    width: 320px;
+  }
+
+  .project.ddp {
+    align-items: center;
+    display: flex;
+    margin-top: 282px;
+  }
+
+  .project.ddp .project__description,
+  .project.safewhistle .project__description {
+    margin-left: 25px;
+  }
+
+  .project.ddp .project__description .wrapper,
+  .project.safewhistle .project__description .wrapper {
+    margin: 0;
+  }
+
+  .project.ddp .project__hero-container {
+    flex: 1;
+  }
+
+  .project.daily-ui .wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 195px auto;
+  }
+
+  .project.daily-ui .wrapper img {
+    margin-right: 60px;
+    width: 560px;
+  }
+
+  .project.daily-ui .wrapper .project__description {
+    flex: 1;
+    margin-top: 0;
+  }
+
+  .project.safewhistle {
+    background: #EDF1F4 url('/images/projects_safewhistle.jpg') no-repeat;
+    background-position: top -200px right -500px;
+    background-size: cover;
+    padding: 353px 0 157px;
+  }
+
+  .project.safewhistle .project__hero-container {
+    display: none;
+    visibility: hidden;
+  }
+
   .CTA {
     margin-top: 308px;
-    width:670px;
+  }
+
+  .CTA p {
+    width: 670px;
+  }
+}
+
+@media only screen and (min-width: 990px) {
+  .project.ddp .project__description,
+  .project.safewhistle .project__description {
+    margin-left: calc((100vw - 940px) / 2);
   }
 }
 </style>
