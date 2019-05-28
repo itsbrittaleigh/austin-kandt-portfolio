@@ -90,11 +90,15 @@ export default {
 
   .dribbble__shots {
     width: 420px;
-    margin-right: 150px;
+    margin-right: 90px;
   }
 
   .dribbble__shot {
     width: 200px;
+  }
+
+  .dribbble__description {
+    flex: 1;
   }
 
   .project__link {
@@ -104,6 +108,12 @@ export default {
   .dribbble-icon {
     height: 50px;
     width: 50px;
+  }
+}
+
+@media only screen and (min-width: 965px) {
+  .dribbble__shots {
+    margin-right: 150px;
   }
 }
 </style>

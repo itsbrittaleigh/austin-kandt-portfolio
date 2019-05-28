@@ -95,7 +95,12 @@
       <div class="wrapper">
         <p>
           Thanks for looking. You can either poke around my social media pages, continue looking at
-          projects, or learn more about me and connect.
+          projects, or
+          <router-link to="/contact">
+            <a>
+              learn more about me and connect.
+            </a>
+          </router-link>
         </p>
       </div>
     </section>
@@ -130,10 +135,16 @@ export default {
 <style scoped>
 .CTA {
   margin-top: 100px;
+  max-width: 540px;
+}
+
+.intro {
+  max-width: 540px;
 }
 
 @media only screen and (min-width: 768px) {
   .intro {
+    margin: 85px 0 195px;
     max-width: 460px;
   }
 
@@ -172,7 +183,8 @@ export default {
 
   .project.daily-ui .wrapper img {
     margin-right: 60px;
-    width: 560px;
+    width: 60%;
+    max-width: 560px
   }
 
   .project.daily-ui .wrapper .project__description {
@@ -197,7 +209,11 @@ export default {
   }
 
   .CTA p {
-    width: 670px;
+    width: 500px;
+  }
+
+  .CTA a {
+    text-decoration: underline;
   }
 }
 

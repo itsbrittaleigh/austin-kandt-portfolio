@@ -39,6 +39,7 @@
 
 .project__snippet {
   margin: 0;
+  max-width: 540px;
 }
 
 .project__hero {
@@ -73,6 +74,10 @@
 @media only screen and (min-width: 640px) {
   .project__hero-container {
     height: 640px;
+  }
+
+  .project__icon {
+    height: 50px;
   }
 }
 
