@@ -20,7 +20,7 @@
           </li>
           <li class="navigation__logo">
             <router-link to="/">
-              <a>i kandt . design</a>
+              <a>kandt . design</a>
             </router-link>
           </li>
         </span>
