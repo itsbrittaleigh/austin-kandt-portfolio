@@ -1,0 +1,41 @@
+.project-intro {
+  margin: 0 0 65px;
+  max-width: 520px;
+}
+
+.project-intro svg {
+  max-width: 35px;
+  max-height: 35px;
+}
+
+.project-intro__title {
+  font-size: 38px;
+}
+
+.project-intro__title--emphasized {
+  display: block;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  margin-top: 5px;
+}
+
+.project-intro__heading {
+  margin: 20px 0 5px;
+}
+
+.project-intro__snippet {
+  font-size: 16px;
+  margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .project-intro svg {
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  .project-intro__snippet {
+    font-size: 20px;
+  }
+}

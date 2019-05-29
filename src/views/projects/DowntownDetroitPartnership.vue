@@ -1,20 +1,24 @@
 <template>
   <div id="downtown-detroit-partnership">
-    <header>
-      <img src="https://placekitten.com/33/50" alt="" />
-      <h1>
-        <strong>Downtown Detroit Partnership</strong>
-        &mdash; Advancing Detroit through engagement
-      </h1>
-      <p>
-        The Downtown Detroit Partnership strengthens the city of Detroit through programs, events,
-        and initiatives designed to create a vibrant urban core.
-      </p>
-      <p>
-        I worked extensively with them in the creation of a wide range of design material for
-        events and community outreach initiatives.
-      </p>
-    </header>
+    <div class="wrapper">
+      <header class="project-intro">
+        <ddp-icon />
+        <h1 class="project-intro__title">
+          <strong>Downtown Detroit Partnership</strong>
+          <em class="project-intro__title--emphasized">
+            &mdash; Advancing Detroit through engagement
+          </em>
+        </h1>
+        <p class="project-intro__snippet">
+          The Downtown Detroit Partnership strengthens the city of Detroit through programs, events,
+          and initiatives designed to create a vibrant urban core.
+        </p>
+        <p class="project-intro__snippet m-top-30">
+          I worked extensively with them in the creation of a wide range of design material for
+          events and community outreach initiatives.
+        </p>
+      </header>
+    </div>
     <section class="project-section">
       <img src="https://placekitten.com/810/607" alt="" />
       <h2><strong>Ambassador Vehicles</strong>&mdash; Vehicle design</h2>
@@ -98,6 +102,7 @@
 </template>
 
 <script>
+import DDPIcon from '../../components/icons/DowntownDetroitPartnership.vue';
 import MoreProjects from '../../components/MoreProjects.vue';
 
 export default {
@@ -106,6 +111,7 @@ export default {
     return {};
   },
   components: {
+    'ddp-icon': DDPIcon,
     'more-projects': MoreProjects,
   },
 };

@@ -1,20 +1,27 @@
 <template>
   <div id="amtech">
-    <header>
-      <img src="https://placekitten.com/50/37" alt="" />
-      <h1><strong>Amtech</strong> &mdash; Innovative electronics manufacturing</h1>
-      <p>
-        Amtech is unique in that they are forward thinking in the way they approach the
-        electronics manufacturing space by utilizing their customizable floor space to fit any
-        project. They were looking for an equally unique branding solution to showcase their
-        values.
-      </p>
-      <h2>Scope of Work</h2>
-      <p>
-        A new brand design and identity, marketing material to get out the word, and web assets/
-        illustrations for a new front facing website.
-      </p>
-    </header>
+    <div class="wrapper">
+      <header class="project-intro">
+        <amtech-icon />
+        <h1 class="project-intro__title">
+          <strong>Amtech</strong>
+          <em class="project-intro__title--emphasized">
+            &mdash; Innovative electronics manufacturing
+          </em>
+        </h1>
+        <p class="project-intro__snippet">
+          Amtech is unique in that they are forward thinking in the way they approach the
+          electronics manufacturing space by utilizing their customizable floor space to fit any
+          project. They were looking for an equally unique branding solution to showcase their
+          values.
+        </p>
+        <h2 class="project-intro__heading">Scope of Work</h2>
+        <p class="project-intro__snippet">
+          A new brand design and identity, marketing material to get out the word, and web assets/
+          illustrations for a new front facing website.
+        </p>
+      </header>
+    </div>
     <section class="project-section">
       <h2>Appealing to the Gamer Community</h2>
       <p>
@@ -60,12 +67,16 @@
 </template>
 
 <script>
+import AmtechIcon from '../../components/icons/Amtech.vue';
 import MoreProjects from '../../components/MoreProjects.vue';
 
 export default {
   name: 'Amtech',
   data() {
     return {};
+  },
+  components: {
+    'amtech-icon': AmtechIcon,
   },
   methods: {
     'more-projects': MoreProjects,
