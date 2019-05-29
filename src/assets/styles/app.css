@@ -9,6 +9,7 @@
 
 @import url('components/project.css');
 @import url('components/project-intro.css');
+@import url('components/project-section.css');
 
 @import url('utilities/reverse-mobile.css');
 @import url('utilities/spacing.css');

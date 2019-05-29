@@ -15,12 +15,17 @@ h2 {
   line-height: 36px;
 }
 
-h1 strong {
+h1 strong,
+h2 strong {
   display: block;
 }
 
 h2 {
   font-weight: bold;
+}
+
+h2 em {
+  font-weight: normal;
 }
 
 p {

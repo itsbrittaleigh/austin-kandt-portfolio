@@ -35,6 +35,10 @@
     max-height: 50px;
   }
 
+  .project-intro__title--emphasized {
+    font-size: 26px;
+  }
+
   .project-intro__snippet {
     font-size: 20px;
   }

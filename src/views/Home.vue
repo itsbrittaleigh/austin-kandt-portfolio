@@ -91,25 +91,14 @@
         />
       </div>
     </section>
-    <section class="CTA">
-      <div class="wrapper">
-        <p>
-          Thanks for looking. You can either poke around my social media pages, continue looking at
-          projects, or
-          <router-link to="/contact">
-            <a>
-              learn more about me and connect.
-            </a>
-          </router-link>
-        </p>
-      </div>
-    </section>
+    <cta-section />
     <more-projects />
   </div>
 </template>
 
 <script>
 import ArrowIcon from '../components/icons/Arrow.vue';
+import CTASection from '../components/CTASection.vue';
 import DailyUIIcon from '../components/icons/DailyUI.vue';
 import DDPLogo from '../components/icons/DowntownDetroitPartnership.vue';
 import DribbblePosts from '../components/DribbblePosts.vue';
@@ -123,6 +112,7 @@ export default {
   },
   components: {
     'arrow-icon': ArrowIcon,
+    'cta-section': CTASection,
     'daily-ui-icon': DailyUIIcon,
     'ddp-logo': DDPLogo,
     'dribbble-posts': DribbblePosts,
@@ -133,11 +123,6 @@ export default {
 </script>
 
 <style scoped>
-.CTA {
-  margin-top: 100px;
-  max-width: 540px;
-}
-
 .intro {
   max-width: 540px;
 }
@@ -202,18 +187,6 @@ export default {
   .project.safewhistle .project__hero-container {
     display: none;
     visibility: hidden;
-  }
-
-  .CTA {
-    margin-top: 308px;
-  }
-
-  .CTA p {
-    width: 500px;
-  }
-
-  .CTA a {
-    text-decoration: underline;
   }
 }
 

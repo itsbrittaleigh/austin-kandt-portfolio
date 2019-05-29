@@ -1,0 +1,84 @@
+.project-section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.project-section__heading {
+  font-size: 26px;
+  margin: 0 0 5px;
+}
+
+.project-section__heading em {
+  font-size: 22px;
+}
+
+.project-section__snippet {
+  font-size: 16px;
+  margin: 0;
+}
+
+.project-section__hero {
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.project-section--with-background {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%);
+}
+
+.project-section--images {
+  margin-top: 62px;
+  padding-bottom: 56px;
+}
+
+.project-section__image {
+  box-shadow: 0px 8px 15px rgba(136, 136, 136, 0.35);
+  display: block;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.project-section__image--no-shadow {
+  box-shadow: none;
+}
+
+.project-section__image--short {
+  height: 125px;
+  object-fit: cover;
+}
+
+.project-section__image:last-of-type {
+  margin-bottom: 0;
+}
+
+.project-section__band {
+  height: 24px;
+  position: absolute;
+  top: 104px;
+  width: 100%;
+}
+
+.project-section__band--amtech {
+  background: var(--amtech-orange);
+}
+
+.project-section__band--amtech-black {
+  background: var(--amtech-black);
+}
+
+@media only screen and (max-width: 767px) {
+  .project-section--reversed-desktop > *:nth-child(1) {
+    order: 1;
+  }
+
+  .project-section--reversed-desktop > *:nth-child(2) {
+    order: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .project-section__snippet {
+    font-size: 20px;
+  }
+}
