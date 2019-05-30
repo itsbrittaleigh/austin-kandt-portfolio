@@ -22,7 +22,7 @@
         </p>
       </header>
     </div>
-    <section class="project-section project-section--reversed-desktop">
+    <section class="project-section project-section--to-edge project-section--reversed-desktop">
       <div class="project-section__description">
         <div class="wrapper">
           <h2 class="project-section__heading">Adapting for the Future</h2>
@@ -36,22 +36,54 @@
       </div>
       <img class="project-section__hero" src="/images/amtech_frame3.jpg" alt="" />
     </section>
-    <section class="project-section project-section--images project-section--with-background">
+    <section
+      class="project-section project-section--image-columns project-section--with-background"
+    >
       <div class="project-section__band project-section__band--amtech" />
       <div class="wrapper">
-        <img class="project-section__image" src="/images/amtech_logotype2.jpg" alt="" />
-        <img class="project-section__image" src="/images/amtech_icon.jpg" alt="" />
-        <img class="project-section__image" src="/images/amtech_businesscards.jpg" alt="" />
-        <img class="project-section__image" src="/images/feature__amtech.jpg" alt="" />
-        <img class="project-section__image" src="/images/amtech_logotype3.jpg" alt="" />
+        <img
+          alt=""
+          class="project-section__image project-section__image--with-shadow"
+          src="/images/amtech_logotype2.jpg"
+        />
+        <div class="col-rt">
+          <img
+            alt=""
+            class="project-section__image project-section__image--with-shadow"
+            src="/images/amtech_icon.jpg"
+          />
+          <img
+            alt=""
+            class="project-section__image project-section__image--with-shadow"
+            src="/images/amtech_businesscards.jpg"
+          />
+          <img
+            alt=""
+            class="project-section__image project-section__image--with-shadow"
+            src="/images/feature__amtech.jpg"
+          />
+          <img
+            class="project-section__image project-section__image--with-shadow"
+            src="/images/amtech_logotype3.jpg"
+            alt=""
+          />
+        </div>
       </div>
     </section>
     <div class="wrapper">
-      <section class="project-section project-section--reversed-desktop p-top-100 p-bottom-40">
+      <section
+        :class="
+          `project-section
+          project-section--desktop-flex
+          project-section--reversed-desktop
+          p-top-100
+          p-bottom-40`
+        "
+      >
         <img
           alt=""
-          class="project-section__image project-section__image--no-shadow"
-          src="/images/amtech_fullstack.png"
+          class="project-section__image project-section__image--no-shadow fullstack-mockup"
+          src="/images/amtech_fullstack.svg"
         />
         <div class="project-section__description">
           <h2 class="project-section__heading">
@@ -66,7 +98,7 @@
         </div>
       </section>
     </div>
-    <section class="project-section">
+    <section class="project-section project-section--background-image">
       <img
         alt=""
         class="project-section__image project-section__image--short hidden-on-desktop m-bottom-40"
@@ -85,16 +117,30 @@
         </p>
       </div>
     </section>
-    <section class="project-section project-section--images">
+    <section class="project-section project-section--image-columns">
       <div class="project-section__band project-section__band--amtech-black" />
       <div class="wrapper">
-        <img class="project-section__image" src="/images/amtech_brochure1.jpg" alt="" />
-        <img class="project-section__image" src="/images/amtech_brochure2.jpg" alt="" />
-        <img class="project-section__image" src="/images/amtech_poster.jpg" alt="" />
+        <div class="col-lt">
+          <img
+            alt=""
+            class="project-section__image project-section__image--with-shadow"
+            src="/images/amtech_brochure2.jpg"
+          />
+          <img
+            alt=""
+            class="project-section__image project-section__image--with-shadow"
+            src="/images/amtech_poster.jpg"
+          />
+          <img
+            alt=""
+            class="project-section__image"
+            src="/images/amtech_banner1.png"
+          />
+        </div>
         <img
           alt=""
-          class="project-section__image project-section__image--no-shadow"
-          src="/images/amtech_banner1.png"
+          class="project-section__image project-section__image--with-shadow"
+          src="/images/amtech_brochure1.jpg"
         />
       </div>
     </section>
@@ -121,6 +167,15 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+@media only screen and (min-width: 768px) {
+  .project-section--background-image {
+    background-image: url('/images/amtech_circuitboard.jpg');
+  }
 
+  .fullstack-mockup {
+    max-width: 540px;
+    width: 60%;
+  }
+}
 </style>
