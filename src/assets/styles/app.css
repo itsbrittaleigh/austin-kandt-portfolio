@@ -7,6 +7,7 @@
 
 @import url('objects/wrapper.css');
 
+@import url('components/daily-ui-project.css');
 @import url('components/project.css');
 @import url('components/project-intro.css');
 @import url('components/project-section.css');
