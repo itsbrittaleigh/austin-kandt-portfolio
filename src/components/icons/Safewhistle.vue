@@ -1,5 +1,5 @@
 <template>
-  <svg viewBox="0 0 35 30">
+  <svg :class="className" viewBox="0 0 35 30">
     <mask
       height="14"
       id="mask22687"
@@ -102,6 +102,12 @@
 <script>
 export default {
   name: 'SafewhistleIcon',
+  props: {
+    className: {
+      default: '',
+      type: String,
+    },
+  },
   data() {
     return {};
   },

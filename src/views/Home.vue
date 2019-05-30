@@ -127,6 +127,10 @@ export default {
   max-width: 540px;
 }
 
+.project.safewhistle {
+  margin-bottom: 100px;
+}
+
 @media only screen and (min-width: 768px) {
   .intro {
     margin: 85px 0 195px;
@@ -187,6 +191,10 @@ export default {
   .project.safewhistle .project__hero-container {
     display: none;
     visibility: hidden;
+  }
+
+  .project.safewhistle {
+    margin-bottom: 308px;
   }
 }
 

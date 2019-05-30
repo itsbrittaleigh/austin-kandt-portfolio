@@ -25,17 +25,17 @@ export default {
 
 <style>
 .CTA {
-  margin: 100px 0 30px;
-  max-width: 540px;
+  margin-bottom: 30px;
 }
 
 .CTA p {
   font-size: 16px;
+  max-width: 540px;
 }
 
 @media only screen and (min-width: 768px) {
   .CTA {
-    margin-top: 308px;
+    margin-bottom: 134px;
   }
 
   .CTA p {

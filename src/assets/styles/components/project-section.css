@@ -62,11 +62,6 @@
 /* Project section with gradient background */
 .project-section--with-background {
   background: linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%);
-}
-
-/* Project section with image columns */
-.project-section--image-columns {
-  margin-top: 62px;
   padding-bottom: 56px;
 }
 
@@ -87,6 +82,10 @@
 
   .project-section__hero {
     margin-bottom: 0;
+  }
+
+  .project-section__band {
+    top: 169px;
   }
 
   /* Project section with image that goes to edge */

@@ -22,7 +22,13 @@
         </p>
       </header>
     </div>
-    <section class="project-section project-section--to-edge project-section--reversed-desktop">
+    <section
+      :class="`
+        project-section
+        project-section-1
+        project-section--to-edge
+        project-section--reversed-desktop`
+      ">
       <div class="project-section__description">
         <div class="wrapper">
           <h2 class="project-section__heading">Adapting for the Future</h2>
@@ -37,7 +43,12 @@
       <img class="project-section__hero" src="/images/amtech_frame3.jpg" alt="" />
     </section>
     <section
-      class="project-section project-section--image-columns project-section--with-background"
+      :class="`
+        project-section
+        project-section-2
+        project-section--image-columns
+        project-section--with-background`
+      "
     >
       <div class="project-section__band project-section__band--amtech" />
       <div class="wrapper">
@@ -74,10 +85,9 @@
       <section
         :class="
           `project-section
+          project-section-3
           project-section--desktop-flex
-          project-section--reversed-desktop
-          p-top-100
-          p-bottom-40`
+          project-section--reversed-desktop`
         "
       >
         <img
@@ -98,7 +108,7 @@
         </div>
       </section>
     </div>
-    <section class="project-section project-section--background-image">
+    <section class="project-section project-section-4 project-section--background-image">
       <img
         alt=""
         class="project-section__image project-section__image--short hidden-on-desktop m-bottom-40"
@@ -117,7 +127,7 @@
         </p>
       </div>
     </section>
-    <section class="project-section project-section--image-columns">
+    <section class="project-section project-section-5 project-section--image-columns">
       <div class="project-section__band project-section__band--amtech-black" />
       <div class="wrapper">
         <div class="col-lt">
@@ -168,6 +178,22 @@ export default {
 </script>
 
 <style scoped>
+.project-section-1 {
+  margin-top: 65px;
+}
+
+.project-section-2 {
+  margin-top: 62px;
+}
+
+.project-section-3 {
+  padding: 100px 0 40px;
+}
+
+.project-section-5 {
+  margin: 78px 0 248px;
+}
+
 @media only screen and (min-width: 768px) {
   .project-section--background-image {
     background-image: url('/images/amtech_circuitboard.jpg');
@@ -176,6 +202,30 @@ export default {
   .fullstack-mockup {
     max-width: 540px;
     width: 60%;
+  }
+
+  .project-intro {
+    margin-top: 44px;
+  }
+
+  .project-section-1 {
+    margin-top: 108px;
+  }
+
+  .project-section-2 {
+    margin-top: 154px;
+  }
+
+  .project-section-3 {
+    padding: 112px 0 123px;
+  }
+
+  .project-section-4 {
+    padding: 113px 0 112px;
+  }
+
+  .project-section-5 {
+    margin: 112px 0 369px;
   }
 }
 </style>
