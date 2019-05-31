@@ -19,89 +19,153 @@
         </p>
       </header>
     </div>
-    <section class="project-section">
-      <img src="https://placekitten.com/810/607" alt="" />
-      <h2><strong>Ambassador Vehicles</strong>&mdash; Vehicle design</h2>
-      <p>
-        DDP was looking for a refresh of their downtown vehicles to be more noticeable and
-        welcoming to help facilitate a better back and forth between their ambassadors and the
-        people that visit downtown.
-      </p>
+    <section
+      :class="`
+        project-section
+        project-section-1
+        project-section--to-edge
+        project-section--reversed-desktop`
+      ">
+      <div class="project-section__description">
+        <div class="wrapper">
+          <h2 class="project-section__heading">
+            <strong>Ambassador Vehicles</strong>
+            <em class="project-section__heading--emphasized">&mdash; Vehicle design</em>
+          </h2>
+          <p class="project-section__snippet">
+            DDP was looking for a refresh of their downtown vehicles to be more noticeable and
+            welcoming to help facilitate a better back and forth between their ambassadors and the
+            people that visit downtown.
+          </p>
+        </div>
+      </div>
+      <img class="project-section__hero" src="/images/ddp_vehicles_header.jpg" alt="" />
     </section>
-    <section class="project-section">
-      <img src="https://placekitten.com/460/644" alt="" />
-      <img src="https://placekitten.com/460/259" alt="" />
-      <img src="https://placekitten.com/460/259" alt="" />
-      <img src="https://placekitten.com/460/259" alt="" />
-      <img src="https://placekitten.com/460/259" alt="" />
-      <img src="https://placekitten.com/460/259" alt="" />
-      <img src="https://placekitten.com/460/259" alt="" />
+    <section
+      :class="
+        `project-section
+        project-section-2
+        project-section--image-columns
+        project-section--with-background-alt`
+      "
+    >
+      <div class="project-section__band project-section__band--ddp-green" />
+      <div class="wrapper">
+        <img
+          alt=""
+          class="project-section__image project-section__image--with-shadow"
+          src="/images/ddp_vehicle_pic.jpg"
+        />
+        <img
+          alt=""
+          class="project-section__image project-section__image--with-shadow"
+          src="/images/ddp_vehicle1_outline.jpg"
+        />
+        <img
+          alt=""
+          class="project-section__image project-section__image--with-shadow"
+          src="/images/ddp_vehicle1_pic.jpg"
+        />
+        <img
+          alt=""
+          class="project-section__image project-section__image--with-shadow"
+          src="/images/ddp_vehicle2_outline.jpg"
+        />
+        <img
+          alt=""
+          class="project-section__image project-section__image--with-shadow"
+          src="/images/ddp_vehicle2_pic.jpg"
+        />
+        <img
+          alt=""
+          class="project-section__image project-section__image--with-shadow"
+          src="/images/ddp_vehicle3_outline.jpg"
+        />
+        <img
+          alt=""
+          class="project-section__image project-section__image--with-shadow"
+          src="/images/ddp_vehicle3_pic.jpg"
+        />
+      </div>
     </section>
-    <section class="project-section">
-      <img src="https://placekitten.com/540/457" alt="" />
-      <h2><strong>2018 Perceptions Report</strong>&mdash; Print media, infographics</h2>
-      <p>
-        Every year DDP collects data through surveys sent out to a diverse sample size of
-        residents. I was tasked with making this data accessible and easy to digest in a 20 page
-        booklet for residents and influencers.
-      </p>
+    <div class="wrapper">
+      <section class="project-section project-section-3 project-section--desktop-flex">
+        <img
+          alt=""
+          class="project-section__image project-section__image--no-shadow fullstack-mockup"
+          src="/images/DDP_perceptionsreport_MOCKUP2.jpg"
+        />
+        <div class="project-section__description">
+          <h2 class="project-section__heading">
+            <strong>2018 Perceptions Report</strong>
+            <em>&mdash; Print media, infographics</em>
+          </h2>
+          <p class="project-section__snippet m-bottom-40">
+            Every year DDP collects data through surveys sent out to a diverse sample size of
+            residents. I was tasked with making this data accessible and easy to digest in a 20
+            page booklet for residents and influencers.
+          </p>
+        </div>
+      </section>
+    </div>
+    <section
+      :class="
+        `project-section
+        project-section-4
+        project-section--image-columns`
+      "
+    >
+      <div class="project-section__band project-section__band--ddp-blue" />
+      <div class="wrapper">
+        <img
+          alt=""
+          class="project-section__image project-section__image--with-shadow"
+          src="/images/DDP_perceptionsreport_cover.jpg"
+        />
+        <img
+          alt=""
+          class="project-section__image project-section__image--with-shadow"
+          src="/images/DDP_perceptionsreport_pg2n3.jpg"
+        />
+        <img
+          alt=""
+          class="project-section__image project-section__image--with-shadow"
+          src="/images/DDP_perceptionsreport_pg8n9.jpg"
+        />
+        <img
+          alt=""
+          class="project-section__image project-section__image--with-shadow"
+          src="/images/DDP_perceptionsreport_pg10n11.jpg"
+        />
+      </div>
     </section>
-    <section class="project-section">
-      <img src="https://placekitten.com/460/723" alt="" />
-      <img src="https://placekitten.com/460/362" alt="" />
-      <img src="https://placekitten.com/460/362" alt="" />
-      <img src="https://placekitten.com/460/362" alt="" />
-    </section>
-    <section class="project-section">
-      <h2><strong>Summer Parks</strong>&mdash; Signage, social media graphics</h2>
-      <p>
-        DDP hosts the bulk of their events in the summer time. As such, they require tons and tons
-        of signage, as well as social media graphics to promote to residents of Detroit and the
-        suburbs.
-      </p>
-      <h2>&mdash; Aframe signs</h2>
-      <img src="https://placekitten.com/220/330" alt="" />
-      <img src="https://placekitten.com/220/330" alt="" />
-      <img src="https://placekitten.com/220/330" alt="" />
-      <img src="https://placekitten.com/220/330" alt="" />
-      <img src="https://placekitten.com/220/330" alt="" />
-      <img src="https://placekitten.com/220/330" alt="" />
-      <img src="https://placekitten.com/220/330" alt="" />
-      <img src="https://placekitten.com/220/330" alt="" />
-      <h2>&mdash; Social media graphics</h2>
-      <img src="https://placekitten.com/300/300" alt="" />
-      <img src="https://placekitten.com/300/300" alt="" />
-      <img src="https://placekitten.com/300/300" alt="" />
-      <img src="https://placekitten.com/220/391" alt="" />
-      <img src="https://placekitten.com/220/391" alt="" />
-      <img src="https://placekitten.com/220/391" alt="" />
-      <img src="https://placekitten.com/220/391" alt="" />
-      <img src="https://placekitten.com/300/388" alt="" />
-      <img src="https://placekitten.com/620/349" alt="" />
-    </section>
-    <section class="project-section">
-      <h2><strong>Tree Lighting</strong>&mdash; Illustration, signage, social media</h2>
-      <p>
-        One of the largest events of the year is the downtown Detroit tree lighting ceremony.
-        Thousands attend, and as such, DDP was looking for a wide range of design pieces.
-      </p>
-    </section>
-    <section class="project-section">
-      <img src="https://placekitten.com/460/689" alt="" />
-      <img src="https://placekitten.com/460/154" alt="" />
-      <img src="https://placekitten.com/460/154" alt="" />
-      <img src="https://placekitten.com/460/322" alt="" />
-      <img src="https://placekitten.com/460/46" alt="" />
-      <img src="https://placekitten.com/220/330" alt="" />
-      <img src="https://placekitten.com/220/330" alt="" />
-      <img src="https://placekitten.com/220/330" alt="" />
-      <img src="https://placekitten.com/220/330" alt="" />
-    </section>
+    <div class="wrapper">
+      <section class="project-section project-section-5 project-section--desktop-flex">
+        <img
+          alt=""
+          class="project-section__image project-section__image--full-width"
+          src="/images/ddp_summerparks_pic.jpg"
+        />
+        <div class="project-section__description">
+          <h2 class="project-section__heading">
+            <strong>Summer Parks</strong>
+            <em>&mdash; Signage, social media graphics</em>
+          </h2>
+          <p class="project-section__snippet m-bottom-40">
+            Every year DDP collects data through surveys sent out to a diverse sample size of
+            residents. I was tasked with making this data accessible and easy to digest in a 20
+            page booklet for residents and influencers.
+          </p>
+        </div>
+      </section>
+    </div>
+    <cta-section />
     <more-projects />
   </div>
 </template>
 
 <script>
+import CTASection from '../../components/CTASection.vue';
 import DDPIcon from '../../components/icons/DowntownDetroitPartnership.vue';
 import MoreProjects from '../../components/MoreProjects.vue';
 
@@ -111,6 +175,7 @@ export default {
     return {};
   },
   components: {
+    'cta-section': CTASection,
     'ddp-icon': DDPIcon,
     'more-projects': MoreProjects,
   },
@@ -118,5 +183,23 @@ export default {
 </script>
 
 <style>
+.project-section-2 {
+  padding-bottom: 78px;
+}
 
+.project-section-3 {
+  margin-top: 80px;
+}
+
+.project-section-4 {
+  margin-top: 40px;
+}
+
+.project-section-5 {
+  margin-top: 156px;
+}
+
+.project-section-5 .project-section__description {
+  margin-top: 40px;
+}
 </style>

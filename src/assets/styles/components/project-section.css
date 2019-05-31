@@ -31,6 +31,11 @@
   width: 100%;
 }
 
+.project-section__image--full-width {
+  margin-left: -25px;
+  width: 100vw;
+}
+
 .project-section__image--with-shadow {
   box-shadow: 0px 8px 15px rgba(136, 136, 136, 0.35);
 }
@@ -59,9 +64,22 @@
   background: var(--amtech-black);
 }
 
+.project-section__band--ddp-green {
+  background: var(--ddp-green);
+}
+
+.project-section__band--ddp-blue {
+  background: var(--ddp-blue);
+}
+
 /* Project section with gradient background */
 .project-section--with-background {
   background: linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%);
+  padding-bottom: 56px;
+}
+
+.project-section--with-background-alt {
+  background:  linear-gradient(222.94deg, #FFFFFF 20.15%, rgba(174, 209, 228, 0.25) 119.82%);
   padding-bottom: 56px;
 }
 
