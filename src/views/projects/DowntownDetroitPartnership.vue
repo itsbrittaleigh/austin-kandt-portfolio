@@ -374,7 +374,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .project-section-2 {
   margin-top: 30px;
   padding-bottom: 78px;

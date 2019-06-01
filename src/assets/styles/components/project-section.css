@@ -79,6 +79,14 @@
   background: var(--ddp-red);
 }
 
+.project-section__band--gaddis-blue {
+  background: var(--gaddis-blue);
+}
+
+.project-section__band--gaddis-black {
+  background: var(--gaddis-black);
+}
+
 /* Project section with gradient background */
 .project-section--with-background {
   background: linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%);
