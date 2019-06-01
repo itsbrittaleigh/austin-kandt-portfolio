@@ -19,13 +19,8 @@
         </p>
       </header>
     </div>
-    <section
-      :class="`
-        project-section
-        project-section-1
-        project-section--to-edge
-        project-section--reversed-desktop`
-      ">
+    <section class="project-section project-section-1 project-section--to-edge">
+      <img class="project-section__hero" src="/images/ddp_vehicles_header.jpg" alt="" />
       <div class="project-section__description">
         <div class="wrapper">
           <h2 class="project-section__heading">
@@ -39,7 +34,6 @@
           </p>
         </div>
       </div>
-      <img class="project-section__hero" src="/images/ddp_vehicles_header.jpg" alt="" />
     </section>
     <section
       :class="
@@ -138,12 +132,14 @@
       </div>
     </section>
     <div class="wrapper">
-      <section class="project-section project-section-5 project-section--desktop-flex">
-        <img
-          alt=""
-          class="project-section__image project-section__image--full-width"
-          src="/images/ddp_summerparks_pic.jpg"
-        />
+      <section
+        :class="`
+          project-section
+          project-section-5
+          project-section--desktop-flex
+          project-section--reversed-desktop
+        `"
+      >
         <div class="project-section__description">
           <h2 class="project-section__heading">
             <strong>Summer Parks</strong>
@@ -155,11 +151,16 @@
             page booklet for residents and influencers.
           </p>
         </div>
+        <img
+          alt=""
+          class="project-section__image project-section__image--full-width"
+          src="/images/ddp_summerparks_pic.jpg"
+        />
       </section>
     </div>
     <section class="project-section project-section-6">
       <div class="wrapper">
-        <h3><em>&mdash; Aframes</em></h3>
+        <h3><em>&mdash; Aframe signs</em></h3>
         <div class="row row--2 row--desktop-4">
           <img
             alt=""
@@ -262,7 +263,7 @@
         </div>
       </div>
     </section>
-    <section class="project-section project-section-8 project-section--with-background-no-mobile">
+    <section class="project-section project-section-8 project-section--background-image">
       <img
         alt=""
         class="project-section__image hidden-on-desktop m-bottom-40"
@@ -295,6 +296,11 @@
           src="/images/treelighting_pic.jpg"
         />
         <div class="col-rt">
+          <img
+            alt=""
+            class="project-section__image project-section__image--with-shadow"
+            src="/images/treelighting_carriagerides2.jpg"
+          />
           <img
             alt=""
             class="project-section__image project-section__image--with-shadow"
@@ -396,6 +402,44 @@ export default {
 }
 
 .project-section-9 {
-  margin-bottom: 160px;
+  margin: 56px 0 160px;
+}
+
+@media only screen and (min-width: 768px) {
+  .project-section-1 {
+    margin-top: 170px;
+  }
+
+  .project-section-2 {
+    margin-top: 156px;
+  }
+
+  .project-section-4 {
+    margin-top: 87px;
+  }
+
+  .project-section-6 {
+    margin-top: 146px;
+  }
+
+  .project-section-7 {
+    margin-top: 112px;
+  }
+
+  .project-section--background-image {
+    background-image: url('/images/treelighting_socialgraphic2.jpg');
+    padding: 160px 0;
+    height: 600px;
+  }
+
+  .project-section-9 {
+    margin-bottom: 318px;
+  }
+}
+
+@media only screen and (min-width: 990px) {
+  .project-section-1 .project-section__description {
+    margin-right: calc((100vw - 940px) / 2);
+  }
 }
 </style>

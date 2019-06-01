@@ -212,6 +212,10 @@ export default {
     margin-top: 108px;
   }
 
+  .project-section-1 .project-section__description {
+    margin-left: 25px;
+  }
+
   .project-section-2 {
     margin-top: 154px;
   }
@@ -226,6 +230,12 @@ export default {
 
   .project-section-5 {
     margin: 112px 0 369px;
+  }
+}
+
+@media only screen and (min-width: 990px) {
+  .project-section-1 .project-section__description {
+    margin-left: calc((100vw - 940px) / 2);
   }
 }
 </style>

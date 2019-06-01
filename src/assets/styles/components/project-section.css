@@ -118,6 +118,11 @@
     top: 169px;
   }
 
+  .project-section__image--full-width {
+    margin-left: 0;
+    width: 100%;
+  }
+
   /* Project section with image that goes to edge */
   .project-section--to-edge {
     align-items: center;
@@ -128,12 +133,15 @@
     margin: 0;
   }
 
-  .project-section--to-edge > *:nth-child(1) {
-    margin: 0 60px 0 25px;
+  .project-section--to-edge > *:first-child {
+    margin-right: 60px;
+  }
+
+  .project-section--to-edge .project-section__description {
     width: 320px;
   }
 
-  .project-section--to-edge > *:nth-child(2) {
+  .project-section--to-edge .project-section__hero {
     flex: 1;
   }
 
@@ -213,11 +221,5 @@
   .project-section--background-image .project-section__snippet {
     color: #FFFFFF;
     width: 460px;
-  }
-}
-
-@media only screen and (min-width: 990px) {
-  .project-section--to-edge > *:nth-child(1) {
-    margin-left: calc((100vw - 940px) / 2);
   }
 }
