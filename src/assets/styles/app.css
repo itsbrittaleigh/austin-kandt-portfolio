@@ -5,6 +5,7 @@
 
 @import url('elements.css');
 
+@import url('objects/grid.css');
 @import url('objects/wrapper.css');
 
 @import url('components/daily-ui-project.css');

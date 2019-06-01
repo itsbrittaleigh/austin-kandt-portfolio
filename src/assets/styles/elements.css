@@ -28,6 +28,13 @@ h2 em {
   font-weight: normal;
 }
 
+h3 {
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 1.31;
+  margin: 0 0 10px;
+}
+
 p {
   font-size: 20px;
   line-height: 1.375;

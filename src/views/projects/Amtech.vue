@@ -130,6 +130,11 @@
     <section class="project-section project-section-5 project-section--image-columns">
       <div class="project-section__band project-section__band--amtech-black" />
       <div class="wrapper">
+        <img
+          alt=""
+          class="project-section__image project-section__image--with-shadow"
+          src="/images/amtech_brochure1.jpg"
+        />
         <div class="col-lt">
           <img
             alt=""
@@ -147,11 +152,6 @@
             src="/images/amtech_banner1.png"
           />
         </div>
-        <img
-          alt=""
-          class="project-section__image project-section__image--with-shadow"
-          src="/images/amtech_brochure1.jpg"
-        />
       </div>
     </section>
     <cta-section />

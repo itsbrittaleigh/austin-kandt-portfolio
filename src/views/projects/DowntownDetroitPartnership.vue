@@ -56,36 +56,38 @@
           class="project-section__image project-section__image--with-shadow"
           src="/images/ddp_vehicle_pic.jpg"
         />
-        <img
-          alt=""
-          class="project-section__image project-section__image--with-shadow"
-          src="/images/ddp_vehicle1_outline.jpg"
-        />
-        <img
-          alt=""
-          class="project-section__image project-section__image--with-shadow"
-          src="/images/ddp_vehicle1_pic.jpg"
-        />
-        <img
-          alt=""
-          class="project-section__image project-section__image--with-shadow"
-          src="/images/ddp_vehicle2_outline.jpg"
-        />
-        <img
-          alt=""
-          class="project-section__image project-section__image--with-shadow"
-          src="/images/ddp_vehicle2_pic.jpg"
-        />
-        <img
-          alt=""
-          class="project-section__image project-section__image--with-shadow"
-          src="/images/ddp_vehicle3_outline.jpg"
-        />
-        <img
-          alt=""
-          class="project-section__image project-section__image--with-shadow"
-          src="/images/ddp_vehicle3_pic.jpg"
-        />
+        <div class="col-lt">
+          <img
+            alt=""
+            class="project-section__image project-section__image--with-shadow"
+            src="/images/ddp_vehicle1_outline.jpg"
+          />
+          <img
+            alt=""
+            class="project-section__image project-section__image--with-shadow"
+            src="/images/ddp_vehicle1_pic.jpg"
+          />
+          <img
+            alt=""
+            class="project-section__image project-section__image--with-shadow"
+            src="/images/ddp_vehicle2_outline.jpg"
+          />
+          <img
+            alt=""
+            class="project-section__image project-section__image--with-shadow"
+            src="/images/ddp_vehicle2_pic.jpg"
+          />
+          <img
+            alt=""
+            class="project-section__image project-section__image--with-shadow"
+            src="/images/ddp_vehicle3_outline.jpg"
+          />
+          <img
+            alt=""
+            class="project-section__image project-section__image--with-shadow"
+            src="/images/ddp_vehicle3_pic.jpg"
+          />
+        </div>
       </div>
     </section>
     <div class="wrapper">
@@ -108,13 +110,7 @@
         </div>
       </section>
     </div>
-    <section
-      :class="
-        `project-section
-        project-section-4
-        project-section--image-columns`
-      "
-    >
+    <section class="project-section project-section-4 project-section--image-columns">
       <div class="project-section__band project-section__band--ddp-blue" />
       <div class="wrapper">
         <img
@@ -122,21 +118,23 @@
           class="project-section__image project-section__image--with-shadow"
           src="/images/DDP_perceptionsreport_cover.jpg"
         />
-        <img
-          alt=""
-          class="project-section__image project-section__image--with-shadow"
-          src="/images/DDP_perceptionsreport_pg2n3.jpg"
-        />
-        <img
-          alt=""
-          class="project-section__image project-section__image--with-shadow"
-          src="/images/DDP_perceptionsreport_pg8n9.jpg"
-        />
-        <img
-          alt=""
-          class="project-section__image project-section__image--with-shadow"
-          src="/images/DDP_perceptionsreport_pg10n11.jpg"
-        />
+        <div class="col-rt">
+          <img
+            alt=""
+            class="project-section__image project-section__image--with-shadow"
+            src="/images/DDP_perceptionsreport_pg2n3.jpg"
+          />
+          <img
+            alt=""
+            class="project-section__image project-section__image--with-shadow"
+            src="/images/DDP_perceptionsreport_pg8n9.jpg"
+          />
+          <img
+            alt=""
+            class="project-section__image project-section__image--with-shadow"
+            src="/images/DDP_perceptionsreport_pg10n11.jpg"
+          />
+        </div>
       </div>
     </section>
     <div class="wrapper">
@@ -151,7 +149,7 @@
             <strong>Summer Parks</strong>
             <em>&mdash; Signage, social media graphics</em>
           </h2>
-          <p class="project-section__snippet m-bottom-40">
+          <p class="project-section__snippet">
             Every year DDP collects data through surveys sent out to a diverse sample size of
             residents. I was tasked with making this data accessible and easy to digest in a 20
             page booklet for residents and influencers.
@@ -159,6 +157,194 @@
         </div>
       </section>
     </div>
+    <section class="project-section project-section-6">
+      <div class="wrapper">
+        <h3><em>&mdash; Aframes</em></h3>
+        <div class="row row--2 row--desktop-4">
+          <img
+            alt=""
+            class="project-section__image--with-shadow"
+            src="/images/ddp_aframe_soundcreamairstream.jpg"
+          />
+          <img
+            alt=""
+            class="project-section__image--with-shadow"
+            src="/images/ddp_aframe_familyfunday.jpg"
+          />
+          <img
+            alt=""
+            class="project-section__image--with-shadow"
+            src="/images/ddp_aframe_familyfunday2.jpg"
+          />
+          <img
+            alt=""
+            class="project-section__image--with-shadow"
+            src="/images/ddp_aframe_workoutwednesdays.jpg"
+          />
+        </div>
+        <div class="row row--2 row--desktop-4">
+          <img
+            alt=""
+            class="project-section__image--with-shadow"
+            src="/images/ddp_aframe_yoga2.jpg"
+          />
+          <img
+            alt=""
+            class="project-section__image--with-shadow"
+            src="/images/ddp_aframe_yoga.jpg"
+          />
+          <img
+            alt=""
+            class="project-section__image--with-shadow"
+            src="/images/ddp_aframe_workoutwednesdays2.jpg"
+          />
+          <img
+            alt=""
+            class="project-section__image--with-shadow"
+            src="/images/ddp_aframe_nightmarket.jpg"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="project-section project-section-7">
+      <div class="wrapper">
+        <h3><em>&mdash; Social media graphics</em></h3>
+        <div class="row row--1 row--desktop-3">
+          <img
+            alt=""
+            class="project-section__image--with-shadow"
+            src="/images/ddp_socialmedia_usavolleyball.jpg"
+          />
+          <img
+            alt=""
+            class="project-section__image--with-shadow"
+            src="/images/ddp_socialmedia_yoga.jpg"
+          />
+          <img
+            alt=""
+            class="project-section__image--with-shadow"
+            src="/images/ddp_socialmedia_workoutwednesday.jpg"
+          />
+        </div>
+        <div class="row row--2 row--desktop-4">
+          <img
+            alt=""
+            class="project-section__image--with-shadow"
+            src="/images/ddp_socialmedia_yoga2.jpg"
+          />
+          <img
+            alt=""
+            class="project-section__image--with-shadow"
+            src="/images/ddp_socialmedia_yoga3.jpg"
+          />
+          <img
+            alt=""
+            class="project-section__image--with-shadow"
+            src="/images/ddp_socialmedia_yoga4.jpg"
+          />
+          <img
+            alt=""
+            class="project-section__image--with-shadow"
+            src="/images/ddp_socialmedia_yoga5.jpg"
+          />
+        </div>
+        <div class="row row--1 row--desktop-1-2">
+          <img
+            alt=""
+            class="project-section__image--with-shadow"
+            src="/images/ddp_socialmedia_movienight.jpg"
+          />
+          <img
+            alt=""
+            class="project-section__image--with-shadow"
+            src="/images/ddp_socialmedia_movienight4.jpg"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="project-section project-section-8 project-section--with-background-no-mobile">
+      <img
+        alt=""
+        class="project-section__image hidden-on-desktop m-bottom-40"
+        src="/images/treelighting_socialgraphic2.jpg"
+      />
+      <div class="wrapper">
+        <h2 class="project-section__heading">
+          <strong>Tree Lighting</strong>
+          <em>&mdash; Illustration, signage, social media</em>
+        </h2>
+        <p class="project-section__snippet">
+          One of the largest events of the year is the downtown Detroit tree lighting ceremony.
+          Thousands attend, and as such, DDP was looking for a wide range of design pieces.
+        </p>
+      </div>
+    </section>
+    <section
+      :class="
+        `project-section
+        project-section-9
+        project-section--image-columns
+        project-section--with-background-alt`
+      "
+    >
+      <div class="project-section__band project-section__band--ddp-red" />
+      <div class="wrapper">
+        <img
+          alt=""
+          class="project-section__image project-section__image--with-shadow"
+          src="/images/treelighting_pic.jpg"
+        />
+        <div class="col-rt">
+          <img
+            alt=""
+            class="project-section__image project-section__image--with-shadow"
+            src="/images/treelighting_carriagerides1.jpg"
+          />
+          <img
+            alt=""
+            class="project-section__image project-section__image--with-shadow"
+            src="/images/treelighting_shuttlecling.jpg"
+          />
+          <img
+            alt=""
+            class="project-section__image project-section__image--with-shadow m-bottom-40"
+            src="/images/treelighting_partyroom.jpg"
+          />
+          <div class="row row--2 m-bottom-40">
+            <div class="is-marginless">
+              <img
+                alt=""
+                class="project-section__image project-section__image--with-shadow"
+                src="/images/treelighting_carriagerides3.jpg"
+              />
+            </div>
+            <div class="is-marginless">
+              <img
+                alt=""
+                class="project-section__image project-section__image--with-shadow"
+                src="/images/treelighting_carriagerides4.jpg"
+              />
+            </div>
+          </div>
+          <div class="row row--2">
+            <div>
+              <img
+                alt=""
+                class="project-section__image project-section__image--with-shadow"
+                src="/images/treelighting_sponsors.jpg"
+              />
+            </div>
+            <div>
+              <img
+                alt=""
+                class="project-section__image project-section__image--with-shadow"
+                src="/images/treelighting_mediacheckin.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <cta-section />
     <more-projects />
   </div>
@@ -184,6 +370,7 @@ export default {
 
 <style>
 .project-section-2 {
+  margin-top: 30px;
   padding-bottom: 78px;
 }
 
@@ -199,7 +386,16 @@ export default {
   margin-top: 156px;
 }
 
-.project-section-5 .project-section__description {
+.project-section-6 {
   margin-top: 40px;
+}
+
+.project-section-7 {
+  margin-top: 40px;
+  padding-bottom: 136px;
+}
+
+.project-section-9 {
+  margin-bottom: 160px;
 }
 </style>
