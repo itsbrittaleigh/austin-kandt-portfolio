@@ -305,6 +305,7 @@ export default {
 
   .project-section-4 .project-section__snippet {
     margin-bottom: 56px;
+    max-width: 560px;
   }
 
   .project-section-4 h3 {
