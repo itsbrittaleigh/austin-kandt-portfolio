@@ -123,15 +123,15 @@
         <section class="daily-ui-project">
           <p class="daily-ui-project__label align-left">
             <em>
-              ~ 005
+              ~ 009
               <br>
-              App Icon
+              Music Player
             </em>
           </p>
           <img
             alt=""
             class="daily-ui-project__image"
-            src="/images/daily-ui_005_appicon.jpg"
+            src="/images/daily-ui_009_musicplayer.jpg"
           />
         </section>
       </div>
