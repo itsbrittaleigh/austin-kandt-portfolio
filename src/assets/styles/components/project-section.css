@@ -98,6 +98,10 @@
   padding-bottom: 56px;
 }
 
+.project-section--with-reverse-background {
+  background: linear-gradient(180deg, #EEEEEE 0%, #FFFFFF 319px, #FFFFFF 100%);
+}
+
 .project-section--with-background-no-mobile {
   background: none;
   padding-bottom: 56px;
