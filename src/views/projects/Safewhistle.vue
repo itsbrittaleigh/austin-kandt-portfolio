@@ -253,7 +253,11 @@ export default {
 }
 
 .project-section-4 {
-  margin-top: 10px;
+  margin-top: 40px;
+}
+
+.project-section-4 .project-section__snippet {
+  margin-bottom: 40px;
 }
 
 .project-section-5 {
