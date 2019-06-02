@@ -164,5 +164,9 @@ export default {
   .project-section-2 {
     margin-bottom: -38px;
   }
+
+  .project-section-3 {
+    margin-bottom: 374px;
+  }
 }
 </style>
