@@ -33,6 +33,10 @@ export default {
   max-width: 540px;
 }
 
+.CTA a {
+  text-decoration: underline;
+}
+
 @media only screen and (min-width: 768px) {
   .CTA {
     margin-bottom: 134px;
@@ -41,10 +45,6 @@ export default {
   .CTA p {
     font-size: 20px;
     width: 500px;
-  }
-
-  .CTA a {
-    text-decoration: underline;
   }
 }
 </style>

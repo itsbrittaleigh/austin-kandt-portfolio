@@ -87,6 +87,10 @@
   background: var(--gaddis-black);
 }
 
+.project-section__band--safewhistle-blue {
+  background: var(--safewhistle-blue);
+}
+
 /* Project section with gradient background */
 .project-section--with-background {
   background: linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%);
