@@ -263,5 +263,57 @@ export default {
 .project-section-6 {
   margin: 40px 0 239px;
 }
+
+@media only screen and (min-width: 768px) {
+  .project-section--background-image {
+    background-image: url('/images/sw_appheader3.jpg');
+    padding: 458px 0 80px;
+  }
+
+  .project-section--background-image:after {
+    background: none;
+  }
+
+  .project-section--background-image .project-section__heading *,
+  .project-section--background-image .project-section__snippet {
+    color: var(--black);
+  }
+
+  .project-intro {
+    margin-top: 44px;
+  }
+
+  .project-section-1 {
+    margin-top: 99px;
+  }
+
+  .project-section-2 {
+    margin-top: 128px;
+  }
+
+  .project-section-3 {
+    margin-top: 56px;
+  }
+
+  .project-section-4 {
+    margin-top: 100px;
+  }
+
+  .project-section-4 .project-section__snippet {
+    margin-bottom: 56px;
+  }
+
+  .project-section-4 h3 {
+    margin-top: 56px;
+  }
+
+  .project-section-5 {
+    margin-top: 200px;
+  }
+
+  .project-section-6 {
+    margin: 200px 0 374px;;
+  }
+}
 </style>
 
