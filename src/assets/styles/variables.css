@@ -15,4 +15,5 @@
   --wsu-gradient: linear-gradient(180deg, #EEEEEE 0%, #FFFFFF 100%);
   --safewhistle-blue: #4D91C9;
   --breakpoint: 768px;
+  --transition-duration: 0.2s;
 }

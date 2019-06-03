@@ -2,10 +2,18 @@
   <section class="dribbble reverse-mobile">
     <div class="wrapper">
       <div class="dribbble__shots order-1">
-        <img class="dribbble__shot" src="/images/dailyui-001_signup.gif" alt="" />
-        <img class="dribbble__shot" src="/images/dailyui-005_appicon.jpg" alt="" />
-        <img class="dribbble__shot" src="/images/cozilo_logooptions.jpg" alt="" />
-        <img class="dribbble__shot" src="/images/amtech_opt1_icon.gif" alt="" />
+        <a href="https://dribbble.com/shots/6494831-Daily-UI-001-Signup" target="_blank" class="dribbble__shot">
+          <img class="dribbble__shot-image" src="/images/dailyui-001_signup.gif" alt="" />
+        </a>
+        <a href="https://dribbble.com/shots/6454925-Daily-UI-005-App-Icon" target="_blank" class="dribbble__shot">
+          <img class="dribbble__shot-image" src="/images/dailyui-005_appicon.jpg" alt="" />
+        </a>
+        <a href="https://dribbble.com/shots/5987028-Cozilo-Logo-Options" target="_blank" class="dribbble__shot">
+          <img class="dribbble__shot-image" src="/images/cozilo_logooptions.jpg" alt="" />
+        </a>
+        <a href="https://dribbble.com/shots/5974269-Amtech-Logo-Concept" target="_blank" class="dribbble__shot">
+          <img class="dribbble__shot-image" src="/images/amtech_opt1_icon.gif" alt="" />
+        </a>
       </div>
       <div class="dribbble__description order-0">
         <dribbble-icon color="#EA4C89" />
@@ -66,6 +74,11 @@ export default {
   display: block;
   margin-bottom: 14px;
   width: calc((100% - 14px) / 2);
+}
+
+.dribbble__shot-image {
+  display: block;
+  width: 100%;
 }
 
 @media only screen and (max-width: 767px) {

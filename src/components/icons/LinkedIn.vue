@@ -6,7 +6,7 @@
     :viewBox="`0 0 ${width} ${height}`"
     :width="width"
   >
-    <title id="linkedInIconTitle">LinkedIn Icon</title>
+    <title id="linkedInIconTitle">Austin Kandt's LinkedIn Profile</title>
     <path
       clip-rule="evenodd"
       :d="`M18.5233 0H1.47778C0.661944 0 0 0.641389 0 1.43333V18.5667C0 19.3578 0.661944 20 1.47778

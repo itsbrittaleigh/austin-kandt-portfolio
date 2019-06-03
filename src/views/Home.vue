@@ -36,16 +36,20 @@
         </div>
       </div>
       <div class="project__hero-container">
-        <img class="project__hero" src="/images/projects_ddp.jpg" alt="Mockup of mockup" />
+        <router-link to="/projects/downtown-detroit-partnership">
+          <img class="project__hero" src="/images/projects_ddp.jpg" alt="Mockup of mockup" />
+        </router-link>
       </div>
     </section>
     <section class="project daily-ui m-bottom-100">
       <div class="wrapper">
-        <img
-          alt="Mockup of mobile application"
-          class="project__hero project__hero--alt"
-          src="/images/projects_cozilo.jpg"
-        />
+        <router-link to="/projects/daily-ui">
+          <img
+            alt="Mockup of mobile application"
+            class="project__hero project__hero--alt"
+            src="/images/projects_cozilo.jpg"
+          />
+        </router-link>
         <div class="project__description m-top-50">
           <daily-ui-icon class-name="project__icon"></daily-ui-icon>
           <h2 class="project__title">Daily UI</h2>
@@ -53,11 +57,8 @@
             Daily UI is a 100 day design challenge with the goal of pushing your skills and
             portfolio in user interface and product design. Here is a collection of my daily work.
           </p>
-          <router-link
-            class="project__link"
-            to="/projects/daily-ui"
-          >
-            <a>
+          <router-link to="/projects/daily-ui">
+            <a class="project__link">
               Take a look
               <arrow-icon></arrow-icon>
             </a>
@@ -170,7 +171,7 @@ export default {
     margin: 195px auto;
   }
 
-  .project.daily-ui .wrapper img {
+  .project.daily-ui .wrapper a {
     margin-right: 60px;
     width: 60%;
     max-width: 560px

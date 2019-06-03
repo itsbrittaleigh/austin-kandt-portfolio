@@ -3,17 +3,17 @@
     <span class="wrapper">
       <ul class="navigation__items">
         <span class="navigation__items--left">
-          <li class="navigation__item m-right-20">
+          <li class="navigation__item m-right-20 linkedin">
             <a href="https://www.linkedin.com/in/austinkandt/" target="_blank">
               <linkedin-icon />
             </a>
           </li>
-          <li class="navigation__item m-right-20">
+          <li class="navigation__item m-right-20 dribbble">
             <a href="https://dribbble.com/austinkandt" target="_blank">
               <dribbble-icon />
             </a>
           </li>
-          <li class="navigation__item m-right-20">
+          <li class="navigation__item m-right-20 instagram">
             <a href="https://www.instagram.com/austinkandt/" target="_blank">
               <instagram-icon />
             </a>
@@ -93,6 +93,24 @@ export default {
   font-weight: bold;
   line-height: 36px;
   width: 100%;
+}
+
+.linkedin svg path,
+.dribbble svg path,
+.instagram svg path {
+  transition: fill var(--transition-duration) ease-in-out;
+}
+
+.linkedin:hover svg path {
+  fill: #0077b5;
+}
+
+.dribbble:hover svg path {
+  fill: #EA4C89;
+}
+
+.instagram:not(:hover) svg path {
+
 }
 
 @media only screen and (min-width: 768px) {

@@ -7,7 +7,7 @@
     :viewBox="`0 0 ${width} ${height}`"
     :width="width"
   >
-    <title id="dribbbleIconTitle">Dribbble icon</title>
+    <title id="dribbbleIconTitle">Austin Kandt's Dribbble Profile</title>
     <path
       clip-rule="evenodd"
       d="M10 0C4.4794 0 0 4.4794 0 10C0 15.5206 4.4794 20 10 20C15.5098 20 20 15.5206 20 10C20

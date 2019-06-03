@@ -16,11 +16,30 @@
   display: flex;
   font-size: 18px;
   margin: 10px 0 0;
+  position: relative;
+  transition: var(--transition-duration) ease-in-out;
 }
 
 .project__link svg {
-  width: 20px;
   margin-left: 10px;
+  transition: var(--transition-duration) ease-in-out;
+  width: 20px;
+}
+
+.project__link svg rect {
+  transition: var(--transition-duration) ease-in-out;
+}
+
+.project__link:hover {
+  color: #AAAAAA;
+}
+
+.project__link:hover svg {
+  transform: translateX(15px);
+}
+
+.project__link:hover svg rect {
+  fill: #AAAAAA;
 }
 
 @media only screen and (min-width: 768px) {

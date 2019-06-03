@@ -6,7 +6,7 @@
     :viewBox="`0 0 ${width} ${height}`"
     :width="width"
   >
-    <title id="instagramIconTitle">Instagram icon</title>
+    <title id="instagramIconTitle">Austin Kandt's Instagram Profile</title>
     <path
       clip-rule="evenodd"
       :d="`M14.4806 0H5.51937C2.47561 0 0 2.47624 0 5.51937V14.4806C0 17.5244 2.47561 20 5.51937
