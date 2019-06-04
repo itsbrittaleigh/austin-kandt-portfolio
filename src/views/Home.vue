@@ -4,9 +4,8 @@
       <div class="intro">
         <h1><strong>Austin Kandt</strong><em>&mdash; UI & Graphic Designer</em></h1>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam nemo vel a autem maxime
-          corrupti maiores esse eum, nisi aliquam id placeat veritatis necessitatibus ratione
-          itaque, quae non nesciunt quaerat!
+          Welcome to my portfolio website. Currently working and accepting freelance gigs at Kandt
+          Design, LLC.
         </p>
         <router-link to="/contact">
           <a class="project__link">
@@ -135,7 +134,7 @@ export default {
 @media only screen and (min-width: 768px) {
   .intro {
     margin: 85px 0 195px;
-    max-width: 460px;
+    max-width: 400px;
   }
 
   .project.ddp .project__description,

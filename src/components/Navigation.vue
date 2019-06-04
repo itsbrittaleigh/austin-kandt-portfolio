@@ -109,8 +109,8 @@ export default {
   fill: #EA4C89;
 }
 
-.instagram:not(:hover) svg path {
-
+.instagram:hover svg path {
+  fill: #E1306C;
 }
 
 @media only screen and (min-width: 768px) {
