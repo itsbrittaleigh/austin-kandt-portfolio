@@ -1,3 +1,8 @@
+.is-hidden {
+  display: none;
+  visibility: hidden;
+}
+
 .hidden-on-mobile {
   display: none;
   visibility: hidden;

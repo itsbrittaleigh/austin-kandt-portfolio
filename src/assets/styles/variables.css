@@ -2,8 +2,12 @@
 
 :root {
   --light-gray: #F4F4F4;
+  --gray: #666666;
   --black: #333333;
   --white: #FFFFFF;
+  --red: #DD2B2B;
+  --blue: #C1DBF2;
+  --dark-blue: #4697DF;
   --amtech-orange: #FE4D0B;
   --amtech-black: #333333;
   --ddp-green: #DAEB41;
