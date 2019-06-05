@@ -6,7 +6,12 @@
         class="more-projects__project"
         v-for="project in randomProjects"
         :key="project.slug"
-        :to="`/projects/${project.slug}`"
+        :to="{
+          name: 'project',
+          params: {
+            title: project.slug,
+          },
+        }"
       >
         <a>
           <img

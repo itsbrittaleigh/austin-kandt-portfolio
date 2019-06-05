@@ -141,7 +141,11 @@ export default {
           },
           body: this.encode({
             'form-name': 'contact',
-            ...this.form,
+            name: this.name,
+            email: this.email,
+            company: this.company,
+            title: this.title,
+            message: this.message,
           }),
         })
           .then(this.wasSuccessful = true)
