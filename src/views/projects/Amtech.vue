@@ -10,10 +10,9 @@
           </em>
         </h1>
         <p class="project-intro__snippet">
-          Amtech is unique in that they are forward thinking in the way they approach the
-          electronics manufacturing space by utilizing their customizable floor space to fit any
-          project. They were looking for an equally unique branding solution to showcase their
-          values.
+          Amtech is unique in the way they approach the electronics manufacturing space by
+          utilizing their customizable floor space to fit any project. They were looking for an
+          equally unique branding solution to showcase their values.
         </p>
         <h2 class="project-intro__heading">Scope of Work</h2>
         <p class="project-intro__snippet">
@@ -120,7 +119,7 @@
           <em>&mdash; Marketing materials</em>
         </h2>
         <p class="project-section__snippet">
-          Simply creating the companies brand identity isn’t enough. How that brand gets put to use
+          Simply creating the company's brand identity isn’t enough. How that brand gets put to use
           and presented to customers is even more crucial to determine the effectiveness of all that
           work. Marketing collateral was created for trade shows, conferences, and sales meetings to
           help push Amtech’s growth forward.

@@ -3,9 +3,8 @@
     <div class="wrapper">
       <div class="project__description">
         <p class="project__snippet m-bottom-40">
-          Moving from painting, to graphic design, to branding, to user interfaces, to product
-          development, I thought I was safe to say I’d seen it all at this point. I’ll never stop
-          learning and adapting in this industry.
+          From painting, to graphic design, to branding, to user interfaces, to product
+          development, I enjoy all aspects of this industry. I’ll never stop learning and adapting.
         </p>
         <p class="project__snippet m-bottom-40">
           BFA in illustration from the College for Creative Studies.

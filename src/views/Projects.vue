@@ -23,8 +23,8 @@
           </h2>
           <p class="project__type"><em>&mdash; Branding, graphic design, web illustration</em></p>
           <p class="project__description">
-            The manufacturing space is known to be a little slower when it comes to viewing high-end
-            design solutions as a potential advantage. Luckily, Amtech saw the opportunties.
+            Amtech was looking to merge their unique approach to electronics manufacturing with
+            high-end design solutions as a way to bring new opportunities to their business.
           </p>
         </div>
       </section>
