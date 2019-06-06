@@ -4,8 +4,9 @@
       <div class="intro">
         <h1><strong>Austin Kandt</strong><em>&mdash; UI & Graphic Designer</em></h1>
         <p>
-          Welcome to my portfolio website. Currently working and accepting freelance gigs at Kandt
-          Design, LLC.
+          Welcome to my portfolio website.
+          <br>
+          Currently working and accepting freelance gigs at Kandt Design, LLC.
         </p>
         <router-link to="/contact">
           <a class="project__link">
@@ -124,7 +125,11 @@ export default {
 
 <style scoped>
 .intro {
-  max-width: 540px;
+  max-width: 460px;
+}
+
+.intro strong {
+  display: inline;
 }
 
 .project.safewhistle {
@@ -134,7 +139,7 @@ export default {
 @media only screen and (min-width: 768px) {
   .intro {
     margin: 85px 0 195px;
-    max-width: 400px;
+    max-width: 460px;
   }
 
   .project.ddp .project__description,
