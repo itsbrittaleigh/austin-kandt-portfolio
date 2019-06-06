@@ -3,7 +3,7 @@
     <div class="wrapper">
       <div class="intro project-intro">
         <house-of-kandt-icon />
-        <h1 class="project-intro__title">
+        <h1 class="project-intro__title m-top-20 m-bottom-20">
           <strong>Austin Kandt </strong>
           <em class="project-intro__title--emphasized">&mdash; UI & Graphic Designer</em>
         </h1>
