@@ -1,12 +1,15 @@
 <template>
   <div id="home">
     <div class="wrapper">
-      <div class="intro">
-        <h1><strong>Austin Kandt</strong><em>&mdash; UI & Graphic Designer</em></h1>
-        <p>
-          Welcome to my portfolio website.
-          <br>
-          Currently working and accepting freelance gigs at Kandt Design, LLC.
+      <div class="intro project-intro">
+        <house-of-kandt-icon />
+        <h1 class="project-intro__title">
+          <strong>Austin Kandt </strong>
+          <em class="project-intro__title--emphasized">&mdash; UI & Graphic Designer</em>
+        </h1>
+        <p class="project-intro__snippet">
+          Welcome to my portfolio website. Currently working and accepting freelance gigs at Kandt
+          Design, LLC.
         </p>
         <router-link to="/contact">
           <a class="project__link">
@@ -103,6 +106,7 @@ import CTASection from '../components/CTASection.vue';
 import DailyUIIcon from '../components/icons/DailyUI.vue';
 import DDPLogo from '../components/icons/DowntownDetroitPartnership.vue';
 import DribbblePosts from '../components/DribbblePosts.vue';
+import HouseOfKandtIcon from '../components/icons/HouseOfKandt.vue';
 import MoreProjects from '../components/MoreProjects.vue';
 import SafewhistleLogo from '../components/icons/Safewhistle.vue';
 
@@ -117,6 +121,7 @@ export default {
     'daily-ui-icon': DailyUIIcon,
     'ddp-logo': DDPLogo,
     'dribbble-posts': DribbblePosts,
+    'house-of-kandt-icon': HouseOfKandtIcon,
     'more-projects': MoreProjects,
     'safewhistle-logo': SafewhistleLogo,
   },
@@ -125,11 +130,7 @@ export default {
 
 <style scoped>
 .intro {
-  max-width: 460px;
-}
-
-.intro strong {
-  display: inline;
+  max-width: 500px;
 }
 
 .project.safewhistle {
@@ -139,7 +140,6 @@ export default {
 @media only screen and (min-width: 768px) {
   .intro {
     margin: 85px 0 195px;
-    max-width: 460px;
   }
 
   .project.ddp .project__description,
