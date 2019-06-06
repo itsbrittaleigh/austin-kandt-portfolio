@@ -154,11 +154,13 @@
   }
 
   .project-section--to-edge .project-section__description {
+    flex: 0 0 auto;
     width: 320px;
   }
 
   .project-section--to-edge .project-section__hero {
-    flex: 1;
+    flex: 1 0 auto;
+    width: 100px;
   }
 
   /* Image project section */
@@ -202,11 +204,13 @@
   }
 
   .project-section--desktop-flex .project-section__description {
+    flex: 0 0 auto;
     width: 320px;
   }
 
   .project-section--desktop-flex .project-section__image {
-    flex: 1;
+    flex: 1 0 auto;
+    width: 100px;
   }
 
   /* Project section with background image on desktop */

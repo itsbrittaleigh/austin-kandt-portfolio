@@ -144,6 +144,7 @@ export default {
 
   .project.ddp .project__description,
   .project.safewhistle .project__description {
+    flex: 0 0 auto;
     margin-right: 60px;
     width: 320px;
   }
@@ -165,7 +166,8 @@ export default {
   }
 
   .project.ddp .project__hero-container {
-    flex: 1;
+    flex: 1 0 auto;
+    width: 100px;
   }
 
   .project.daily-ui .wrapper {
