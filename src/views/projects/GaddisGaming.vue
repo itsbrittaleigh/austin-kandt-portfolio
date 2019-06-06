@@ -149,7 +149,7 @@
         <div class="project-section__description">
           <h2 class="project-section__heading"><strong>The Gaddis Gaming Table Topper</strong></h2>
           <p class="project-section__snippet">
-            Being a Kickstarter campaign, Gaddis was still finalizing it’s products details and
+            Being a Kickstarter campaign, Gaddis was still finalizing its products details and
             wanted to offer custom guard rails to add more value for it’s supporters.
           </p>
         </div>
