@@ -4,8 +4,8 @@
       <h1><strong>Work</strong><em> &mdash; Selected projects from 2016 - 2019</em></h1>
       <p class="project__description project__description--header m-top-10 m-bottom-75">
         Here you’ll see a wide range of project types and industries that I’ve had the pleasure to
-        work for over the recent years. You can keep track of more day to day stuff on my dribbble
-        page.
+        work for over the recent years. You can keep track of more day to day stuff on my
+        <a href="https://dribbble.com/austinkandt" target="_blank">Dribbble page.</a>
       </p>
       <section class="project">
         <router-link to="/projects/amtech">
@@ -188,6 +188,10 @@ h2 {
   font-size: 16px;
   line-height: 1.375;
   margin-top: 10px;
+}
+
+.project__description--header a {
+  text-decoration: underline;
 }
 
 @media only screen and (min-width: 768px) {

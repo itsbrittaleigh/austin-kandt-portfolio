@@ -11,7 +11,7 @@
         </h1>
         <p class="project-intro__snippet">
           Every year, Wayne State University holds a 24 hour hack-a-thon to promote innovation and
-          learning within there tech community. They were looking to take a step forward with a new
+          learning within their tech community. They were looking to take a step forward with a new
           concept to draw students.
         </p>
         <h2 class="project-intro__heading">Scope of Work</h2>
@@ -33,11 +33,10 @@
             <strong>Connecting to the "Hacker" Community</strong>
           </h2>
           <p class="project-section__snippet">
-            Sharing in my videogame geekdom with the rest of the community gave me instant
-            inspiration to design 8-bit illustrations for the event to help create more buzz and by
-            in from students. As a result, this was by far the highest attended Hackathon that
-            Wayne State had hosted, and a lot of cool innovations were worked on by the
-            participants.
+            Sharing my videogame geekdom with the rest of the community gave me inspiration to
+            design 8-bit illustrations for the event to help create more buzz and buy-in from
+            students. As a result, this was by far the highest attended hackathon that Wayne State
+            had hosted, and a lot of cool innovations were worked on by the participants.
           </p>
         </div>
       </section>
@@ -92,7 +91,7 @@
             <img
               alt=""
               class="project-section__image project-section__image--with-shadow"
-              src="/images/hackwsu_photo6.jpg"
+              src="/images/hackwsu_photo4.jpg"
             />
           </div>
         </div>

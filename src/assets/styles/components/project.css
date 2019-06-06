@@ -22,7 +22,7 @@
 
 .project__link svg {
   margin-left: 10px;
-  transition: var(--transition-duration) ease-in-out;
+  transition: var(--transition-duration) var(--transition-duration) ease-in-out;
   width: 20px;
 }
 

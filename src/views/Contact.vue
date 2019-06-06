@@ -10,12 +10,13 @@
         <p class="project__snippet m-bottom-40">
           BFA in illustration from the College for Creative Studies.
           <br>
-          I frequently travel internationaly, most recently &mdash; New Zealand.
+          I frequently travel internationaly, most recently
+          <br>
+          &mdash; <a href="https://instagram.com/austinkandt" target="_blank">New Zealand.</a>
         </p>
         <router-link to="/projects">
-          <a class="project__link">
+          <a>
             See my work
-            <arrow-icon />
           </a>
         </router-link>
       </div>
@@ -47,13 +48,29 @@ export default {
   margin-top: 30px;
 }
 
+.project__description * {
+  font-size: 16px;
+}
+
 .contact {
   margin-top: 126px;
+}
+
+a {
+  text-decoration: underline;
 }
 
 @media only screen and (min-width: 768px) {
   .project__description {
     margin-top: 10px;
+  }
+
+  .project__snippet {
+    max-width: 670px;
+  }
+
+  .project__description * {
+    font-size: 26px;
   }
 
   .contact {

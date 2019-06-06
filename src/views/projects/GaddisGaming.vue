@@ -29,9 +29,10 @@
             <strong>Appealing to the Gamer Community</strong>
           </h2>
           <p class="project-section__snippet">
-            DDP was looking for a refresh of their downtown vehicles to be more noticeable and
-            welcoming to help facilitate a better back and forth between their ambassadors and the
-            people that visit downtown.
+            Table top gaming, such as D n’ D and Warhammer 40K, is a big deal within a niche
+            market. Gamers are looking for a quality product that extends the realm of fantasy that
+            they are playing in. Combining this with a clean, modern aesthetic, we were able to
+            create an identity that stuck.
           </p>
         </div>
       </div>
@@ -74,7 +75,7 @@
           <h2 class="project-section__heading"><strong>Brand Iterations</strong></h2>
           <p class="project-section__snippet">
             Different iterations of the brand were worked through to try and highlight particular
-            attributes to connect with the particular people who would be Gaddis’s customers.
+            attributes to connect with the people who would be Gaddis’s customers.
           </p>
         </div>
         <div class="daily-ui-project daily-ui-project-1">

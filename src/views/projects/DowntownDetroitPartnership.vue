@@ -10,11 +10,11 @@
           </em>
         </h1>
         <p class="project-intro__snippet">
-          The Downtown Detroit Partnership strengthens the city of Detroit through programs, events,
-          and initiatives designed to create a vibrant urban core.
+          The Downtown Detroit Partnership strengthens the city of Detroit through programs,
+          events, and initiatives designed to create a vibrant urban core.
         </p>
         <p class="project-intro__snippet m-top-30">
-          I worked extensively with them in the creation of a wide range of design material for
+          I worked extensively with DDP in the creation of a wide range of design material for
           events and community outreach initiatives.
         </p>
       </header>
@@ -97,9 +97,9 @@
             <em>&mdash; Print media, infographics</em>
           </h2>
           <p class="project-section__snippet m-bottom-40">
-            Every year DDP collects data through surveys sent out to a diverse sample size of
-            residents. I was tasked with making this data accessible and easy to digest in a 20
-            page booklet for residents and influencers.
+            Every year DDP collects data through surveys sent out to a diverse sample of residents.
+            I was tasked with making this data accessible and easy to digest in a 20 page booklet
+            for residents and influencers.
           </p>
         </div>
       </section>
@@ -146,9 +146,9 @@
             <em>&mdash; Signage, social media graphics</em>
           </h2>
           <p class="project-section__snippet">
-            Every year DDP collects data through surveys sent out to a diverse sample size of
-            residents. I was tasked with making this data accessible and easy to digest in a 20
-            page booklet for residents and influencers.
+            DDP hosts the bulk of their events in the summertime. As such, they require tons and
+            tons of signage, as well as social media graphics to promote to residents of Detroit
+            and the suburbs.
           </p>
         </div>
         <img

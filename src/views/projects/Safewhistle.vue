@@ -30,7 +30,7 @@
             <strong>Creating a Relatable Brand Identity</strong>
           </h2>
           <p class="project-section__snippet">
-            Safewhistle at every step needs to guide the users hand through the scary process of
+            Safewhistle at every step needs to guide the users through the scary process of
             whistleblowing on issues they see happening at their company. This requires a tremendous
             amount of trust, transparency, and good will from all sides of the issue. As such, these
             are the primary brand attributes that need to be conveyed through every aspect of the
@@ -80,9 +80,9 @@
           </h2>
           <p class="project-section__snippet">
             To maximize security for potential whistleblowers, the Safewhistle platform was built
-            to be accessed from the website. Administrators need ease of use, however, which meant
-            designing a mobile application so they could check messages and escalate investigations
-            from anywhere.
+            to be accessed from the website. Administrators need ease of use however, which meant
+            designing a mobile application to allow them to check messages and escalate
+            investigations from anywhere.
           </p>
         </div>
       </div>
@@ -171,9 +171,8 @@
             </em>
           </h2>
           <p class="project-section__snippet">
-            In order to start putting Safewhistle out in the world, a unified branded front had to
-            be created to convey professionalism and to help with the onboarding process with
-            future clients.
+            In order to introduce Safewhistle to the world, a unified branded front was created to
+            convey professionalism and to help with the onboarding process with future clients.
           </p>
         </div>
         <img
