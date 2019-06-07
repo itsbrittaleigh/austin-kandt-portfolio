@@ -7,9 +7,9 @@
           development, I enjoy all aspects of this industry. I’ll never stop learning and adapting.
         </p>
         <p class="project__snippet m-bottom-40">
-          BFA in illustration from the College for Creative Studies.
+          BFA in illustration from the College for Creative Studies in Detroit.
           <br>
-          I frequently travel internationaly, most recently
+          I frequently travel internationally, most recently
           <br>
           &mdash; <a href="https://instagram.com/austinkandt" target="_blank">New Zealand.</a>
         </p>
